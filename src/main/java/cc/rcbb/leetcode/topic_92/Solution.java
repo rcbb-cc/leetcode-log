@@ -1,4 +1,4 @@
-package cc.rcbb.leetcode.topic92;
+package cc.rcbb.leetcode.topic_92;
 
 public class Solution {
 
@@ -15,8 +15,9 @@ public class Solution {
         int right = 3;
 
         Solution solution = new Solution();
-//        ListNode listNode = solution.reverse(three);
-        ListNode listNode = solution.reverseN(three, 3);
+        ListNode listNode = solution.reverse(three);
+        //ListNode listNode = solution.reverseN(three, 2);
+        //ListNode listNode = solution.reverseBetween(three, 2, 4);
         print(listNode);
 
     }
@@ -33,16 +34,16 @@ public class Solution {
 
 
     public ListNode reverse(ListNode head) {
-        System.out.println("head = " + head);
+        System.out.println("head1 = " + head);
         if (head.next == null) {
             return head;
         }
         ListNode last = reverse(head.next);
         System.out.println("last = " + last);
-        System.out.println("head2 = " + last);
+        System.out.println("head2 = " + head);
         head.next.next = head;
         head.next = null;
-        System.out.println("head3 = " + last);
+        System.out.println("head3 = " + head);
         return last;
     }
 
@@ -51,27 +52,24 @@ public class Solution {
     public ListNode reverseN(ListNode head, int n) {
         if (n == 1) {
             successor = head.next;
+            System.out.println("successor = " + successor);
             return head;
         }
-        ListNode last = reverseN(head.next, n-1);
+        ListNode last = reverseN(head.next, n - 1);
         head.next.next = head;
         head.next = successor;
         return last;
     }
 
 
+    public ListNode leftNode = null;
+    public ListNode rightNode = null;
+
     public ListNode reverseBetween(ListNode head, int left, int right) {
-        ListNode start = head;
-        int k = 1;
-        int temp;
-        ListNode tempNode = new ListNode();
-        while (start != null) {
-            if (k == left) {
-                tempNode = start;
-            }
-            if (k == right) {
-            }
+        if (left == 1) {
+            return reverseN(head.next, right);
         }
+        head.next = reverseBetween(head, left - 1, right - 1);
         return head;
     }
 }

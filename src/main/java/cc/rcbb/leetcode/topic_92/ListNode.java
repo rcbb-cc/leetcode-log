@@ -1,4 +1,4 @@
-package cc.rcbb.leetcode.topic92;
+package cc.rcbb.leetcode.topic_92;
 
 public class ListNode {
     int val;
