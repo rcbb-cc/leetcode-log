@@ -2,7 +2,11 @@ package cc.rcbb.leetcode.topic_283;
 
 public class Solution {
 
-    public void moveZeroes(int[] nums) {
+    /**
+     * 双重for循环移动元素0
+     * 时间复杂度：O(n^2)
+     */
+    public void moveZeroes1(int[] nums) {
         int len = nums.length;
         for (int i = 0; i < len; ) {
             if (nums[i] == 0) {
@@ -14,6 +18,30 @@ public class Solution {
             } else {
                 i++;
             }
+        }
+    }
+
+    /**
+     * 快慢指针
+     * 分析：时间复杂度 O(n)
+     */
+    public void moveZeroes(int[] nums) {
+        if (nums.length == 0) {
+            return;
+        }
+        int len = nums.length;
+        int fast = 0;
+        int slow = 0;
+        while (fast < len) {
+            if (0 != nums[fast]) {
+                nums[slow] = nums[fast];
+                slow++;
+            }
+            fast++;
+        }
+        while (slow < fast) {
+            nums[slow] = 0;
+            slow++;
         }
     }
 

@@ -1,13 +1,48 @@
 package cc.rcbb.leetcode.topic_83;
 
-
+/**
+ * 83. 删除排序链表中的重复元素
+ */
 public class Solution {
-    
-    public ListNode deleteDuplicates(ListNode head) {
-        ListNode start = head;
-        ListNode tempNode = null;
-        while (start != null) {
 
+    /**
+     * 快慢指针
+     */
+    public ListNode deleteDuplicates1(ListNode head) {
+        if (head == null) {
+            return null;
+        }
+        ListNode fast = head;
+        ListNode slow = head;
+        while (fast != null) {
+            if (fast.val != slow.val) {
+                // 数值不同时，慢指针向前走一步
+                slow = slow.next;
+            } else {
+                // 数值相同时，慢指针向前走两步
+                slow.next = fast.next;
+            }
+            fast = fast.next;
+        }
+        return head;
+    }
+
+    /**
+     * 简化
+     */
+    public ListNode deleteDuplicates(ListNode head) {
+        if (head == null) {
+            return null;
+        }
+        ListNode cur = head;
+        while (cur.next != null) {
+            if (cur.val != cur.next.val) {
+                // 当前值与下个值不同时，走一步
+                cur = cur.next;
+            } else {
+                // 当前值与下个值相同时，走两步
+                cur.next = cur.next.next;
+            }
         }
         return head;
     }
@@ -16,7 +51,7 @@ public class Solution {
     public static void main(String[] args) {
         // 1-2-1-2-3
         ListNode one = new ListNode(5);
-        ListNode two = new ListNode(4, one);
+        ListNode two = new ListNode(2, one);
         ListNode one1 = new ListNode(2, two);
         ListNode two2 = new ListNode(2, one1);
         ListNode three = new ListNode(1, two2);
@@ -28,7 +63,7 @@ public class Solution {
         print(listNode);
 
     }
-    
+
     public static void print(ListNode head) {
         ListNode start = head;
         while (start.next != null) {
