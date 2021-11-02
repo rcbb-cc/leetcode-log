@@ -1,5 +1,8 @@
 package cc.rcbb.leetcode.topic_283;
 
+/**
+ * 283. 移动零
+ */
 public class Solution {
 
     /**
