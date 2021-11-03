@@ -7,52 +7,66 @@ import cc.rcbb.leetcode.common.RcbbPrinter;
  */
 public class Solution {
 
-    int[] diff = null;
-
-    public void increment(int i, int j, int val) {
-        if (i < diff.length) {
-            diff[i] += val;
-        }
-        if (j + 1 < diff.length) {
-            diff[j + 1] -= val;
-        }
-    }
-
-    public int[] getResult() {
-        int[] result = new int[diff.length];
-        result[0] = diff[0];
-        for (int i = 1; i < diff.length; i++) {
-            result[i] = result[i - 1] + diff[i];
-        }
-        return result;
-    }
-
-
     public boolean carPooling(int[][] trips, int capacity) {
-
-        diff = new int[capacity];
-
+        // 求出最后的站点
+        int max = 0;
         for (int i = 0; i < trips.length; i++) {
-            System.out.println("trips[" + i + "] = {" + trips[i][0] + "," + trips[i][1] + "," + trips[i][2] + "}");
-            this.increment(trips[i][1], trips[i][2], trips[i][0]);
-            RcbbPrinter.print(diff);
+            if (trips[i][2] > max) {
+                max = trips[i][2];
+            }
         }
-        int[] resultArray = getResult();
-        RcbbPrinter.print(resultArray);
-        for (int i = 0; i < resultArray.length; i++) {
-            if (resultArray[i] > capacity) {
+        int[] arr = new int[max + 1];
+        for (int i = 0; i < trips.length; i++) {
+            diff(arr, trips[i][1], trips[i][2], trips[i][0]);
+        }
+        int[] result = result(arr);
+        for (int i = 0; i < result.length; i++) {
+            if (result[i] > capacity) {
                 return false;
             }
         }
         return true;
     }
 
+    public void diff(int[] diff, int i, int j, int val) {
+        diff[i] += val;
+        diff[j] -= val;
+        RcbbPrinter.print(diff);
+    }
+
+    public int[] result(int[] diff) {
+        int[] result = new int[diff.length];
+        result[0] = diff[0];
+        for (int i = 1; i < diff.length; i++) {
+            result[i] = result[i - 1] + diff[i];
+        }
+        RcbbPrinter.print(result);
+        return result;
+    }
+
     public static void main(String[] args) {
-        int[][] trips = new int[][]{{3,2,7}, {3,7,9}, {8,3,9}};
-        int capacity = 11;
+        // 输入：trips = [[2,1,5],[3,3,7]], capacity = 4 输出：false
+        int[][] trips = new int[][]{{2, 1, 5}, {3, 3, 7}};
+        int capacity = 4;
+
+        // 输入：trips = [[2,1,5],[3,3,7]], capacity = 5 输出：true
+        //int[][] trips = new int[][]{{2, 1, 5}, {3, 3, 7}};
+        //int capacity = 5;
+
+        // 输入：trips = [[2,1,5],[3,5,7]], capacity = 3 输出：true
+        //int[][] trips = new int[][]{{2, 1, 5}, {3, 5, 7}};
+        //int capacity = 3;
+
+        // 输入：trips = [[3,2,7],[3,7,9],[8,3,9]], capacity = 11 输出：true
+        //int[][] trips = new int[][]{{3, 2, 7}, {3, 7, 9}, {8, 3, 9}};
+        //int capacity = 11;
+        //int[][] trips = new int[][]{{3, 2, 7}, {3, 7, 9}, {8, 3, 9}};
+        //int[][] trips = new int[][]{{2, 1, 5}, {3, 5, 7}};
+        //int[][] trips = new int[][]{{3, 3, 5}, {4, 5, 6}, {1, 2, 7}, {3, 2, 8}, {10, 5, 9}, {2, 5, 9}, {1, 2, 5}};
+        //int capacity = 19;
 
         Solution s = new Solution();
         boolean b = s.carPooling(trips, capacity);
-        System.out.println(" flag = " + b);
+        System.out.println("flag = " + b);
     }
 }

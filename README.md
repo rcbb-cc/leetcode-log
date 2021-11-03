@@ -1,6 +1,8 @@
 
 # 刷题记录
 
+主要记录在力扣的刷题记录，根据使用技巧分类。  
+
 ## 根据技巧分类
 
 ### 快慢指针
@@ -16,3 +18,11 @@
 
 > [303. 区域和检索 - 数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/)  
 > [560. 和为 K 的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/)  
+
+
+### 差分数组
+
+差分数组的主要适用场景是频繁对原始数组的某个区间的元素进行增减。  
+
+> [370. 区间加法](https://leetcode-cn.com/problems/range-addition/description/)  
+> [1094. 拼车](https://leetcode-cn.com/problems/car-pooling/)  

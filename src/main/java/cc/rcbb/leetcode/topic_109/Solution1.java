@@ -12,6 +12,7 @@ import java.util.Map;
 public class Solution1 {
 
     public boolean carPooling(int[][] trips, int capacity) {
+        // 根据起始站点排序
         Arrays.sort(trips, (a, b) -> {
             return a[1] - b[1];
         });
@@ -20,7 +21,7 @@ public class Solution1 {
         for (int i = 0; i < trips.length; i++) {
             //System.out.println("trips[" + i + "] = {" + trips[i][0] + "," + trips[i][1] + "," + trips[i][2] + "}");
             for (int j = trips[i][1]; j < trips[i][2]; j++) {
-                map.put(j,map.getOrDefault(j,0)+trips[i][0]);
+                map.put(j, map.getOrDefault(j, 0) + trips[i][0]);
             }
         }
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
@@ -35,7 +36,7 @@ public class Solution1 {
     public static void main(String[] args) {
         //int[][] trips = new int[][]{{3, 2, 7}, {3, 7, 9}, {8, 3, 9}};
         //int[][] trips = new int[][]{{2, 1, 5}, {3, 5, 7}};
-        int[][] trips = new int[][]{{3,3,5},{4,5,6},{1,2,7},{3,2,8},{10,5,9},{2,5,9},{1,2,5}};
+        int[][] trips = new int[][]{{3, 3, 5}, {4, 5, 6}, {1, 2, 7}, {3, 2, 8}, {10, 5, 9}, {2, 5, 9}, {1, 2, 5}};
         int capacity = 19;
 
         Solution1 s = new Solution1();

@@ -1,5 +1,7 @@
 package cc.rcbb.leetcode.topic_370;
 
+import cc.rcbb.leetcode.common.RcbbPrinter;
+
 public class Difference {
     /**
      * 差分数组
@@ -27,6 +29,7 @@ public class Difference {
         if (j + 1 < diff.length) {
             diff[j + 1] -= val;
         }
+        RcbbPrinter.print(diff);
     }
 
     public int[] result() {

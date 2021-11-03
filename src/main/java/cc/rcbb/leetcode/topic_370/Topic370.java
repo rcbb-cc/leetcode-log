@@ -35,7 +35,6 @@ public class Topic370 {
         Topic370 t = new Topic370();
         int[] result = t.getModifiedArray(length, arr);
         RcbbPrinter.print(result);
-
     }
 
 }
