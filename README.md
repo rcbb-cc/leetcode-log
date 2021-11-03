@@ -12,5 +12,7 @@
 
 ### 前缀和
 
+前缀和主要适用的场景是原始数组不会被修改的情况下，频繁查询某个区间的累加和。  
+
 > [303. 区域和检索 - 数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/)  
 > [560. 和为 K 的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/)  
