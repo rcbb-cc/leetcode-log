@@ -25,4 +25,21 @@
 差分数组的主要适用场景是频繁对原始数组的某个区间的元素进行增减。  
 
 > [370. 区间加法](https://leetcode-cn.com/problems/range-addition/description/)  
-> [1094. 拼车](https://leetcode-cn.com/problems/car-pooling/)  
+> [1094. 拼车](https://leetcode-cn.com/problems/car-pooling/)    
+> [1109. 航班预订统计](https://leetcode-cn.com/problems/corporate-flight-bookings/)  
+
+### 回文串
+
+> [5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)  
+
+
+### 二分查找
+
+> [704. 二分查找](https://leetcode-cn.com/problems/binary-search/)  
+> [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)  
+
+### 未分类
+
+> [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)  
+
+

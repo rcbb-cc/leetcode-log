@@ -2,6 +2,9 @@ package cc.rcbb.leetcode.topic_1109;
 
 import cc.rcbb.leetcode.common.RcbbPrinter;
 
+/**
+ * 1109. 航班预订统计
+ */
 class Solution {
     public int[] corpFlightBookings(int[][] bookings, int n) {
         int[] diff = new int[n];
