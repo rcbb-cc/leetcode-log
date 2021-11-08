@@ -4,6 +4,7 @@ import cc.rcbb.leetcode.common.RcbbPrinter;
 
 /**
  * 1109. 航班预订统计
+ * https://leetcode-cn.com/problems/corporate-flight-bookings/
  */
 class Solution {
     public int[] corpFlightBookings(int[][] bookings, int n) {

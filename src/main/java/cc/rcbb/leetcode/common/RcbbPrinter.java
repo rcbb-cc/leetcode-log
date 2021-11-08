@@ -1,5 +1,7 @@
 package cc.rcbb.leetcode.common;
 
+import java.util.List;
+
 /**
  * <p>
  * Printer
@@ -16,5 +18,13 @@ public class RcbbPrinter {
         }
         System.out.println();
     }
+
+    public static void print(List<Integer> nums) {
+        for (int i = 0; i < nums.size(); i++) {
+            System.out.print(nums.get(i) + " ");
+        }
+        System.out.println();
+    }
+
 
 }

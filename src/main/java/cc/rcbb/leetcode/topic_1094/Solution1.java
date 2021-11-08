@@ -1,6 +1,4 @@
-package cc.rcbb.leetcode.topic_109;
-
-import cc.rcbb.leetcode.common.RcbbPrinter;
+package cc.rcbb.leetcode.topic_1094;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -8,6 +6,7 @@ import java.util.Map;
 
 /**
  * 1094. 拼车
+ * https://leetcode-cn.com/problems/car-pooling/
  */
 public class Solution1 {
 

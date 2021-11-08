@@ -2,6 +2,7 @@ package cc.rcbb.leetcode.topic_27;
 
 /**
  * 27. 移除元素
+ * https://leetcode-cn.com/problems/remove-element/
  */
 public class Solution {
     /**

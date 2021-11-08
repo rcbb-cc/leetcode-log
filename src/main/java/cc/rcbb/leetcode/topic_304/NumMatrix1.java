@@ -1,5 +1,9 @@
 package cc.rcbb.leetcode.topic_304;
 
+/**
+ * 304. 二维区域和检索 - 矩阵不可变
+ * https://leetcode-cn.com/problems/range-sum-query-2d-immutable/
+ */
 public class NumMatrix1 {
 
     int[][] matrix = null;

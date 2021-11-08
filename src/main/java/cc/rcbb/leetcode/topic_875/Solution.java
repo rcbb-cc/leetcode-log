@@ -4,6 +4,10 @@ import cc.rcbb.leetcode.common.RcbbPrinter;
 
 import java.util.Arrays;
 
+/**
+ * 875. 爱吃香蕉的珂珂
+ * https://leetcode-cn.com/problems/koko-eating-bananas/
+ */
 public class Solution {
     public int minEatingSpeed0(int[] piles, int h) {
         Arrays.sort(piles);

@@ -3,7 +3,11 @@ package cc.rcbb.leetcode.topic_567;
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution {
+/**
+ * 567. 字符串的排列
+ * https://leetcode-cn.com/problems/permutation-in-string/
+ */
+public class Solution {
     public boolean checkInclusion(String s1, String s2) {
         Map<Character, Integer> need = new HashMap<>();
         char[] needArray = s1.toCharArray();

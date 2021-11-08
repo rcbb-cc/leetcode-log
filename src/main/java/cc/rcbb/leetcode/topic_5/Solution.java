@@ -2,6 +2,7 @@ package cc.rcbb.leetcode.topic_5;
 
 /**
  * 5. 最长回文子串
+ * https://leetcode-cn.com/problems/longest-palindromic-substring/
  */
 public class Solution {
 

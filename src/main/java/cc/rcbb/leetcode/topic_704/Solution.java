@@ -1,6 +1,10 @@
 package cc.rcbb.leetcode.topic_704;
 
-class Solution {
+/**
+ * 704. 二分查找
+ * https://leetcode-cn.com/problems/binary-search/
+ */
+public class Solution {
     /**
      * 暴力
      * 时间复杂度：O(n)

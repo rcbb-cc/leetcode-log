@@ -1,9 +1,10 @@
-package cc.rcbb.leetcode.topic_109;
+package cc.rcbb.leetcode.topic_1094;
 
 import cc.rcbb.leetcode.common.RcbbPrinter;
 
 /**
  * 1094. 拼车
+ * https://leetcode-cn.com/problems/car-pooling/
  */
 public class Solution {
 

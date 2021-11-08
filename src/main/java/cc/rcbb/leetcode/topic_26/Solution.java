@@ -2,6 +2,7 @@ package cc.rcbb.leetcode.topic_26;
 
 /**
  * 26. 删除有序数组中的重复项
+ * https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
  */
 public class Solution {
 

@@ -3,12 +3,8 @@ package cc.rcbb.leetcode.topic_370;
 import cc.rcbb.leetcode.common.RcbbPrinter;
 
 /**
- * <p>
- * Test
- * </p>
- *
- * @author lvhao
- * @date 2021/11/3
+ * 370. 区间加法
+ * https://leetcode-cn.com/problems/range-addition/description/
  */
 public class Topic370 {
 

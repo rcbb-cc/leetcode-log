@@ -1,5 +1,9 @@
 package cc.rcbb.leetcode.topic_303;
 
+/**
+ * 303. 区域和检索 - 数组不可变
+ * https://leetcode-cn.com/problems/range-sum-query-immutable/
+ */
 class NumArray {
 
     private int arr[] = null;
