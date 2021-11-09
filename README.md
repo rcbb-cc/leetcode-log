@@ -54,6 +54,12 @@
 > [160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)  
 > [876. 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/)
 
+
+### 队列与栈的互转
+
+> [225. 用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/)  
+> [232. 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)  
+
 ### 未分类
 
 > [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)  
