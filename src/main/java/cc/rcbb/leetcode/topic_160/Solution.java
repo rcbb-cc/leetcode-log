@@ -1,5 +1,7 @@
 package cc.rcbb.leetcode.topic_160;
 
+import cc.rcbb.leetcode.template.ListNode;
+
 import java.util.List;
 
 public class Solution {

@@ -1,5 +1,7 @@
 package cc.rcbb.leetcode.topic_19;
 
+import cc.rcbb.leetcode.template.ListNode;
+
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         if (head == null) {

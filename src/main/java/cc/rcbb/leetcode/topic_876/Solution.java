@@ -1,5 +1,7 @@
 package cc.rcbb.leetcode.topic_876;
 
+import cc.rcbb.leetcode.template.ListNode;
+
 /**
  * 876. 链表的中间结点
  * https://leetcode-cn.com/problems/middle-of-the-linked-list/
