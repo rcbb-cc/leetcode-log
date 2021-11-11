@@ -61,6 +61,17 @@
 > [225. 用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/)  
 > [232. 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)  
 
+### 单调栈
+
+> [496. 下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/)  
+> [503. 下一个更大元素 II](https://leetcode-cn.com/problems/next-greater-element-ii/)  
+> [739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/)  
+
+### 单调队列
+
+> [239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)  
+
+
 ### 未分类
 
 > [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)  
