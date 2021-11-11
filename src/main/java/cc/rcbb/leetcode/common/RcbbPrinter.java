@@ -1,5 +1,8 @@
 package cc.rcbb.leetcode.common;
 
+import cc.rcbb.leetcode.template.BinaryTreeTemplate;
+import cc.rcbb.leetcode.template.TreeNode;
+
 import java.util.List;
 
 /**
@@ -24,6 +27,27 @@ public class RcbbPrinter {
             System.out.print(nums.get(i) + " ");
         }
         System.out.println();
+    }
+
+    /**
+     * 二叉树的前序遍历
+     */
+    public static void preOrderPrint(TreeNode root) {
+        BinaryTreeTemplate.preOrderTraverse(root);
+    }
+
+    /**
+     * 二叉树的中序遍历
+     */
+    public static void inOrderPrint(TreeNode root) {
+        BinaryTreeTemplate.inOrderTraverse(root);
+    }
+
+    /**
+     * 二叉树的后序遍历
+     */
+    public static void postOrderPrint(TreeNode root) {
+        BinaryTreeTemplate.postOrderTraverse(root);
     }
 
 

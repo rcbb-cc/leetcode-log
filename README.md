@@ -71,6 +71,10 @@
 
 > [239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)  
 
+### 二叉树
+
+> [116. 填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)  
+> [226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)    
 
 ### 未分类
 
