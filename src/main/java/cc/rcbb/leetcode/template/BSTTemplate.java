@@ -4,7 +4,7 @@ package cc.rcbb.leetcode.template;
  * 二叉搜索树（Binary Search Tree，简称：BST）
  * 特殊点：左小右大
  */
-public class BstTemplate {
+public class BSTTemplate {
 
 
     /**

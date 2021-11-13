@@ -61,4 +61,19 @@ public class BinaryTreeTemplate {
         // 后续遍历
     }
 
+    /**
+     * 最小深度
+     */
+    public int minDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        int left = minDepth(root.left);
+        int right = minDepth(root.right);
+        // 特殊情况：空的叶子节点不算，所以遇到空叶子节点，需要排除，或者两个叶子结点都为空。
+        if (left == 0 || right == 0) {
+            return left + right + 1;
+        }
+        return left < right ? left + 1 : right + 1;
+    }
 }
