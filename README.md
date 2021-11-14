@@ -88,6 +88,12 @@
 
 > [102. 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)    
 > [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)  
+> [752. 打开转盘锁](https://leetcode-cn.com/problems/open-the-lock/)  
+
+
+### 并查集
+
+> [990. 等式方程的可满足性](https://leetcode-cn.com/problems/satisfiability-of-equality-equations/)  
 
 ### 未分类
 
