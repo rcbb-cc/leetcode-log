@@ -95,6 +95,10 @@
 
 > [990. 等式方程的可满足性](https://leetcode-cn.com/problems/satisfiability-of-equality-equations/)  
 
+### LRU
+
+> [146. LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache/)  
+
 ### 未分类
 
 > [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)  
