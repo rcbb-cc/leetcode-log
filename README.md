@@ -99,6 +99,15 @@
 
 > [146. LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache/)  
 
+### LFU
+
+> [460. LFU 缓存](https://leetcode-cn.com/problems/lfu-cache/)  
+
+### DFS
+
+> [46. 全排列](https://leetcode-cn.com/problems/permutations/)  
+
+
 ### 未分类
 
 > [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)  

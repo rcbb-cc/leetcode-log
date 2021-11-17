@@ -3,6 +3,10 @@ package cc.rcbb.leetcode.topic_460;
 import java.util.HashMap;
 import java.util.LinkedHashSet;
 
+/**
+ * 460. LFU 缓存
+ * https://leetcode-cn.com/problems/lfu-cache/
+ */
 class LFUCache1 {
 
     // key 到 val 的映射，我们后文称为 KV 表
