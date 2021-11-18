@@ -105,8 +105,11 @@
 
 ### DFS
 
+> [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)   
 > [46. 全排列](https://leetcode-cn.com/problems/permutations/)    
-> [51. N 皇后](https://leetcode-cn.com/problems/n-queens/)  
+> [51. N 皇后](https://leetcode-cn.com/problems/n-queens/)   
+> [698. 划分为k个相等的子集](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)  
+
 
 ### 未分类
 
