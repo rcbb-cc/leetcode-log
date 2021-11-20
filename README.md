@@ -112,6 +112,9 @@
 
 ### 动态规划
 
+> [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
+> [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  
+> [300. 最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)  
 > [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)  
 > [509. 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)   
 
