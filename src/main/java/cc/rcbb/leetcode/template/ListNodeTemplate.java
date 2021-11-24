@@ -1,6 +1,8 @@
 package cc.rcbb.leetcode.template;
 
 
+import cc.rcbb.leetcode.common.RcbbPrinter;
+
 /**
  * <p>
  * ListNodeTemplate
@@ -10,6 +12,54 @@ package cc.rcbb.leetcode.template;
  * @date 2021/11/8
  */
 public class ListNodeTemplate {
+
+    public static void main(String[] args) {
+        ListNodeTemplate template = new ListNodeTemplate();
+        ListNode five = new ListNode(5, null);
+        ListNode four = new ListNode(4, five);
+        ListNode three = new ListNode(3, four);
+        ListNode two = new ListNode(2, three);
+        ListNode one = new ListNode(1, two);
+
+        ListNode node = template.reverse(one);
+        RcbbPrinter.print(node);
+
+    }
+
+    /**
+     * 迭代，反转
+     */
+    public ListNode iterate(ListNode head) {
+        ListNode prev = null;
+        ListNode next;
+        ListNode curr = head;
+        while (curr != null) {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        return prev;
+    }
+
+    /**
+     * 递归，反转
+     */
+    public ListNode reverse(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        // 最后一个，为新开头
+        ListNode newHead = reverse(head.next);
+        // 使倒数第二个指向倒数第一个的next 指向 倒数第二个
+        // 4 -> 5 -> 4
+        head.next.next = head;
+        // 使倒数第二个指向NULL，砍断
+        // 4 -x-> 5 -> 4
+        head.next = null;
+        // 返回新头部
+        return newHead;
+    }
 
     /**
      * 返回链表的倒数第 k 个节点
@@ -83,7 +133,7 @@ public class ListNodeTemplate {
             } else {
                 p = p.next;
             }
-            if (q == null){
+            if (q == null) {
                 q = headA;
             } else {
                 q = q.next;

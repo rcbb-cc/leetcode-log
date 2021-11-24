@@ -1,6 +1,7 @@
 package cc.rcbb.leetcode.common;
 
 import cc.rcbb.leetcode.template.BinaryTreeTemplate;
+import cc.rcbb.leetcode.template.ListNode;
 import cc.rcbb.leetcode.template.TreeNode;
 
 import java.util.List;
@@ -46,6 +47,15 @@ public class RcbbPrinter {
             }
             System.out.println();
         }
+    }
+
+
+    public static void print(ListNode head) {
+        while (head != null) {
+            System.out.print(head.val + " -> ");
+            head = head.next;
+        }
+        System.out.println();
     }
 
 
