@@ -30,15 +30,23 @@ public class ListNodeTemplate {
      * 迭代，反转
      */
     public ListNode iterate(ListNode head) {
+        // 用来存储前一个节点，最开始为null
         ListNode prev = null;
+        // 用来存储下一个节点
         ListNode next;
+        // 当前节点
         ListNode curr = head;
         while (curr != null) {
+            // 记录下一个节点
             next = curr.next;
+            // 当前节点指向前一个节点
             curr.next = prev;
+            // 将当前节点赋值给前一个节点
             prev = curr;
+            // 将下一个节点赋值给当前节点
             curr = next;
         }
+        // 返回前一个节点，即之前的最后一个节点
         return prev;
     }
 

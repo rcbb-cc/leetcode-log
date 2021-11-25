@@ -11,6 +11,8 @@
 > [27. 移除元素](https://leetcode-cn.com/problems/remove-element/)   
 > [83. 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)  
 > [283. 移动零](https://leetcode-cn.com/problems/move-zeroes/)  
+> [724. 寻找数组的中心下标](https://leetcode-cn.com/problems/find-pivot-index/)
+
 
 ### 前缀和
 
@@ -74,7 +76,8 @@
 ### 二叉树
 
 > [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)  
-> [100. 相同的树](https://leetcode-cn.com/problems/same-tree/)  
+> [100. 相同的树](https://leetcode-cn.com/problems/same-tree/)    
+> [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)  
 > [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)  
 > [116. 填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)  
 > [226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)    
@@ -127,5 +130,4 @@
 
 > [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)   
 > [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)  
-
 
