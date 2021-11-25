@@ -21,17 +21,23 @@ class Solution {
 
     public List<TreeNode> generate(int start, int end) {
         List<TreeNode> result = new ArrayList<>();
+        // 没有数字，添加null
         if (start > end) {
             result.add(null);
             return result;
         }
+        // 只有一个数字，当前数字作为一棵树添加
         if (start == end) {
             result.add(new TreeNode(start));
             return result;
         }
+        // 尝试每个数字作为根节点
         for (int i = start; i <= end; i++) {
+            // 得到所有可能的左子树
             List<TreeNode> leftTrees = generate(start, i - 1);
+            // 得到所有可能的右子树
             List<TreeNode> rightTrees = generate(i + 1, end);
+            // 左子树和右子树，两两组合
             for (TreeNode leftTree : leftTrees) {
                 for (TreeNode rightTree : rightTrees) {
                     TreeNode root = new TreeNode(i);

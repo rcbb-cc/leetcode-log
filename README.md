@@ -74,6 +74,7 @@
 ### 二叉树
 
 > [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)  
+> [100. 相同的树](https://leetcode-cn.com/problems/same-tree/)  
 > [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)  
 > [116. 填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)  
 > [226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)    
@@ -81,8 +82,8 @@
 ### 搜索二叉树
 
 > [95. 不同的二叉搜索树 II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/)  
-> [96. 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)  
 > [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)   
+> [99. 恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/)  
 > [450. 删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/)  
 > [700. 二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)   
 > [701. 二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)  
@@ -115,7 +116,8 @@
 
 ### 动态规划
 
-> [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
+> [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)  
+> [96. 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)  
 > [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  
 > [300. 最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)  
 > [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)  
