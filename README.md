@@ -78,6 +78,7 @@
 > [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)  
 > [100. 相同的树](https://leetcode-cn.com/problems/same-tree/)    
 > [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)  
+> [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)  
 > [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)  
 > [116. 填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)  
 > [226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)    
@@ -94,6 +95,7 @@
 ### BFS
 
 > [102. 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)    
+> [103. 二叉树的锯齿形层序遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)  
 > [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)  
 > [752. 打开转盘锁](https://leetcode-cn.com/problems/open-the-lock/)  
 

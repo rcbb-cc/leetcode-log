@@ -76,4 +76,11 @@ public class BinaryTreeTemplate {
         }
         return left < right ? left + 1 : right + 1;
     }
+
+    /**
+     * 最大深度
+     */
+    public int maxDepth(TreeNode root) {
+        return root == null ? 0 : Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
+    }
 }
