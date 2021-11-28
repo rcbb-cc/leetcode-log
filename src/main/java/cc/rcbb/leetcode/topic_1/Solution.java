@@ -57,7 +57,49 @@ public class Solution {
         //int target = 6;
         int[] r1 = solution.twoSum(nums, target);
         RcbbPrinter.print(r1);
+    }
 
+    /**
+     * 两数之和2
+     * 有序的数组，找出两个元素相加和为target的下标。
+     * 有序：自然而然想到 -> 二分查找。
+     */
+    public int[] twoSearch(int[] nums, int target) {
+        for (int i = 0; i < nums.length; i++) {
+            int left = i;
+            int right = nums.length - 1;
+            while (left <= right) {
+                int mid = left + (right - left) / 2;
+                if (nums[left] + nums[mid] == target) {
+                    return new int[]{left, mid};
+                } else if (nums[left] + nums[mid] < target) {
+                    left = mid + 1;
+                } else if (nums[left] + nums[mid] > target) {
+                    right = mid - 1;
+                }
+            }
+        }
+        return new int[0];
+    }
 
+    /**
+     * 两数之和2
+     * 有序的数组，找出两个元素相加和为target的下标。
+     * 双指针：时间复杂度O(n)，空间复杂度O(1)
+     */
+    public int[] twoPoint(int[] nums, int target) {
+        int slow = 0;
+        int fast = nums.length - 1;
+        while (slow < fast) {
+            int sum = nums[slow] + nums[fast];
+            if (sum == target) {
+                return new int[]{slow, fast};
+            } else if (sum > target) {
+                fast--;
+            } else if (sum < target) {
+                slow++;
+            }
+        }
+        return new int[0];
     }
 }

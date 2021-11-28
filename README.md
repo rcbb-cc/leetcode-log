@@ -39,6 +39,7 @@
 ### 二分查找
 
 > [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)  
+> [72. 求平方根](https://leetcode-cn.com/problems/jJ0w9p/)  
 > [704. 二分查找](https://leetcode-cn.com/problems/binary-search/)   
 > [875. 爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas/)  
 > [1011. 在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)  
@@ -128,8 +129,15 @@
 > [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)  
 > [509. 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)   
 
+### 牛顿迭代
+
+> [72. 求平方根](https://leetcode-cn.com/problems/jJ0w9p/)
+
+### 线性扫描
+
+> [628. 三个数的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/)  
+
 ### 未分类
 
 > [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)   
 > [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)  
-
