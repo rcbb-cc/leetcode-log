@@ -80,9 +80,11 @@
 > [100. 相同的树](https://leetcode-cn.com/problems/same-tree/)    
 > [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)  
 > [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)  
+> [105. 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)  
 > [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)  
 > [116. 填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)  
 > [226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)    
+> [654. 最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/)  
 
 ### 搜索二叉树
 

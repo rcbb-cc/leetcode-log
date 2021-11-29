@@ -2,6 +2,10 @@ package cc.rcbb.leetcode.topic_141;
 
 import cc.rcbb.leetcode.template.ListNode;
 
+/**
+ * 141. 环形链表
+ * https://leetcode-cn.com/problems/linked-list-cycle/
+ */
 public class Solution {
     public boolean hasCycle(ListNode head) {
         if (head == null) {
