@@ -40,6 +40,7 @@
 
 > [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)  
 > [72. 求平方根](https://leetcode-cn.com/problems/jJ0w9p/)  
+> [441. 排列硬币](https://leetcode-cn.com/problems/arranging-coins/)  
 > [704. 二分查找](https://leetcode-cn.com/problems/binary-search/)   
 > [875. 爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas/)  
 > [1011. 在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)  
@@ -81,6 +82,7 @@
 > [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)  
 > [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)  
 > [105. 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)  
+> [106. 从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)  
 > [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)  
 > [116. 填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)  
 > [226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)    
