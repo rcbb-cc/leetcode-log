@@ -51,6 +51,7 @@
 > [76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)  
 > [567. 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/)  
 > [438. 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)  
+> [643. 子数组最大平均数 I](https://leetcode-cn.com/problems/maximum-average-subarray-i/)  
 
 ### 链表
 
@@ -149,3 +150,4 @@
 > [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)   
 > [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)  
 > [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)  
+> [674. 最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)  

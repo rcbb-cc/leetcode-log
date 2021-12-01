@@ -1,5 +1,8 @@
 package cc.rcbb.leetcode.template;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * 二叉搜索树（Binary Search Tree，简称：BST）
  * 特殊点：左小右大
@@ -34,7 +37,7 @@ public class BSTTemplate {
 
     /**
      * 在BST中搜索一个树
-     *      类似二分查找思想
+     * 类似二分查找思想
      */
     boolean isInBST(TreeNode root, int target) {
         if (root == null) {
@@ -80,7 +83,7 @@ public class BSTTemplate {
                 return null;
             }
             // 情况2：只有一个非空子节点，那么它的孩子接替位置
-            if(root.left == null) {
+            if (root.left == null) {
                 return root.right;
             }
             if (root.right == null) {
@@ -114,4 +117,33 @@ public class BSTTemplate {
         return root;
     }
 
+
+    /**
+     * 二叉树最小深度
+     */
+    public int minDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        Queue<TreeNode> q = new LinkedList<>();
+        q.offer(root);
+        int depth = 1;
+        while (!q.isEmpty()) {
+            int size = q.size();
+            for (int i = 0; i < size; i++) {
+                TreeNode node = q.poll();
+                if (node.left == null && node.right == null) {
+                    return depth;
+                }
+                if (node.left != null) {
+                    q.offer(node.left);
+                }
+                if (node.right != null) {
+                    q.offer(node.right);
+                }
+            }
+            depth++;
+        }
+        return depth;
+    }
 }
