@@ -3,7 +3,9 @@ package cc.rcbb.leetcode.template;
 public class BinarySearchTemplate {
 
     int right_bound(int[] nums, int target) {
-        if (nums.length == 0) return -1;
+        if (nums.length == 0){
+            return -1;
+        }
         int left = 0, right = nums.length;
 
         while (left < right) {
