@@ -43,16 +43,26 @@ public class BSTTemplate {
         if (root == null) {
             return false;
         }
-        if (root.val == target) {
-            return true;
-        }
         if (root.val < target) {
             return isInBST(root.right, target);
         }
         if (root.val > target) {
             return isInBST(root.left, target);
         }
-        return false;
+        return true;
+    }
+
+    TreeNode searchBST(TreeNode root, int target) {
+        if (root == null) {
+            return null;
+        }
+        if (root.val < target) {
+            return searchBST(root.right, target);
+        }
+        if (root.val > target) {
+            return searchBST(root.left, target);
+        }
+        return root;
     }
 
     /**
