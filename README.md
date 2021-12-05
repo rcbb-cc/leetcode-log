@@ -108,6 +108,7 @@
 > [102. 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)    
 > [103. 二叉树的锯齿形层序遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)  
 > [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)  
+> [547. 省份数量](https://leetcode-cn.com/problems/number-of-provinces/)  
 > [752. 打开转盘锁](https://leetcode-cn.com/problems/open-the-lock/)  
 
 
@@ -128,6 +129,7 @@
 > [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)   
 > [46. 全排列](https://leetcode-cn.com/problems/permutations/)    
 > [51. N 皇后](https://leetcode-cn.com/problems/n-queens/)   
+> [547. 省份数量](https://leetcode-cn.com/problems/number-of-provinces/)
 > [698. 划分为k个相等的子集](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)  
 
 ### 动态规划
@@ -152,6 +154,11 @@
 > [860. 柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/)   
 > [976. 三角形的最大周长](https://leetcode-cn.com/problems/largest-perimeter-triangle/)
 
+
+### 博弈论
+
+> [486. 预测赢家](https://leetcode-cn.com/problems/predict-the-winner/)  
+> [877. 石子游戏](https://leetcode-cn.com/problems/stone-game/)  
 
 ### 未分类
 

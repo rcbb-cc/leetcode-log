@@ -151,6 +151,33 @@ public class BinaryTreeTemplate {
         System.out.println(Arrays.toString(result.toArray()));
     }
 
+    /**
+     * 迭代
+     * 层序遍历
+     */
+    public static void levelOrder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        List<Integer> result = new LinkedList<>();
+        Queue<TreeNode> q = new LinkedList<>();
+        q.offer(root);
+        while (!q.isEmpty()) {
+            int size = q.size();
+            for (int i = 0; i < size; i++) {
+                TreeNode node = q.poll();
+                result.add(node.val);
+                if (node.left != null) {
+                    q.offer(node.left);
+                }
+                if (node.right != null) {
+                    q.offer(node.right);
+                }
+            }
+        }
+        System.out.println(Arrays.toString(result.toArray()));
+    }
+
 
     /**
      * 最小深度
@@ -181,6 +208,7 @@ public class BinaryTreeTemplate {
         template.preOrder(buildTree());
         template.inOrder(buildTree());
         template.postOrder(buildTree());
+        template.levelOrder(buildTree());
     }
 
     public static TreeNode buildTree() {
