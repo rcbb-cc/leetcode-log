@@ -147,9 +147,14 @@
 
 > [628. 三个数的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/)  
 
+### 贪心
+> [674. 最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)  
+> [860. 柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/)   
+> [976. 三角形的最大周长](https://leetcode-cn.com/problems/largest-perimeter-triangle/)
+
+
 ### 未分类
 
 > [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)   
 > [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)  
 > [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)  
-> [674. 最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)  

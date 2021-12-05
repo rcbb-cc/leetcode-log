@@ -8,40 +8,13 @@ class Solution {
     public int findLengthOfLCIS(int[] nums) {
         int start = 0;
         int max = 0;
-
         for (int i = 1; i < nums.length; i++) {
+            // 如果第i步不再大于第i-1步，则在第i步重新开始
             if (nums[i] <= nums[i - 1]) {
                 start = i;
             }
+            // 保存最大的步数
             max = Math.max(max, i - start);
-        }
-        return max + 1;
-    }
-
-    public int findLengthOfLCIS1(int[] nums) {
-        int index = 0;
-        int curr = 0;
-        int max = 0;
-        // 开始的位置
-        while (index < nums.length) {
-            // 当前位置+1，需要小于
-            if (curr + 1 < nums.length) {
-                if (nums[curr] < nums[curr + 1]) {
-                    // 后面比前面大，就往前走一步
-                    curr++;
-                } else {
-                    // 后面不比前面大，计算当前走了多少步
-                    max = Math.max(max, curr - index);
-                    // 下一个开始位置为当前位置的下一步
-                    index = curr + 1;
-                    // 当前位置为开始位置
-                    curr = index;
-                }
-            } else {
-                // 代表走到头了，当前位置-开始位置
-                max = Math.max(max, curr - index);
-                break;
-            }
         }
         return max + 1;
     }
