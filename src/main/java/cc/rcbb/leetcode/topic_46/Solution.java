@@ -39,7 +39,7 @@ class Solution {
         Solution solution = new Solution();
         //输入：nums = [1,2,3]
         //输出：[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
-        int[] nums = new int[]{1,2,3};
+        int[] nums = new int[]{1, 2, 3};
         List<List<Integer>> result = solution.permute(nums);
         for (int i = 0; i < result.size(); i++) {
             List<Integer> list = result.get(i);

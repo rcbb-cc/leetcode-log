@@ -52,11 +52,13 @@ class Solution {
 
     public boolean check(int[][] arr, int x, int y) {
         int length = arr.length;
+        // x轴
         for (int k = 0; k < length; k++) {
             if (arr[k][y] == 1) {
                 return false;
             }
         }
+        // y轴
         for (int k = 0; k < length; k++) {
             if (arr[x][k] == 1) {
                 return false;
