@@ -134,6 +134,12 @@
 > [547. 省份数量](https://leetcode-cn.com/problems/number-of-provinces/)
 > [698. 划分为k个相等的子集](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)  
 
+#### 岛屿问题
+
+> [200. 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)  
+> [1254. 统计封闭岛屿的数目](https://leetcode-cn.com/problems/number-of-closed-islands/)  
+
+
 ### 动态规划
 
 > [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)  
