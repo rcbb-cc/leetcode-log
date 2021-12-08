@@ -137,8 +137,10 @@
 #### 岛屿问题
 
 > [200. 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)  
+> [694.不同岛屿的数量](https://leetcode-cn.com/problems/number-of-distinct-islands/)  
+> [695. 岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/)    
 > [1254. 统计封闭岛屿的数目](https://leetcode-cn.com/problems/number-of-closed-islands/)  
-
+> [1905. 统计子岛屿](https://leetcode-cn.com/problems/count-sub-islands/)  
 
 ### 动态规划
 
