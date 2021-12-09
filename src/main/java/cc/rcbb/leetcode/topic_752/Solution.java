@@ -40,13 +40,18 @@ class Solution {
                 if (cur.equals(target)) {
                     return step;
                 }
+                // 四个数
                 for (int j = 0; j < 4; j++) {
+                    // 向上拨
                     String up = plusOne(cur, j);
-                    String down = minusOne(cur, j);
+                    // 避免重复
                     if (!visited.contains(up)) {
+                        // 放入拨动后的
                         q.offer(up);
                         visited.add(up);
                     }
+                    // 向下拨
+                    String down = minusOne(cur, j);
                     if (!visited.contains(down)) {
                         q.offer(down);
                         visited.add(up);
@@ -55,6 +60,7 @@ class Solution {
             }
             step++;
         }
+        // 找不到结果，直接返回-1
         return -1;
     }
 
@@ -87,7 +93,9 @@ class Solution {
      */
     int openLock(String[] deadends, String target) {
         Set<String> deads = new HashSet<>();
-        for (String s : deadends) deads.add(s);
+        for (String s : deadends) {
+            deads.add(s);
+        }
         // 用集合不用队列，可以快速判断元素是否存在
         Set<String> q1 = new HashSet<>();
         Set<String> q2 = new HashSet<>();
@@ -100,24 +108,26 @@ class Solution {
         while (!q1.isEmpty() && !q2.isEmpty()) {
             // 哈希集合在遍历的过程中不能修改，用 temp 存储扩散结果
             Set<String> temp = new HashSet<>();
-
             /* 将 q1 中的所有节点向周围扩散 */
             for (String cur : q1) {
                 /* 判断是否到达终点 */
-                if (deads.contains(cur))
+                if (deads.contains(cur)) {
                     continue;
-                if (q2.contains(cur))
+                }
+                if (q2.contains(cur)) {
                     return step;
+                }
                 visited.add(cur);
-
                 /* 将一个节点的未遍历相邻节点加入集合 */
                 for (int j = 0; j < 4; j++) {
                     String up = plusOne(cur, j);
-                    if (!visited.contains(up))
+                    if (!visited.contains(up)) {
                         temp.add(up);
+                    }
                     String down = minusOne(cur, j);
-                    if (!visited.contains(down))
+                    if (!visited.contains(down)) {
                         temp.add(down);
+                    }
                 }
             }
             /* 在这里增加步数 */

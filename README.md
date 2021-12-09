@@ -110,7 +110,7 @@
 > [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)  
 > [547. 省份数量](https://leetcode-cn.com/problems/number-of-provinces/)  
 > [752. 打开转盘锁](https://leetcode-cn.com/problems/open-the-lock/)  
-
+> [773. 滑动谜题](https://leetcode-cn.com/problems/sliding-puzzle/)  
 
 ### 并查集
 
