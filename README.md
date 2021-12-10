@@ -145,11 +145,14 @@
 ### 动态规划
 
 > [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)  
+> 
 > [96. 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)  
 > [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  
 > [300. 最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)  
 > [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)  
 > [509. 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)   
+> [931. 下降路径最小和](https://leetcode-cn.com/problems/minimum-falling-path-sum/)    
+> [1143. 最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)  
 
 ### 牛顿迭代
 

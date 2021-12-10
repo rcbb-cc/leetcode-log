@@ -1,5 +1,7 @@
 package cc.rcbb.leetcode.topic_53;
 
+import java.util.Arrays;
+
 /**
  * 53. 最大子序和
  * https://leetcode-cn.com/problems/maximum-subarray/
@@ -10,6 +12,7 @@ class Solution {
         dp[0] = nums[0];
         for (int i = 1; i < nums.length; i++) {
             dp[i] = Math.max(dp[i - 1] + nums[i], nums[i]);
+            System.out.println(Arrays.toString(dp));
         }
         int res = -100001;
         for (int i = 0; i < dp.length; i++) {
