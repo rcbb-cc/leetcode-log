@@ -154,6 +154,7 @@
 
 #### 最长公共子序列
 
+> [72. 编辑距离](https://leetcode-cn.com/problems/edit-distance/)  
 > [583. 两个字符串的删除操作](https://leetcode-cn.com/problems/delete-operation-for-two-strings/)  
 > [712. 两个字符串的最小ASCII删除和](https://leetcode-cn.com/problems/minimum-ascii-delete-sum-for-two-strings/)   
 > [1143. 最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)  
