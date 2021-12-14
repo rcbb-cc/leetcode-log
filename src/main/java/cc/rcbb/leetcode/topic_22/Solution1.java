@@ -24,9 +24,8 @@ class Solution1 {
             result.add(ans);
         }
         if (count1 >= count2) {
-            String ans1 = ans;
-            f(ans1 + "(", count1 + 1, count2, n);
-            f(ans1 + ")", count1, count2 + 1, n);
+            f(ans + "(", count1 + 1, count2, n);
+            f(ans + ")", count1, count2 + 1, n);
         }
     }
 
