@@ -4,50 +4,52 @@ package cc.rcbb.leetcode.topic_10;
  * 10. 正则表达式匹配
  * https://leetcode-cn.com/problems/regular-expression-matching/
  */
-class Solution {
+class Solution1 {
+
     public boolean isMatch(String s, String p) {
-        return f(s, 0, p, 0);
-    }
-    boolean f(String s, int i, String p, int j) {
-        if (j == p.length()) {
-            // 当p匹配完了，那么应该看看s匹配到哪了
-            // 如果s正好也匹配完了，那么匹配成功
-            return i == s.length();
-        }
-        if (i == s.length()) {
-            // 当s匹配完了，则p剩下的内容需要能够匹配空串
-            // 如果能匹配空串，则一定是字符和*成对出现的
-            if ((p.length() - j) % 2 == 1) {
-                return false;
-            }
-            // 检查是否为 x*y*z 这种形式
-            for (; j + 1 < p.length(); j += 2) {
-                if (p.charAt(j + 1) != '*') {
-                    return false;
+        int m = s.length();
+        int n = p.length();
+        boolean[][] memo = new boolean[m + 1][n + 1];
+        // [0][0]代表s和p均为空字符串
+        memo[0][0] = true;
+        for (int i = 0; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                // p的第j个字符为*
+                if (p.charAt(j - 1) == '*') {
+                    // 匹配s的第i个字符和p的第j-1个字符
+                    if (matches(s, p, i, j - 1)) {
+                        // p中*前面的字符在s中出现多次或只出现过1次
+                        memo[i][j] = memo[i - 1][j] || memo[i][j - 2];
+                    } else {
+                        // p中*前面的字符在s中出现0次
+                        memo[i][j] = memo[i][j - 2];
+                    }
+                } else {
+                    // p中第j个字符不为*
+                    // 匹配s的第i个字符和p的第j个字符
+                    if (matches(s, p, i, j)) {
+                        // 匹配成功，状态转移；不成功，默认为false；
+                        memo[i][j] = memo[i - 1][j - 1];
+                    }
                 }
             }
-            return true;
         }
-        if (s.charAt(i) == p.charAt(j) || p.charAt(j) == '.') {
-            if (j < p.length() - 1 && p.charAt(j + 1) == '*') {
-                // 有*的情况下，可以匹配0次或多次
-                // +2 代表匹配0次，直接跳过这个*
-                return f(s, i, p, j + 2) || f(s, i + 1, p, j);
-            } else {
-                return f(s, i + 1, p, j + 1);
-            }
-        } else {
-            if (j < p.length() - 1 && p.charAt(j + 1) == '*') {
-                // *匹配0次
-                return f(s, i, p, j + 2);
-            } else {
-                return false;
-            }
-        }
+        return memo[m][n];
     }
 
+    private boolean matches(String s, String p, int i, int j) {
+        if (i == 0) {
+            return false;
+        }
+        if (p.charAt(j - 1) == '.') {
+            return true;
+        }
+        return s.charAt(i - 1) == p.charAt(j - 1);
+    }
+
+
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution1 solution = new Solution1();
         //'.' 匹配任意单个字符
         //'*' 匹配零个或多个前面的那一个元素
 

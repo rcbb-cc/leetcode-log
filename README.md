@@ -144,6 +144,7 @@
 
 ### 动态规划
 
+> [10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/)  
 > [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)  
 > [96. 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)  
 > [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  
