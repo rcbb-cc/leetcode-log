@@ -177,8 +177,8 @@
 ### 贪心
 > [674. 最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)  
 > [860. 柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/)   
-> [976. 三角形的最大周长](https://leetcode-cn.com/problems/largest-perimeter-triangle/)
-
+> [976. 三角形的最大周长](https://leetcode-cn.com/problems/largest-perimeter-triangle/)  
+> [1936. 新增的最少台阶数](https://leetcode-cn.com/problems/add-minimum-number-of-rungs/)  
 
 ### 博弈论
 
