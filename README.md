@@ -160,6 +160,12 @@
 > [712. 两个字符串的最小ASCII删除和](https://leetcode-cn.com/problems/minimum-ascii-delete-sum-for-two-strings/)   
 > [1143. 最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)  
 
+#### 背包问题
+
+> [416. 分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum/)    
+> [518. 零钱兑换 II](https://leetcode-cn.com/problems/coin-change-2/)   
+
+
 ### 牛顿迭代
 
 > [72. 求平方根](https://leetcode-cn.com/problems/jJ0w9p/)
