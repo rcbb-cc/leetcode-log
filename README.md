@@ -192,7 +192,8 @@
 > [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)  
 > [799. 香槟塔](https://leetcode-cn.com/problems/champagne-tower/)  
 > [面试题 16.04. 井字游戏](https://leetcode-cn.com/problems/tic-tac-toe-lcci/)  
-
+> [1518. 换酒问题](https://leetcode-cn.com/problems/water-bottles/)  
+> [1790. 仅执行一次字符串交换能否使两个字符串相等](https://leetcode-cn.com/problems/check-if-one-string-swap-can-make-strings-equal/)  
 
 ### 前缀树
 
