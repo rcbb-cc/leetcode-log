@@ -213,3 +213,6 @@
 
 > [剑指 Offer 09. 用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)  
 
+### 出入度统计
+
+> [997. 找到小镇的法官](https://leetcode-cn.com/problems/find-the-town-judge/)    
