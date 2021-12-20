@@ -41,10 +41,10 @@
 > [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)  
 > [72. 求平方根](https://leetcode-cn.com/problems/jJ0w9p/)  
 > [441. 排列硬币](https://leetcode-cn.com/problems/arranging-coins/)  
+> [475. 供暖器](https://leetcode-cn.com/problems/heaters/)  
 > [704. 二分查找](https://leetcode-cn.com/problems/binary-search/)   
 > [875. 爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas/)  
 > [1011. 在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)  
-
 ### 滑动窗口
 
 > [3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)  
@@ -169,6 +169,7 @@
 #### 股票买卖
 
 > [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)    
+> [122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)  
 
 ### 牛顿迭代
 
