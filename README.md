@@ -13,6 +13,9 @@
 > [283. 移动零](https://leetcode-cn.com/problems/move-zeroes/)  
 > [724. 寻找数组的中心下标](https://leetcode-cn.com/problems/find-pivot-index/)
 
+#### 双指针
+
+> [475. 供暖器](https://leetcode-cn.com/problems/heaters/)  
 
 ### 前缀和
 
@@ -199,6 +202,7 @@
 > [面试题 16.04. 井字游戏](https://leetcode-cn.com/problems/tic-tac-toe-lcci/)  
 > [1518. 换酒问题](https://leetcode-cn.com/problems/water-bottles/)  
 > [1790. 仅执行一次字符串交换能否使两个字符串相等](https://leetcode-cn.com/problems/check-if-one-string-swap-can-make-strings-equal/)  
+> [1154. 一年中的第几天](https://leetcode-cn.com/problems/day-of-the-year/)  
 
 ### 前缀树
 
