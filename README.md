@@ -203,6 +203,7 @@
 > [1518. 换酒问题](https://leetcode-cn.com/problems/water-bottles/)  
 > [1790. 仅执行一次字符串交换能否使两个字符串相等](https://leetcode-cn.com/problems/check-if-one-string-swap-can-make-strings-equal/)  
 > [1154. 一年中的第几天](https://leetcode-cn.com/problems/day-of-the-year/)  
+> [1887. 使数组元素相等的减少操作次数](https://leetcode-cn.com/problems/reduction-operations-to-make-the-array-elements-equal/)  
 
 ### 前缀树
 
