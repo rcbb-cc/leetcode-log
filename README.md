@@ -173,6 +173,7 @@
 
 > [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)    
 > [122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)  
+> [123. 买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/)    
 
 ### 牛顿迭代
 
@@ -197,6 +198,7 @@
 
 > [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)   
 > [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)  
+> [8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)  
 > [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)  
 > [799. 香槟塔](https://leetcode-cn.com/problems/champagne-tower/)  
 > [面试题 16.04. 井字游戏](https://leetcode-cn.com/problems/tic-tac-toe-lcci/)  
