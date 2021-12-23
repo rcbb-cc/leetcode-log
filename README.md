@@ -10,7 +10,10 @@
 > [26. 删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)  
 > [27. 移除元素](https://leetcode-cn.com/problems/remove-element/)   
 > [83. 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)  
+> [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
+> [142.环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
 > [283. 移动零](https://leetcode-cn.com/problems/move-zeroes/)  
+> [287. 寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/)  
 > [724. 寻找数组的中心下标](https://leetcode-cn.com/problems/find-pivot-index/)
 
 #### 双指针
@@ -174,6 +177,7 @@
 > [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)    
 > [122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)  
 > [123. 买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/)    
+> [188. 买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/)    
 
 ### 牛顿迭代
 
