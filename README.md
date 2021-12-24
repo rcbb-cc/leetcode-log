@@ -51,6 +51,7 @@
 > [704. 二分查找](https://leetcode-cn.com/problems/binary-search/)   
 > [875. 爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas/)  
 > [1011. 在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)  
+
 ### 滑动窗口
 
 > [3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)  
@@ -189,6 +190,7 @@
 > [628. 三个数的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/)  
 
 ### 贪心
+
 > [674. 最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)  
 > [860. 柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/)   
 > [976. 三角形的最大周长](https://leetcode-cn.com/problems/largest-perimeter-triangle/)  
@@ -205,6 +207,7 @@
 > [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)  
 > [8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)  
 > [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)  
+> [686. 重复叠加字符串匹配](https://leetcode-cn.com/problems/repeated-string-match/)  
 > [799. 香槟塔](https://leetcode-cn.com/problems/champagne-tower/)  
 > [面试题 16.04. 井字游戏](https://leetcode-cn.com/problems/tic-tac-toe-lcci/)  
 > [1518. 换酒问题](https://leetcode-cn.com/problems/water-bottles/)  
