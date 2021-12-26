@@ -182,7 +182,7 @@
 > [123. 买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/)    
 > [188. 买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/)    
 > [309. 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)  
-
+> [714. 买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)  
 
 ### 牛顿迭代
 
@@ -213,6 +213,7 @@
 > [686. 重复叠加字符串匹配](https://leetcode-cn.com/problems/repeated-string-match/)  
 > [799. 香槟塔](https://leetcode-cn.com/problems/champagne-tower/)  
 > [面试题 16.04. 井字游戏](https://leetcode-cn.com/problems/tic-tac-toe-lcci/)  
+> [1078. Bigram 分词](https://leetcode-cn.com/problems/occurrences-after-bigram/)  
 > [1518. 换酒问题](https://leetcode-cn.com/problems/water-bottles/)  
 > [1790. 仅执行一次字符串交换能否使两个字符串相等](https://leetcode-cn.com/problems/check-if-one-string-swap-can-make-strings-equal/)  
 > [1154. 一年中的第几天](https://leetcode-cn.com/problems/day-of-the-year/)  
