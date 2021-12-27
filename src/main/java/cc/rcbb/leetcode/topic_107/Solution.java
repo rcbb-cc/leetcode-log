@@ -28,7 +28,7 @@ class Solution {
                 if (curr.left != null) {
                     q.offer(curr.left);
                 }
-                if (curr.right!=null) {
+                if (curr.right != null) {
                     q.offer(curr.right);
                 }
             }
