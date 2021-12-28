@@ -1,5 +1,7 @@
 package cc.rcbb.leetcode.topic_213;
 
+import java.util.Arrays;
+
 /**
  * 213. 打家劫舍 II
  * https://leetcode-cn.com/problems/house-robber-ii/
@@ -9,34 +11,25 @@ class Solution1 {
         if (nums.length == 1) {
             return nums[0];
         }
-        if (nums.length == 2) {
-            return Math.max(nums[0], nums[1]);
-        }
-        return Math.max(f(nums, 0, nums.length - 2),
-                f(nums, 1, nums.length - 1));
+        int[] memo1 = new int[nums.length];
+        Arrays.fill(memo1,-1);
+        int[] memo2 = new int[nums.length];
+        Arrays.fill(memo2,-1);
+        return Math.max(f(memo1,nums, nums.length - 2, 0), f(memo2,nums, nums.length - 1, 1));
     }
 
-    public int f(int[] nums, int start, int end) {
-        int n = nums.length - 1;
-        int[] dp = new int[n];
-        dp[0] = nums[start];
-        dp[1] = Math.max(nums[start], nums[start + 1]);
-        for (int i = 2 + start; i <= end - start; i++) {
-            dp[i] = Math.max(dp[i - 2] + nums[i], dp[i - 1]);
+    public int f(int[] memo,int[] nums, int end, int curr) {
+        if (curr > end) {
+            return 0;
         }
-        return dp[n - 1];
-    }
-
-    public int f1(int[] nums, int start, int end) {
-        int first = nums[start], second = Math.max(nums[start], nums[start + 1]);
-        for (int i = start + 2; i <= end; i++) {
-            int temp = second;
-            second = Math.max(first + nums[i], second);
-            first = temp;
+        if (memo[curr] != -1) {
+            return memo[curr];
         }
-        return second;
+        int max = Math.max(f(memo, nums, end, curr + 1),
+                nums[curr] + f(memo, nums, end, curr + 2));
+        memo[curr] = max;
+        return memo[curr];
     }
-
 
     public static void main(String[] args) {
         Solution1 solution = new Solution1();
@@ -56,7 +49,6 @@ class Solution1 {
         System.out.println(solution.rob(new int[]{1}));
         System.out.println(solution.rob(new int[]{0, 0}));
         System.out.println(solution.rob(new int[]{1, 2, 1, 1}));
-
     }
 
 }

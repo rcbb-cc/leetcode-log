@@ -229,6 +229,7 @@
 ### 前缀树
 
 > [720. 词典中最长的单词](https://leetcode-cn.com/problems/longest-word-in-dictionary/)
+> [472. 连接词](https://leetcode-cn.com/problems/concatenated-words/)    
 
 ### 二维数组
 

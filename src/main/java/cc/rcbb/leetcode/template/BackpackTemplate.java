@@ -26,9 +26,10 @@ public class BackpackTemplate {
                     // 只能选择不装入背包
                     dp[i][j] = dp[i - 1][j];
                 } else {
-                    // 装入或不装入背包
                     dp[i][j] = Math.max(
+                            // 装入背包
                             dp[i - 1][j - wt[i - 1]] + val[i - 1],
+                            // 不装入背包
                             dp[i - 1][j]
                     );
                 }

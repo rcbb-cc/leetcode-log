@@ -6,7 +6,7 @@ package cc.rcbb.leetcode.topic_322;
  */
 class Solution {
     public int coinChange(int[] coins, int amount) {
-        return dp(coins,amount);
+        return dp(coins, amount);
     }
 
     int dp(int[] coins, int amount) {
