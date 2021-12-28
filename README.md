@@ -187,6 +187,7 @@
 #### 打家劫舍
 
 > [198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/)    
+> [213. 打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/)  
 
 ### 牛顿迭代
 
@@ -223,6 +224,7 @@
 > [1790. 仅执行一次字符串交换能否使两个字符串相等](https://leetcode-cn.com/problems/check-if-one-string-swap-can-make-strings-equal/)  
 > [1154. 一年中的第几天](https://leetcode-cn.com/problems/day-of-the-year/)  
 > [1887. 使数组元素相等的减少操作次数](https://leetcode-cn.com/problems/reduction-operations-to-make-the-array-elements-equal/)  
+> [LCP 30. 魔塔游戏](https://leetcode-cn.com/problems/p0NxJO/)    
 
 ### 前缀树
 
