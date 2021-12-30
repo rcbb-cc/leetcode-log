@@ -8,6 +8,17 @@ import java.util.Arrays;
  */
 class Solution {
 
+    /**
+     * 对于每个房屋：
+     * 1.要么用前面的
+     * 2.要么用后面的
+     * 两者取最近的。
+     * <p>
+     * 对于所有的房屋，选择上面取得的最大的。
+     * <p>
+     * 问题来了：
+     * 如何求每个房屋，左右边供暖器的位置？
+     */
     public int findRadius1(int[] houses, int[] heaters) {
         Arrays.sort(houses);
         Arrays.sort(heaters);
@@ -34,54 +45,6 @@ class Solution {
         return radius;
     }
 
-    /**
-     * 对于每个房屋：
-     * 1.要么用前面的
-     * 2.要么用后面的
-     * 两者取最近的。
-     * <p>
-     * 对于所有的房屋，选择上面取得的最大的。
-     * <p>
-     * 问题来了：
-     * 如何求每个房屋，左右边供暖器的位置？
-     * 1.对heaters进行排序；
-     * 2.遍历每个房屋，二分数组heaters找到大于house的第一个供暖器的位置；
-     * 3.也就是house右边的第一个供暖器，右边找到了，house左边的也就找到了；
-     * <p>
-     * 需要注意：一定要在边界内；
-     */
-    public int findRadius2(int[] houses, int[] heaters) {
-        int distance = 0;
-        Arrays.sort(heaters);
-        for (int house : houses) {
-            int i = binarySearch(heaters, house);
-            if (i == 0) {
-                distance = Math.max(distance, heaters[i] - house);
-            } else if (i == heaters.length) {
-                distance = Math.max(distance, house - heaters[i - 1]);
-            } else {
-                distance = Math.max(distance, Math.min(house - heaters[i - 1], heaters[i] - house));
-            }
-        }
-        return distance;
-    }
-
-    public int binarySearch(int[] heaters, int house) {
-        int left = 0;
-        int right = heaters.length - 1;
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
-            if (heaters[mid] == house) {
-                right = mid - 1;
-            } else if (heaters[mid] > house) {
-                right = mid - 1;
-            } else if (heaters[mid] < house) {
-                left = mid + 1;
-            }
-        }
-        return left;
-    }
-
     public int findRadius(int[] houses, int[] heaters) {
         Arrays.sort(houses);
         Arrays.sort(heaters);
@@ -97,8 +60,6 @@ class Solution {
         }
         return ans;
     }
-
-
 
     public static void main(String[] args) {
         Solution solution = new Solution();
