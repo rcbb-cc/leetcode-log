@@ -251,3 +251,4 @@
 > [1887. 使数组元素相等的减少操作次数](https://leetcode-cn.com/problems/reduction-operations-to-make-the-array-elements-equal/)  
 > [LCP 30. 魔塔游戏](https://leetcode-cn.com/problems/p0NxJO/)    
 > [1995. 统计特殊四元组](https://leetcode-cn.com/problems/count-special-quadruplets/)  
+> [2022. 将一维数组转变成二维数组](https://leetcode-cn.com/problems/convert-1d-array-into-2d-array/)  
