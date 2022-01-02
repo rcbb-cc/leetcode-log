@@ -238,6 +238,7 @@
 > [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)  
 > [6. Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/)    
 > [8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)  
+> [390. 消除游戏](https://leetcode-cn.com/problems/elimination-game/)  
 > [507. 完美数](https://leetcode-cn.com/problems/perfect-number/)   
 > [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)  
 > [686. 重复叠加字符串匹配](https://leetcode-cn.com/problems/repeated-string-match/)  
