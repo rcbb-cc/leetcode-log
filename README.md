@@ -238,7 +238,8 @@
 
 > [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)   
 > [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)  
-> [6. Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/)    
+> [6. Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/)  
+> [7. 整数反转](https://leetcode-cn.com/problems/reverse-integer/)  
 > [8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)  
 > [390. 消除游戏](https://leetcode-cn.com/problems/elimination-game/)  
 > [507. 完美数](https://leetcode-cn.com/problems/perfect-number/)   
@@ -251,6 +252,7 @@
 > [1154. 一年中的第几天](https://leetcode-cn.com/problems/day-of-the-year/)  
 > [1185. 一周中的第几天](https://leetcode-cn.com/problems/day-of-the-week/)  
 > [1518. 换酒问题](https://leetcode-cn.com/problems/water-bottles/)  
+> [1576. 替换所有的问号](https://leetcode-cn.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)  
 > [1790. 仅执行一次字符串交换能否使两个字符串相等](https://leetcode-cn.com/problems/check-if-one-string-swap-can-make-strings-equal/)  
 > [1887. 使数组元素相等的减少操作次数](https://leetcode-cn.com/problems/reduction-operations-to-make-the-array-elements-equal/)  
 > [LCP 30. 魔塔游戏](https://leetcode-cn.com/problems/p0NxJO/)    
