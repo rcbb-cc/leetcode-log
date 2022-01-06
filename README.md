@@ -241,6 +241,7 @@
 > [6. Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/)  
 > [7. 整数反转](https://leetcode-cn.com/problems/reverse-integer/)  
 > [8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)  
+> [71. 简化路径](https://leetcode-cn.com/problems/simplify-path/)  
 > [390. 消除游戏](https://leetcode-cn.com/problems/elimination-game/)  
 > [507. 完美数](https://leetcode-cn.com/problems/perfect-number/)   
 > [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)  
