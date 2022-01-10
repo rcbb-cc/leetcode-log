@@ -142,6 +142,7 @@
 > [51. N 皇后](https://leetcode-cn.com/problems/n-queens/)   
 > [77. 组合](https://leetcode-cn.com/problems/combinations/)  
 > [78. 子集](https://leetcode-cn.com/problems/subsets/)  
+> [306. 累加数](https://leetcode-cn.com/problems/additive-number/submissions/)  
 > [547. 省份数量](https://leetcode-cn.com/problems/number-of-provinces/)
 > [698. 划分为k个相等的子集](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)  
 
