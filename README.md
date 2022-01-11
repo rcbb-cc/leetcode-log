@@ -145,6 +145,7 @@
 > [306. 累加数](https://leetcode-cn.com/problems/additive-number/submissions/)  
 > [547. 省份数量](https://leetcode-cn.com/problems/number-of-provinces/)
 > [698. 划分为k个相等的子集](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)  
+> [1036. 逃离大迷宫](https://leetcode-cn.com/problems/escape-a-large-maze/)  
 
 #### 岛屿问题
 
@@ -242,6 +243,7 @@
 > [6. Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/)  
 > [7. 整数反转](https://leetcode-cn.com/problems/reverse-integer/)  
 > [8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)  
+> [9. 回文数](https://leetcode-cn.com/problems/palindrome-number/)  
 > [71. 简化路径](https://leetcode-cn.com/problems/simplify-path/)  
 > [89. 格雷编码](https://leetcode-cn.com/problems/gray-code/)  
 > [390. 消除游戏](https://leetcode-cn.com/problems/elimination-game/)  
