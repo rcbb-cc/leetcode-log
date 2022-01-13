@@ -251,6 +251,7 @@
 > [390. 消除游戏](https://leetcode-cn.com/problems/elimination-game/)  
 > [507. 完美数](https://leetcode-cn.com/problems/perfect-number/)   
 > [686. 重复叠加字符串匹配](https://leetcode-cn.com/problems/repeated-string-match/)  
+> [747. 至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/)  
 > [799. 香槟塔](https://leetcode-cn.com/problems/champagne-tower/)  
 > [825. 适龄的朋友](https://leetcode-cn.com/problems/friends-of-appropriate-ages/)  
 > [面试题 16.04. 井字游戏](https://leetcode-cn.com/problems/tic-tac-toe-lcci/)  
