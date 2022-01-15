@@ -1,6 +1,7 @@
 package cc.rcbb.leetcode.topic_146;
 
 import java.util.LinkedHashMap;
+import java.util.Map;
 
 /**
  * 146. LRU 缓存机制
@@ -8,32 +9,25 @@ import java.util.LinkedHashMap;
  */
 class LRUCache {
 
-    private LinkedHashMap<Integer, Integer> map = new LinkedHashMap<>();
+    private LinkedHashMap<Integer, Integer> cache;
     private int cap;
 
     public LRUCache(int capacity) {
+        cache = new LinkedHashMap<Integer, Integer>(capacity, 0.75f, true) {
+            @Override
+            protected boolean removeEldestEntry(Map.Entry eldest) {
+                return cache.size() > capacity;
+            }
+        };
         this.cap = capacity;
     }
 
     public int get(int key) {
-        if (!map.containsKey(key)) {
-            return -1;
-        }
-        Integer result = map.get(key);
-        map.remove(key);
-        map.put(key, result);
-        return result;
+        return cache.getOrDefault(key, -1);
     }
 
     public void put(int key, int value) {
-        if (map.containsKey(key)) {
-            map.remove(key);
-        }
-        if (map.size() >= cap) {
-            Integer firstKey = map.keySet().iterator().next();
-            map.remove(firstKey);
-        }
-        map.put(key, value);
+        cache.put(key, value);
     }
 
 }
