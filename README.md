@@ -235,7 +235,6 @@
 
 > [997. 找到小镇的法官](https://leetcode-cn.com/problems/find-the-town-judge/)    
 
-
 ### 未分类
 
 > [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)   
@@ -249,6 +248,7 @@
 > [89. 格雷编码](https://leetcode-cn.com/problems/gray-code/)  
 > [334. 递增的三元子序列](https://leetcode-cn.com/problems/increasing-triplet-subsequence/)  
 > [373. 查找和最小的K对数字](https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/)  
+> [382. 链表随机节点](https://leetcode-cn.com/problems/linked-list-random-node/)
 > [390. 消除游戏](https://leetcode-cn.com/problems/elimination-game/)  
 > [507. 完美数](https://leetcode-cn.com/problems/perfect-number/)   
 > [686. 重复叠加字符串匹配](https://leetcode-cn.com/problems/repeated-string-match/)  
@@ -270,3 +270,7 @@
 > [LCP 30. 魔塔游戏](https://leetcode-cn.com/problems/p0NxJO/)    
 > [1995. 统计特殊四元组](https://leetcode-cn.com/problems/count-special-quadruplets/)  
 > [2022. 将一维数组转变成二维数组](https://leetcode-cn.com/problems/convert-1d-array-into-2d-array/)
+
+### 数学运算技巧
+
+> [191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)
