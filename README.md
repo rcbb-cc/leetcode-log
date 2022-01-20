@@ -216,11 +216,12 @@
 
 > [486. 预测赢家](https://leetcode-cn.com/problems/predict-the-winner/)  
 > [877. 石子游戏](https://leetcode-cn.com/problems/stone-game/)  
+> [2029. 石子游戏 IX](https://leetcode-cn.com/problems/stone-game-ix/)  
 
 ### 前缀树
 
-> [720. 词典中最长的单词](https://leetcode-cn.com/problems/longest-word-in-dictionary/)
 > [472. 连接词](https://leetcode-cn.com/problems/concatenated-words/)    
+> [720. 词典中最长的单词](https://leetcode-cn.com/problems/longest-word-in-dictionary/)
 
 ### 二维数组
 
@@ -276,5 +277,6 @@
 
 ### 数学运算技巧
 
+> [136. 只出现一次的数字](https://leetcode-cn.com/problems/single-number/)  
 > [191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)  
-> [231. 2 的幂](https://leetcode-cn.com/problems/power-of-two/)  
+> [231. 2 的幂](https://leetcode-cn.com/problems/power-of-two/)
