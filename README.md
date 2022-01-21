@@ -212,6 +212,12 @@
 > [976. 三角形的最大周长](https://leetcode-cn.com/problems/largest-perimeter-triangle/)  
 > [1936. 新增的最少台阶数](https://leetcode-cn.com/problems/add-minimum-number-of-rungs/)  
 
+### 跳跃游戏
+
+> [55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/)  
+> [45. 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/)  
+> [1345. 跳跃游戏 IV](https://leetcode-cn.com/problems/jump-game-iv/)  
+
 ### 博弈论
 
 > [486. 预测赢家](https://leetcode-cn.com/problems/predict-the-winner/)  
