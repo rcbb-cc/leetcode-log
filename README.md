@@ -287,3 +287,7 @@
 > [136. 只出现一次的数字](https://leetcode-cn.com/problems/single-number/)  
 > [191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)  
 > [231. 2 的幂](https://leetcode-cn.com/problems/power-of-two/)
+
+## 数据结构设计
+
+> [2034. 股票价格波动](https://leetcode-cn.com/problems/stock-price-fluctuation/)  
