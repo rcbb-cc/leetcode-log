@@ -270,6 +270,7 @@
 > [1154. 一年中的第几天](https://leetcode-cn.com/problems/day-of-the-year/)  
 > [1185. 一周中的第几天](https://leetcode-cn.com/problems/day-of-the-week/)  
 > [1220. 统计元音字母序列的数目](https://leetcode-cn.com/problems/count-vowels-permutation/)  
+> [1332. 删除回文子序列](https://leetcode-cn.com/problems/remove-palindromic-subsequences/)
 > [1518. 换酒问题](https://leetcode-cn.com/problems/water-bottles/)  
 > [1576. 替换所有的问号](https://leetcode-cn.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)  
 > [1614. 括号的最大嵌套深度](https://leetcode-cn.com/problems/maximum-nesting-depth-of-the-parentheses/)  
