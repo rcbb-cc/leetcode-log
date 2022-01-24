@@ -123,6 +123,7 @@
 > [752. 打开转盘锁](https://leetcode-cn.com/problems/open-the-lock/)  
 > [773. 滑动谜题](https://leetcode-cn.com/problems/sliding-puzzle/)  
 > [1609. 奇偶树](https://leetcode-cn.com/problems/even-odd-tree/)  
+> [2045. 到达目的地的第二短时间](https://leetcode-cn.com/problems/second-minimum-time-to-reach-destination/)  
 
 ### 并查集
 
