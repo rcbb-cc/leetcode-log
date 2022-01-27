@@ -9,54 +9,71 @@ import java.util.Map;
  */
 class DetectSquares {
 
-    private Map<Integer, Map<Integer, Integer>> colMap;
-    private Map<Integer, Map<Integer, Integer>> rowMap;
+    private Map<Integer, Map<Integer, Integer>> xMap;
+    private Map<Integer, Map<Integer, Integer>> yMap;
 
     public DetectSquares() {
-        colMap = new HashMap<>();
-        rowMap = new HashMap<>();
+        xMap = new HashMap<>();
+        yMap = new HashMap<>();
     }
 
     public void add(int[] point) {
-        int col = point[0];
-        int row = point[1];
-        Map<Integer, Integer> colM = colMap.getOrDefault(col, new HashMap<>());
-        colM.put(row, colM.getOrDefault(row, 0) + 1);
-        colMap.put(col, colM);
-        Map<Integer, Integer> rowM = rowMap.getOrDefault(row, new HashMap<>());
-        rowM.put(col, colM.getOrDefault(col, 0) + 1);
-        rowMap.put(row, rowM);
+        int x = point[0];
+        int y = point[1];
+        Map<Integer, Integer> xm = xMap.getOrDefault(x, new HashMap<>());
+        xm.put(y, xm.getOrDefault(y, 0) + 1);
+        xMap.put(x, xm);
+
+        Map<Integer, Integer> ym = yMap.getOrDefault(y, new HashMap<>());
+        ym.put(x, ym.getOrDefault(x, 0) + 1);
+        yMap.put(y, ym);
     }
 
     public int count(int[] point) {
-        int col = point[0];
-        int row = point[1];
+        // a点坐标
+        int x = point[0];
+        int y = point[1];
         int result = 0;
-        if (!colMap.containsKey(col)) {
+        // 寻找b点坐标，y相同
+        if (!yMap.containsKey(y)) {
             return 0;
         }
-        Map<Integer, Integer> rolM = colMap.get(col);
-        for (int tempRow : rolM.keySet()) {
-            Integer rolCount = rolM.get(tempRow);
-            int dis = tempRow - row;
-            if (dis != 0) {
-
-                if (!rowMap.containsKey(row)) {
+        Map<Integer, Integer> sameX = yMap.get(y);
+        // 多个y相同的点
+        for (Integer bx : sameX.keySet()) {
+            // b点坐标为：(bx,y)
+            Integer bCount = sameX.get(bx);
+            // 求出正方形的边
+            int d = bx - x;
+            if (d != 0) {
+                // 寻找c点坐标，x相同
+                if (!xMap.containsKey(bx)) {
                     continue;
                 }
-                Map<Integer, Integer> colM = rowMap.get(row);
-                if (colM.containsKey(col + dis)) {
-                    if (rowMap.get(tempRow) != null && rowMap.get(tempRow).containsKey(col + dis)) {
-                        Integer c1 = colM.get(col + dis);
-                        Integer c2 = rowMap.get(tempRow).get(col + dis);
-                        result += rolCount * c1 * c2;
+                // x相同的
+                Map<Integer, Integer> someY = xMap.get(x);
+
+                if (someY != null && someY.containsKey(y - d)) {
+                    // 找d点
+                    if (xMap.get(bx) != null &&
+                            xMap.get(bx).containsKey(y - d)) {
+                        // (x,y-d)
+                        Integer c1 = someY.get(y - d);
+                        // (bx,y-d)
+                        Integer c2 = xMap.get(bx).get(y - d);
+                        result += c1 * c2 * bCount;
                     }
                 }
-                if (colM.containsKey(col - dis)) {
-                    if (rowMap.get(tempRow) != null && rowMap.get(tempRow).containsKey(col - dis)) {
-                        Integer c1 = colM.get(col - dis);
-                        Integer c2 = rowMap.get(tempRow).get(col - dis);
-                        result += rolCount * c1 * c2;
+                // c点加正方形边长度，d点
+                if (someY != null && someY.containsKey(y + d)) {
+                    // 判断是否存在这样的点
+                    if (xMap.get(bx) != null &&
+                            xMap.get(bx).containsKey(y + d)) {
+                        // (x,y+d)
+                        Integer c1 = someY.get(y + d);
+                        // (bx,y+d)
+                        Integer c2 = xMap.get(bx).get(y + d);
+                        result += c1 * c2 * bCount;
                     }
                 }
             }

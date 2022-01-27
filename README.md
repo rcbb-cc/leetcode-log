@@ -284,6 +284,7 @@
 > [1995. 统计特殊四元组](https://leetcode-cn.com/problems/count-special-quadruplets/)  
 > [2022. 将一维数组转变成二维数组](https://leetcode-cn.com/problems/convert-1d-array-into-2d-array/)
 > [2013. 检测正方形](https://leetcode-cn.com/problems/detect-squares/)  
+> [2047. 句子中的有效单词数](https://leetcode-cn.com/problems/number-of-valid-words-in-a-sentence/)  
 
 ### 数学运算技巧
 
