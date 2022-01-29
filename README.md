@@ -157,6 +157,10 @@
 > [1254. 统计封闭岛屿的数目](https://leetcode-cn.com/problems/number-of-closed-islands/)  
 > [1905. 统计子岛屿](https://leetcode-cn.com/problems/count-sub-islands/)  
 
+#### 地图
+
+> [1765. 地图中的最高点](https://leetcode-cn.com/problems/map-of-highest-peak/)  
+
 ### 动态规划
 
 > [10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/)  
