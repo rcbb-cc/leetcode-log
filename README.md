@@ -297,7 +297,8 @@
 
 > [136. 只出现一次的数字](https://leetcode-cn.com/problems/single-number/)  
 > [191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)  
-> [231. 2 的幂](https://leetcode-cn.com/problems/power-of-two/)
+> [231. 2 的幂](https://leetcode-cn.com/problems/power-of-two/)  
+> [1342. 将数字变成 0 的操作次数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
 
 ### 数据结构设计
 
