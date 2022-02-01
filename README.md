@@ -284,6 +284,7 @@
 > [1629. 按键持续时间最长的键](https://leetcode-cn.com/problems/slowest-key/)  
 > [1688. 比赛中的配对次数](https://leetcode-cn.com/problems/count-of-matches-in-tournament/)  
 > [1716. 计算力扣银行的钱](https://leetcode-cn.com/problems/calculate-money-in-leetcode-bank/)  
+> [1763. 最长的美好子字符串](https://leetcode-cn.com/problems/longest-nice-substring/)  
 > [1790. 仅执行一次字符串交换能否使两个字符串相等](https://leetcode-cn.com/problems/check-if-one-string-swap-can-make-strings-equal/)  
 > [1887. 使数组元素相等的减少操作次数](https://leetcode-cn.com/problems/reduction-operations-to-make-the-array-elements-equal/)  
 > [LCP 30. 魔塔游戏](https://leetcode-cn.com/problems/p0NxJO/)    
@@ -298,6 +299,7 @@
 > [136. 只出现一次的数字](https://leetcode-cn.com/problems/single-number/)  
 > [191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)  
 > [231. 2 的幂](https://leetcode-cn.com/problems/power-of-two/)  
+> [372. 超级次方](https://leetcode-cn.com/problems/super-pow/)  
 > [1342. 将数字变成 0 的操作次数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
 
 ### 数据结构设计
