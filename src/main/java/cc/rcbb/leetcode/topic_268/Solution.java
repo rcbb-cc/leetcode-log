@@ -9,7 +9,32 @@ import java.util.Set;
  * https://leetcode-cn.com/problems/missing-number/
  */
 class Solution {
+    /**
+     * 等差数列的方式是先求和再相减
+     * 避免溢出，一边求和一边减
+     */
     public int missingNumber(int[] nums) {
+        int n = nums.length;
+        int res = 0;
+        res += n - 0;
+        for (int i = 0; i < n; i++) {
+            res += i - nums[i];
+        }
+        return res;
+    }
+
+    public int missingNumber4(int[] nums) {
+        int n = nums.length;
+        // 公式：(首项 + 末项) * 项数/2
+        int expect = (0 + n) * (n + 1) / 2;
+        int sum = 0;
+        for (int x : nums) {
+            sum += x;
+        }
+        return expect - sum;
+    }
+
+    public int missingNumber3(int[] nums) {
         int n = nums.length;
         int res = 0;
         res = res ^ n;
@@ -54,7 +79,7 @@ class Solution {
 
         System.out.println();
         for (int i = 0; i < 3; i++) {
-            System.out.println(i^3);
+            System.out.println(i ^ 3);
         }
     }
 }
