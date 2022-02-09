@@ -297,6 +297,7 @@
 > [1995. 统计特殊四元组](https://leetcode-cn.com/problems/count-special-quadruplets/)  
 > [1996. 游戏中弱角色的数量](https://leetcode-cn.com/problems/the-number-of-weak-characters-in-the-game/)  
 > [2000. 反转单词前缀](https://leetcode-cn.com/problems/reverse-prefix-of-word/)  
+> [2006. 差的绝对值为 K 的数对数目](https://leetcode-cn.com/problems/count-number-of-pairs-with-absolute-difference-k/)  
 > [2022. 将一维数组转变成二维数组](https://leetcode-cn.com/problems/convert-1d-array-into-2d-array/)
 > [2013. 检测正方形](https://leetcode-cn.com/problems/detect-squares/)  
 > [2047. 句子中的有效单词数](https://leetcode-cn.com/problems/number-of-valid-words-in-a-sentence/)  
