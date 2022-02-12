@@ -147,6 +147,7 @@
 > [306. 累加数](https://leetcode-cn.com/problems/additive-number/submissions/)  
 > [547. 省份数量](https://leetcode-cn.com/problems/number-of-provinces/)
 > [698. 划分为k个相等的子集](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)  
+> [1020. 飞地的数量](https://leetcode-cn.com/problems/number-of-enclaves/)  
 > [1036. 逃离大迷宫](https://leetcode-cn.com/problems/escape-a-large-maze/)  
 
 #### 岛屿问题
