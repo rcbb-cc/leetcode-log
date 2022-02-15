@@ -49,6 +49,7 @@
 > [72. 求平方根](https://leetcode-cn.com/problems/jJ0w9p/)  
 > [441. 排列硬币](https://leetcode-cn.com/problems/arranging-coins/)  
 > [475. 供暖器](https://leetcode-cn.com/problems/heaters/)  
+> [540. 有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/)  
 > [704. 二分查找](https://leetcode-cn.com/problems/binary-search/)   
 > [875. 爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas/)  
 > [1011. 在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)  
@@ -139,6 +140,7 @@
 
 ### DFS
 
+> [17. 电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)  
 > [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)   
 > [46. 全排列](https://leetcode-cn.com/problems/permutations/)    
 > [51. N 皇后](https://leetcode-cn.com/problems/n-queens/)   
