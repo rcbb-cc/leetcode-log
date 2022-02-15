@@ -39,6 +39,15 @@ public class RcbbPrinter {
         }
     }
 
+    public static void print(char[][] nums) {
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = 0; j < nums[i].length; j++) {
+                System.out.print(nums[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+
     public static void print(List<Integer> nums) {
         for (int i = 0; i < nums.size(); i++) {
             System.out.print(nums.get(i) + " ");

@@ -285,6 +285,7 @@
 > [1220. 统计元音字母序列的数目](https://leetcode-cn.com/problems/count-vowels-permutation/)  
 > [1219. 黄金矿工](https://leetcode-cn.com/problems/path-with-maximum-gold/)  
 > [1332. 删除回文子序列](https://leetcode-cn.com/problems/remove-palindromic-subsequences/)
+> [1380. 矩阵中的幸运数](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/)    
 > [1414. 和为 K 的最少斐波那契数字数目](https://leetcode-cn.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)  
 > [1447. 最简分数](https://leetcode-cn.com/problems/simplified-fractions/)  
 > [1518. 换酒问题](https://leetcode-cn.com/problems/water-bottles/)  
