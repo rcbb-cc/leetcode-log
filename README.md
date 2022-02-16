@@ -142,6 +142,7 @@
 
 > [17. 电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)  
 > [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)   
+> [39. 组合总和](https://leetcode-cn.com/problems/combination-sum/)    
 > [46. 全排列](https://leetcode-cn.com/problems/permutations/)    
 > [51. N 皇后](https://leetcode-cn.com/problems/n-queens/)   
 > [77. 组合](https://leetcode-cn.com/problems/combinations/)  

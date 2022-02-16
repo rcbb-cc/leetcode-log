@@ -17,6 +17,7 @@ class Solution {
             for (int j = 0; j < 9; j++) {
                 if (board[i][j] != '.') {
                     int t = board[i][j] - '1';
+                    // 横、竖、九个方格
                     row[i][t] = col[j][t] = cell[i / 3][j / 3][t] = true;
                 }
             }
@@ -36,11 +37,14 @@ class Solution {
         }
         for (int i = 0; i < 9; i++) {
             if (!row[x][i] && !col[y][i] && !cell[x / 3][y / 3][i]) {
+                // 满足条件才尝试放入数字
                 board[x][y] = (char) (i + '1');
                 row[x][i] = col[y][i] = cell[x / 3][y / 3][i] = true;
                 if (f(board, x, y + 1)) {
+                    // 为true时，代表放入成功
                     break;
                 } else {
+                    // 为false，放入失败，回溯
                     board[x][y] = '.';
                     row[x][i] = col[y][i] = cell[x / 3][y / 3][i] = false;
                 }
