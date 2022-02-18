@@ -9,14 +9,14 @@ import java.util.*;
 class Solution {
 
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
-        Set<List<Integer>> res = new HashSet<>();
+        List<List<Integer>> res = new ArrayList<>();
         LinkedList<Integer> cur = new LinkedList<>();
         Arrays.sort(candidates);
         f(0, candidates, target, cur, res);
         return new ArrayList<>(res);
     }
 
-    public void f(int index, int[] candidates, int target, LinkedList<Integer> cur, Set<List<Integer>> res) {
+    public void f(int index, int[] candidates, int target, LinkedList<Integer> cur, List<List<Integer>> res) {
         if (target == 0) {
             res.add(new ArrayList<>(cur));
             return;
@@ -25,6 +25,7 @@ class Solution {
             if (target - candidates[i] < 0) {
                 break;
             }
+            // 同一层数值相同的结点，因为数值相同，前面已经搜索出了包含了这个数值的全部结果，所以直接跳过
             if (i > index && candidates[i] == candidates[i - 1]) {
                 continue;
             }
