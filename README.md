@@ -276,6 +276,7 @@
 > [507. 完美数](https://leetcode-cn.com/problems/perfect-number/)  
 > [539. 最小时间差](https://leetcode-cn.com/problems/minimum-time-difference/)  
 > [686. 重复叠加字符串匹配](https://leetcode-cn.com/problems/repeated-string-match/)  
+> [717. 1比特与2比特字符](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/)  
 > [747. 至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/)  
 > [799. 香槟塔](https://leetcode-cn.com/problems/champagne-tower/)  
 > [825. 适龄的朋友](https://leetcode-cn.com/problems/friends-of-appropriate-ages/)  
