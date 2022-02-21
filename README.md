@@ -18,6 +18,7 @@
 
 #### 双指针
 
+> [11. 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)  
 > [475. 供暖器](https://leetcode-cn.com/problems/heaters/)  
 > [846. 一手顺子](https://leetcode-cn.com/problems/hand-of-straights/)  
 
@@ -122,7 +123,8 @@
 > [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)  
 > [547. 省份数量](https://leetcode-cn.com/problems/number-of-provinces/)  
 > [752. 打开转盘锁](https://leetcode-cn.com/problems/open-the-lock/)  
-> [773. 滑动谜题](https://leetcode-cn.com/problems/sliding-puzzle/)  
+> [773. 滑动谜题](https://leetcode-cn.com/problems/sliding-puzzle/) 
+> [838. 推多米诺](https://leetcode-cn.com/problems/push-dominoes/)  
 > [1609. 奇偶树](https://leetcode-cn.com/problems/even-odd-tree/)  
 > [2045. 到达目的地的第二短时间](https://leetcode-cn.com/problems/second-minimum-time-to-reach-destination/)  
 
