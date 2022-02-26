@@ -24,11 +24,14 @@ class KthLargest1 {
         int cur = 0;
         for (int i = 0; i < k; i++) {
             int index = findMax(cur, list.size() - 1);
+            // 最大值放到最前面
             swap(cur++, index);
         }
+        // 返回第k大元素
         return list.get(cur - 1);
     }
 
+    // start - end 之间的最大值
     private int findMax(int start, int end) {
         int ans = 0;
         int max = Integer.MIN_VALUE;

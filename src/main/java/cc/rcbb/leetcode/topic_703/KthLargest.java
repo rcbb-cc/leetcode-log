@@ -20,6 +20,7 @@ class KthLargest {
         queue = new PriorityQueue<>(k);
         int n = nums.length;
         for (int i = 0; i < k && i < n; i++) {
+            // 最多只添加k个元素
             queue.add(nums[i]);
         }
         for (int i = k; i < n; i++) {
@@ -28,9 +29,10 @@ class KthLargest {
     }
 
     public int add(int val) {
-        int t = !queue.isEmpty() ? queue.peek() : Integer.MIN_VALUE;
+        int t = queue.isEmpty() ? Integer.MIN_VALUE : queue.peek();
         if (val > t || queue.size() < k) {
             if (!queue.isEmpty() && queue.size() >= k) {
+                // 堆中元素存在k个时，弹出一个
                 queue.poll();
             }
             queue.add(val);

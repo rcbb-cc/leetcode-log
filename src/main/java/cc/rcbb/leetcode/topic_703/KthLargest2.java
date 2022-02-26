@@ -22,6 +22,7 @@ class KthLargest2 {
 
     public int add(int val) {
         list.add(val);
+        // 快排，从小到大
         Collections.sort(list);
         return list.get(list.size() - k);
     }
