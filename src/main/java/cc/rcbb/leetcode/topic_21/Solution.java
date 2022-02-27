@@ -14,6 +14,7 @@ class Solution {
         if (list2 == null) {
             return list1;
         }
+        // 增加虚拟头结点
         ListNode root = new ListNode();
         ListNode cur = root;
         while (list1 != null && list2 != null) {
@@ -27,16 +28,13 @@ class Solution {
                 list2 = list2.next;
             }
         }
-        while (list1 != null) {
+        if (list1 != null) {
             cur.next = list1;
-            cur = cur.next;
-            list1 = list1.next;
         }
-        while (list2 != null) {
+        if (list2 != null) {
             cur.next = list2;
-            cur = cur.next;
-            list2 = list2.next;
         }
+        // 头节点的下一个节点才是真正的数据节点
         return root.next;
     }
 }
