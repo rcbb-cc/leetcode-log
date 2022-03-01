@@ -19,8 +19,10 @@ class Solution {
         int i = 0;
         int flag = -1;
         for (char c : s.toCharArray()) {
+            // 遍历字符串，每一行一个StringBuilder
             list.get(i).append(c);
             if (i == 0 || i == numRows - 1) {
+                // 当到第一行或最后一行时，调转方向
                 flag = -flag;
             }
             i += flag;
