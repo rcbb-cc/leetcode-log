@@ -1,10 +1,8 @@
 package cc.rcbb.leetcode.topic_22;
 
-import cc.rcbb.leetcode.common.RcbbPrinter;
 
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Stack;
 
 /**
  * 22. 括号生成
@@ -14,43 +12,23 @@ class Solution {
     private List<String> result = new LinkedList<>();
 
     public List<String> generateParenthesis(int n) {
-        int length = n * 2;
-        char[] arr = new char[]{'(',')'};
-        backtrack("", length, arr);
+        f("", 0, 0, n);
         return result;
     }
 
-
-    public void backtrack(String s, int length, char[] arr) {
-        if (s.length() == length) {
-            if (check(s)) {
-                result.add(s);
-            }
+    public void f(String ans, int leftCount, int rightCount, int n) {
+        if (leftCount > n || rightCount > n) {
             return;
         }
-        for (int i = 0; i < arr.length; i++) {
-            s += arr[i];
-            backtrack(s, length, arr);
-            s = s.substring(0, s.length()-1);
+        if (leftCount == n && rightCount == n) {
+            result.add(ans);
+        }
+        if (leftCount >= rightCount) {
+            f(ans + "(", leftCount + 1, rightCount, n);
+            f(ans + ")", leftCount, rightCount + 1, n);
         }
     }
 
-    public boolean check(String s) {
-        Stack<Character> stack = new Stack<>();
-        for (int i = 0; i < s.length(); i++) {
-            if (stack.isEmpty()) {
-                stack.push(s.charAt(i));
-            } else {
-                Character peek = stack.peek();
-                if ((peek == '(' && s.charAt(i) == ')')) {
-                    stack.pop();
-                } else {
-                    stack.push(s.charAt(i));
-                }
-            }
-        }
-        return stack.isEmpty();
-    }
 
     public static void main(String[] args) {
         Solution solution = new Solution();
