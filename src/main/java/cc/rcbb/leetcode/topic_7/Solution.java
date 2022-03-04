@@ -6,7 +6,22 @@ package cc.rcbb.leetcode.topic_7;
  * https://leetcode-cn.com/problems/reverse-integer/
  */
 class Solution {
+    /**
+     * 对于本题，题目从文字上限制我们只能使用 32 位的数据结构（int）。
+     * <p>
+     * 忽略掉这个限制的解法
+     */
     public int reverse(int x) {
+        long ans = 0;
+        while (x != 0) {
+            ans = ans * 10 + x % 10;
+            x = x / 10;
+        }
+        return (int) ans == ans ? (int) ans : 0;
+    }
+
+
+    public int reverse2(int x) {
         int res = 0;
         while (x != 0) {
             int t = x % 10;
@@ -26,25 +41,6 @@ class Solution {
         return res;
     }
 
-    /**
-     * 使用StringBuilder
-     */
-    public int reverse1(int x) {
-        StringBuilder sb = new StringBuilder(String.valueOf(x));
-        sb.reverse();
-        int index = sb.indexOf("-");
-        int f = 1;
-        if (index != -1) {
-            f = -1;
-            sb.deleteCharAt(index);
-        }
-        Long t = Long.valueOf(sb.toString());
-        if (t > Integer.MAX_VALUE || t < Integer.MIN_VALUE) {
-            return 0;
-        }
-        return Integer.valueOf(sb.toString()) * f;
-    }
-
     public static void main(String[] args) {
         Solution solution = new Solution();
         System.out.println(solution.reverse(123));
@@ -52,6 +48,5 @@ class Solution {
         System.out.println(solution.reverse(120));
         System.out.println(solution.reverse(0));
         System.out.println(solution.reverse(-1247483648));
-
     }
 }
