@@ -281,6 +281,7 @@
 > [382. 链表随机节点](https://leetcode-cn.com/problems/linked-list-random-node/)
 > [390. 消除游戏](https://leetcode-cn.com/problems/elimination-game/)  
 > [507. 完美数](https://leetcode-cn.com/problems/perfect-number/)  
+> [521. 最长特殊序列 Ⅰ](https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/)  
 > [537. 复数乘法](https://leetcode-cn.com/problems/complex-number-multiplication/)  
 > [539. 最小时间差](https://leetcode-cn.com/problems/minimum-time-difference/)  
 > [553. 最优除法](https://leetcode-cn.com/problems/optimal-division/)  
