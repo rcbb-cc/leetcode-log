@@ -332,6 +332,8 @@
 > [2013. 检测正方形](https://leetcode-cn.com/problems/detect-squares/)  
 > [2047. 句子中的有效单词数](https://leetcode-cn.com/problems/number-of-valid-words-in-a-sentence/)  
 > [2104. 子数组范围和](https://leetcode-cn.com/problems/sum-of-subarray-ranges/)    
+> [2100. 适合打劫银行的日子](https://leetcode-cn.com/problems/find-good-days-to-rob-the-bank/)  
+
 
 ### 数学运算技巧
 

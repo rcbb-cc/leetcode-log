@@ -31,8 +31,8 @@ class Solution1 {
         // 抢，下家就不能抢了
         int rob = root.val + left[0] + right[0];
         // 不抢，下家可抢可不抢，看收益大小
-        int not_rob = Math.max(left[0], left[1]) +
+        int notRob = Math.max(left[0], left[1]) +
                 Math.max(right[0], right[1]);
-        return new int[]{not_rob, rob};
+        return new int[]{notRob, rob};
     }
 }
