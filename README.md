@@ -280,6 +280,7 @@
 > [373. 查找和最小的K对数字](https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/)  
 > [382. 链表随机节点](https://leetcode-cn.com/problems/linked-list-random-node/)
 > [390. 消除游戏](https://leetcode-cn.com/problems/elimination-game/)  
+> [504. 七进制数](https://leetcode-cn.com/problems/base-7/)  
 > [507. 完美数](https://leetcode-cn.com/problems/perfect-number/)  
 > [521. 最长特殊序列 Ⅰ](https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/)  
 > [537. 复数乘法](https://leetcode-cn.com/problems/complex-number-multiplication/)  
