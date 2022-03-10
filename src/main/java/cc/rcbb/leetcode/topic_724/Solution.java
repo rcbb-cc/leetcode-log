@@ -25,32 +25,9 @@ class Solution {
         return -1;
     }
 
-    public int pivotIndex2(int[] nums) {
-        // 先计算总和
-        int sum = 0;
-        for (int i = 0; i < nums.length; i++) {
-            sum += nums[i];
-        }
-        // 如果存在中间点：左边和+右边和+中间点=总和
-        // 即：2*(左边和)+中间点=总和
-        int total = 0;
-        for (int i = 0; i < nums.length; i++) {
-            if (2 * total + nums[i] == sum) {
-                return i;
-            }
-            total += nums[i];
-        }
-        return -1;
-    }
-
     public static void main(String[] args) {
         Solution solution = new Solution();
-
-        int[] nums = new int[]{1, 2, 3};
-        //int[] nums = new int[]{2, 1, -1};
-        //int[] nums = new int[]{1, 7, 3, 6, 5, 6};
-        int r = solution.pivotIndex2(nums);
-        System.out.println(r);
-
+        System.out.println(solution.pivotIndex(new int[]{2, 1, -1}));
+        System.out.println(solution.pivotIndex(new int[]{1, 7, 3, 6, 5, 6}));
     }
 }

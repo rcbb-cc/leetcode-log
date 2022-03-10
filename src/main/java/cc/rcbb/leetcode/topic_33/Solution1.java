@@ -17,13 +17,17 @@ class Solution1 {
             if (nums[mid] == target) {
                 return mid;
             }
+            // 前半部分
             if (nums[0] <= nums[mid]) {
+                // 判断target是否在前半部分
                 if (nums[0] <= target && target < nums[mid]) {
                     right = mid - 1;
                 } else {
                     left = mid + 1;
                 }
             } else {
+                // 后半部分
+                // 判断target是否在后半部分
                 if (nums[mid] < target && target <= nums[n - 1]) {
                     left = mid + 1;
                 } else {
