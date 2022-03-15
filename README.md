@@ -160,6 +160,7 @@
 > [698. 划分为k个相等的子集](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)  
 > [1020. 飞地的数量](https://leetcode-cn.com/problems/number-of-enclaves/)  
 > [1036. 逃离大迷宫](https://leetcode-cn.com/problems/escape-a-large-maze/)
+> [2044. 统计按位或能得到最大值的子集数目](https://leetcode-cn.com/problems/count-number-of-maximum-bitwise-or-subsets/)  
 
 #### 岛屿问题
 
