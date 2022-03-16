@@ -257,6 +257,7 @@
 ### 数据结构实现
 
 > [剑指 Offer 09. 用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)  
+> [432. 全 O(1) 的数据结构](https://leetcode-cn.com/problems/all-oone-data-structure/)  
 
 ### 出入度统计
 
