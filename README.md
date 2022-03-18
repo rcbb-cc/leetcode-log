@@ -259,6 +259,7 @@
 > [剑指 Offer 09. 用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)  
 > [432. 全 O(1) 的数据结构](https://leetcode-cn.com/problems/all-oone-data-structure/)  
 > [208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)  
+> [2043. 简易银行系统](https://leetcode-cn.com/problems/simple-bank-system/)  
 
 ### 出入度统计
 
