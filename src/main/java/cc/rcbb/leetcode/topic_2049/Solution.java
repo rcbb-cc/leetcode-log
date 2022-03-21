@@ -10,7 +10,7 @@ import java.util.List;
 class Solution {
 
     long maxScore = 0;
-    int count = 0;
+    int cnt = 0;
     int n;
     List<Integer>[] children;
 
@@ -18,7 +18,7 @@ class Solution {
         n = parents.length;
         children = new List[n];
         for (int i = 0; i < n; i++) {
-            children[i] = new ArrayList<>();
+            children[i] = new ArrayList<Integer>();
         }
         for (int i = 0; i < n; i++) {
             int p = parents[i];
@@ -27,41 +27,37 @@ class Solution {
             }
         }
         dfs(0);
-        return count;
+        return cnt;
     }
 
     private int dfs(int node) {
         long score = 1;
         int nodeCount = 1;
-        for (int c : children[node]) {
-            int t = dfs(c);
+        for (int num : children[node]) {
+            int t = dfs(num);
             score *= t;
             nodeCount += t;
         }
         if (node != 0) {
-            score *= (n - nodeCount);
+            // 当不为根节点时，还需乘以另一半的数目
+            score *= n - nodeCount;
         }
+        // 最大分数和出现次数统计
         if (score == maxScore) {
-            count++;
+            cnt++;
         } else if (score > maxScore) {
             maxScore = score;
-            count = 1;
+            cnt = 1;
         }
         return nodeCount;
     }
 
+
     public static void main(String[] args) {
         Solution solution = new Solution();
-        //输入：parents = [-1,2,0,2,0]
-        //输出：3
-        //解释：
-        //- 节点 0 的分数为：3 * 1 = 3
-        //        - 节点 1 的分数为：4 = 4
-        //        - 节点 2 的分数为：1 * 1 * 2 = 2
-        //        - 节点 3 的分数为：4 = 4
-        //        - 节点 4 的分数为：4 = 4
-        //最高得分为 4 ，有三个节点得分为 4 （分别是节点 1，3 和 4 ）。
         //System.out.println(solution.countHighestScoreNodes(new int[]{-1, 2, 0, 2, 0}));
-        System.out.println(solution.countHighestScoreNodes(new int[]{-1, 2, 0}));
+        //System.out.println(solution.countHighestScoreNodes(new int[]{-1, 2, 0}));
+        //[-1,3,3,5,7,6,0,0]  2
+        System.out.println(solution.countHighestScoreNodes(new int[]{-1, 3, 3, 5, 7, 6, 0, 0}));
     }
 }
