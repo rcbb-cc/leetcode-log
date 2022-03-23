@@ -260,6 +260,7 @@
 > [剑指 Offer 09. 用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)  
 > [432. 全 O(1) 的数据结构](https://leetcode-cn.com/problems/all-oone-data-structure/)  
 > [208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)  
+> [2034. 股票价格波动](https://leetcode-cn.com/problems/stock-price-fluctuation/)
 > [2043. 简易银行系统](https://leetcode-cn.com/problems/simple-bank-system/)  
 
 ### 出入度统计
@@ -361,8 +362,6 @@
 > [1342. 将数字变成 0 的操作次数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
 > [268. 丢失的数字](https://leetcode-cn.com/problems/missing-number/)    
 
+# 字典序
 
-### 数据结构设计
-
-> [2034. 股票价格波动](https://leetcode-cn.com/problems/stock-price-fluctuation/)  
-
+> [440. 字典序的第K小数字](https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/)  
