@@ -347,6 +347,7 @@
 > [2016. 增量元素之间的最大差值](https://leetcode-cn.com/problems/maximum-difference-between-increasing-elements/)  
 > [2013. 检测正方形](https://leetcode-cn.com/problems/detect-squares/)  
 > [2022. 将一维数组转变成二维数组](https://leetcode-cn.com/problems/convert-1d-array-into-2d-array/)
+> [2028. 找出缺失的观测数据](https://leetcode-cn.com/problems/find-missing-observations/)  
 > [2038. 如果相邻两个颜色均相同则删除当前颜色](https://leetcode-cn.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)  
 > [2047. 句子中的有效单词数](https://leetcode-cn.com/problems/number-of-valid-words-in-a-sentence/)  
 > [2049. 统计最高分的节点数目](https://leetcode-cn.com/problems/count-nodes-with-the-highest-score/)  
