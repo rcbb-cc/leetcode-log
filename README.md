@@ -361,9 +361,10 @@
 > [136. 只出现一次的数字](https://leetcode-cn.com/problems/single-number/)  
 > [191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)  
 > [231. 2 的幂](https://leetcode-cn.com/problems/power-of-two/)  
-> [372. 超级次方](https://leetcode-cn.com/problems/super-pow/)  
-> [1342. 将数字变成 0 的操作次数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
 > [268. 丢失的数字](https://leetcode-cn.com/problems/missing-number/)    
+> [372. 超级次方](https://leetcode-cn.com/problems/super-pow/)  
+> [693. 交替位二进制数](https://leetcode-cn.com/problems/binary-number-with-alternating-bits/)  
+> [1342. 将数字变成 0 的操作次数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
 
 # 字典序
 
