@@ -66,6 +66,7 @@
 > [438. 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)  
 > [643. 子数组最大平均数 I](https://leetcode-cn.com/problems/maximum-average-subarray-i/)  
 > [1838. 最高频元素的频数](https://leetcode-cn.com/problems/frequency-of-the-most-frequent-element/)  
+> [2024. 考试的最大困扰度](https://leetcode-cn.com/problems/maximize-the-confusion-of-an-exam/)    
 
 ### 链表
 
