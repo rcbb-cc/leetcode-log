@@ -307,6 +307,7 @@
 > [686. 重复叠加字符串匹配](https://leetcode-cn.com/problems/repeated-string-match/)  
 > [703. 数据流中的第 K 大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/)    
 > [717. 1比特与2比特字符](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/)  
+> [728. 自除数](https://leetcode-cn.com/problems/self-dividing-numbers/)    
 > [747. 至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/)  
 > [798. 得分最高的最小轮调](https://leetcode-cn.com/problems/smallest-rotation-with-highest-score/)  
 > [799. 香槟塔](https://leetcode-cn.com/problems/champagne-tower/)  
