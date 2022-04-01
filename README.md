@@ -315,6 +315,7 @@
 > [870. 优势洗牌](https://leetcode-cn.com/problems/advantage-shuffle/)  
 > [884. 两句话中的不常见单词](https://leetcode-cn.com/problems/uncommon-words-from-two-sentences/)  
 > [面试题 16.04. 井字游戏](https://leetcode-cn.com/problems/tic-tac-toe-lcci/)  
+> [954. 二倍数对数组](https://leetcode-cn.com/problems/array-of-doubled-pairs/)    
 > [969. 煎饼排序](https://leetcode-cn.com/problems/pancake-sorting/)  
 > [1001. 网格照明](https://leetcode-cn.com/problems/grid-illumination/)  
 > [1078. Bigram 分词](https://leetcode-cn.com/problems/occurrences-after-bigram/)  
