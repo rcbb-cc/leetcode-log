@@ -54,6 +54,7 @@
 > [475. 供暖器](https://leetcode-cn.com/problems/heaters/)  
 > [540. 有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/)  
 > [704. 二分查找](https://leetcode-cn.com/problems/binary-search/)   
+> [744. 寻找比目标字母大的最小字母](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/)    
 > [875. 爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas/)  
 > [1011. 在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)  
 
