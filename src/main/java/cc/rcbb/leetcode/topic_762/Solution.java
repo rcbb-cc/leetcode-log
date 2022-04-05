@@ -1,14 +1,14 @@
-package cc.rcbb.leetcode.topic_204;
+package cc.rcbb.leetcode.topic_762;
 
 /**
- * 204. 计数质数
- * https://leetcode-cn.com/problems/count-primes/
+ * 762. 二进制表示中质数个计算置位
+ * https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/
  */
 class Solution {
-    public int countPrimes(int n) {
+    public int countPrimeSetBits(int left, int right) {
         int count = 0;
-        for (int i = 2; i < n; i++) {
-            if (isPrimes(i)) {
+        for (int i = left; i <= right; i++) {
+            if (isPrimes(Integer.bitCount(i))) {
                 count++;
             }
         }
@@ -19,8 +19,6 @@ class Solution {
         if (n < 2) {
             return false;
         }
-        // for (int i = 2; i < n; i++) {
-        // 优化，i无需到n，仅需到sqrt(n)即可
         for (int i = 2; i * i <= n; i++) {
             if (n % i == 0) {
                 return false;
@@ -31,9 +29,7 @@ class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println(solution.countPrimes(10));
-        System.out.println(solution.countPrimes(0));
-        System.out.println(solution.countPrimes(1));
-
+        System.out.println(solution.countPrimeSetBits(6, 10));
+        System.out.println(solution.countPrimeSetBits(10, 15));
     }
 }
