@@ -35,9 +35,7 @@ class Solution {
             return 0;
         }
         Queue<TreeNode> q = new LinkedList<>();
-
         q.offer(root);
-
         int step = 1;
         while (!q.isEmpty()) {
             int sz = q.size();
