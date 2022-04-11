@@ -375,6 +375,7 @@
 > [231. 2 的幂](https://leetcode-cn.com/problems/power-of-two/)  
 > [268. 丢失的数字](https://leetcode-cn.com/problems/missing-number/)    
 > [292. Nim 游戏](https://leetcode-cn.com/problems/nim-game/)  
+> [357. 统计各位数字都不同的数字个数](https://leetcode-cn.com/problems/count-numbers-with-unique-digits/)   
 > [372. 超级次方](https://leetcode-cn.com/problems/super-pow/)  
 > [693. 交替位二进制数](https://leetcode-cn.com/problems/binary-number-with-alternating-bits/)  
 > [1342. 将数字变成 0 的操作次数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
