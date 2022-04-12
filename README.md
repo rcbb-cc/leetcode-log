@@ -319,6 +319,7 @@
 > [798. 得分最高的最小轮调](https://leetcode-cn.com/problems/smallest-rotation-with-highest-score/)  
 > [799. 香槟塔](https://leetcode-cn.com/problems/champagne-tower/)  
 > [804. 唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/)   
+> [806. 写字符串需要的行数](https://leetcode-cn.com/problems/number-of-lines-to-write-string/)  
 > [825. 适龄的朋友](https://leetcode-cn.com/problems/friends-of-appropriate-ages/)  
 > [870. 优势洗牌](https://leetcode-cn.com/problems/advantage-shuffle/)  
 > [884. 两句话中的不常见单词](https://leetcode-cn.com/problems/uncommon-words-from-two-sentences/)  
