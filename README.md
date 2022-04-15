@@ -160,6 +160,7 @@
 > [131. 分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/)  
 > [217. 组合总和 III](https://leetcode-cn.com/problems/combination-sum-iii/)  
 > [306. 累加数](https://leetcode-cn.com/problems/additive-number/submissions/)  
+> [385. 迷你语法分析器](https://leetcode-cn.com/problems/mini-parser/)  
 > [547. 省份数量](https://leetcode-cn.com/problems/number-of-provinces/)
 > [688. 骑士在棋盘上的概率](https://leetcode-cn.com/problems/knight-probability-in-chessboard/)
 > [698. 划分为k个相等的子集](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)  
