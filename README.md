@@ -294,6 +294,7 @@
 > [373. 查找和最小的K对数字](https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/)  
 > [382. 链表随机节点](https://leetcode-cn.com/problems/linked-list-random-node/)  
 > [386. 字典序排数](https://leetcode-cn.com/problems/lexicographical-numbers/)    
+> [388. 文件的最长绝对路径](https://leetcode-cn.com/problems/longest-absolute-file-path/)  
 > [390. 消除游戏](https://leetcode-cn.com/problems/elimination-game/)  
 > [393. UTF-8 编码验证](https://leetcode-cn.com/problems/utf-8-validation/)  
 > [420. 强密码检验器](https://leetcode-cn.com/problems/strong-password-checker/)   
