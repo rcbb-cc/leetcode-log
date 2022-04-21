@@ -327,6 +327,7 @@
 > [806. 写字符串需要的行数](https://leetcode-cn.com/problems/number-of-lines-to-write-string/)  
 > [819. 最常见的单词](https://leetcode-cn.com/problems/most-common-word/)    
 > [821. 字符的最短距离](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)    
+> [824. 山羊拉丁文](https://leetcode-cn.com/problems/goat-latin/)  
 > [825. 适龄的朋友](https://leetcode-cn.com/problems/friends-of-appropriate-ages/)  
 > [870. 优势洗牌](https://leetcode-cn.com/problems/advantage-shuffle/)  
 > [884. 两句话中的不常见单词](https://leetcode-cn.com/problems/uncommon-words-from-two-sentences/)  
