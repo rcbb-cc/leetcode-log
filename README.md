@@ -307,6 +307,7 @@
 > [539. 最小时间差](https://leetcode-cn.com/problems/minimum-time-difference/)  
 > [553. 最优除法](https://leetcode-cn.com/problems/optimal-division/)  
 > [564. 寻找最近的回文数](https://leetcode-cn.com/problems/find-the-closest-palindrome/)  
+> [587. 安装栅栏](https://leetcode-cn.com/problems/erect-the-fence/)    
 > [589. N 叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/)   
 > [590. N 叉树的后序遍历](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/)  
 > [599. 两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/)  
