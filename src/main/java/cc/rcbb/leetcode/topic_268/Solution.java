@@ -23,6 +23,12 @@ class Solution {
         return res;
     }
 
+    /**
+     * 高斯求和公式
+     *
+     * total = n*(n+1)/2
+     * total - arrSum = 缺少的那个数字
+     */
     public int missingNumber4(int[] nums) {
         int n = nums.length;
         // 公式：(首项 + 末项) * 项数/2
@@ -34,16 +40,24 @@ class Solution {
         return expect - sum;
     }
 
+    /**
+     * 位运算，利用异或
+     */
     public int missingNumber3(int[] nums) {
         int n = nums.length;
         int res = 0;
-        res = res ^ n;
         for (int i = 0; i < n; i++) {
-            res ^= i ^ nums[i];
+            res ^= nums[i];
+        }
+        for (int i = 0; i <= n; i++) {
+            res ^= i;
         }
         return res;
     }
 
+    /**
+     * 利用hash
+     */
     public int missingNumber2(int[] nums) {
         int n = nums.length;
         Set<Integer> set = new HashSet<>();
@@ -58,6 +72,9 @@ class Solution {
         return n;
     }
 
+    /**
+     * 排序后对比
+     */
     public int missingNumber1(int[] nums) {
         int n = nums.length;
         Arrays.sort(nums);
