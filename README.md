@@ -303,6 +303,7 @@
 > [396. 旋转函数](https://leetcode-cn.com/problems/rotate-function/)  
 > [398. 随机数索引](https://leetcode-cn.com/problems/random-pick-index/)  
 > [420. 强密码检验器](https://leetcode-cn.com/problems/strong-password-checker/)   
+> [427. 建立四叉树](https://leetcode-cn.com/problems/construct-quad-tree/)  
 > [479. 最大回文数乘积](https://leetcode-cn.com/problems/largest-palindrome-product/)   
 > [504. 七进制数](https://leetcode-cn.com/problems/base-7/)  
 > [507. 完美数](https://leetcode-cn.com/problems/perfect-number/)  
