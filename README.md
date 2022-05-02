@@ -190,6 +190,7 @@
 > [300. 最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)  
 > [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)  
 > [509. 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)   
+> [740. 删除并获得点数](https://leetcode-cn.com/problems/delete-and-earn/)    
 > [913. 猫和老鼠](https://leetcode-cn.com/problems/cat-and-mouse/)  
 > [931. 下降路径最小和](https://leetcode-cn.com/problems/minimum-falling-path-sum/)  
 > [978. 最长湍流子数组](https://leetcode-cn.com/problems/longest-turbulent-subarray/)  
@@ -221,6 +222,7 @@
 > [198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/)    
 > [213. 打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/)  
 > [337. 打家劫舍 III](https://leetcode-cn.com/problems/house-robber-iii/)  
+> [740. 删除并获得点数](https://leetcode-cn.com/problems/delete-and-earn/)
 
 ### 牛顿迭代
 
@@ -311,6 +313,7 @@
 > [587. 安装栅栏](https://leetcode-cn.com/problems/erect-the-fence/)    
 > [589. N 叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/)   
 > [590. N 叉树的后序遍历](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/)  
+> [591. 标签验证器](https://leetcode-cn.com/problems/tag-validator/)  
 > [599. 两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/)  
 > [606. 根据二叉树创建字符串](https://leetcode-cn.com/problems/construct-string-from-binary-tree/)  
 > [653. 两数之和 IV - 输入 BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/)    
