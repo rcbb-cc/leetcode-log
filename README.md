@@ -203,6 +203,7 @@
 > [72. 编辑距离](https://leetcode-cn.com/problems/edit-distance/)  
 > [583. 两个字符串的删除操作](https://leetcode-cn.com/problems/delete-operation-for-two-strings/)  
 > [712. 两个字符串的最小ASCII删除和](https://leetcode-cn.com/problems/minimum-ascii-delete-sum-for-two-strings/)   
+> [1035. 不相交的线](https://leetcode-cn.com/problems/uncrossed-lines/)  
 > [1143. 最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)  
 
 #### 背包问题
@@ -374,6 +375,7 @@
 > [1763. 最长的美好子字符串](https://leetcode-cn.com/problems/longest-nice-substring/)  
 > [1790. 仅执行一次字符串交换能否使两个字符串相等](https://leetcode-cn.com/problems/check-if-one-string-swap-can-make-strings-equal/)  
 > [1791. 找出星型图的中心节点](https://leetcode-cn.com/problems/find-center-of-star-graph/)
+> [1823. 找出游戏的获胜者](https://leetcode-cn.com/problems/find-the-winner-of-the-circular-game/)    
 > [1887. 使数组元素相等的减少操作次数](https://leetcode-cn.com/problems/reduction-operations-to-make-the-array-elements-equal/)  
 > [LCP 30. 魔塔游戏](https://leetcode-cn.com/problems/p0NxJO/)   
 > [1984. 学生分数的最小差值](https://leetcode-cn.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)    
