@@ -67,6 +67,7 @@
 > [567. 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/)  
 > [438. 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)  
 > [643. 子数组最大平均数 I](https://leetcode-cn.com/problems/maximum-average-subarray-i/)  
+> [713. 乘积小于 K 的子数组](https://leetcode-cn.com/problems/subarray-product-less-than-k/)    
 > [1838. 最高频元素的频数](https://leetcode-cn.com/problems/frequency-of-the-most-frequent-element/)  
 > [2024. 考试的最大困扰度](https://leetcode-cn.com/problems/maximize-the-confusion-of-an-exam/)    
 
@@ -197,6 +198,7 @@
 > [913. 猫和老鼠](https://leetcode-cn.com/problems/cat-and-mouse/)  
 > [931. 下降路径最小和](https://leetcode-cn.com/problems/minimum-falling-path-sum/)  
 > [978. 最长湍流子数组](https://leetcode-cn.com/problems/longest-turbulent-subarray/)  
+> [1218. 最长定差子序列](https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/)    
 
 #### 最长公共子序列
 
