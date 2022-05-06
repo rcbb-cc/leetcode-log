@@ -1,7 +1,5 @@
 package cc.rcbb.leetcode.topic_300;
 
-import cc.rcbb.leetcode.common.RcbbPrinter;
-
 import java.util.*;
 
 /**
@@ -9,7 +7,39 @@ import java.util.*;
  * https://leetcode-cn.com/problems/longest-increasing-subsequence/
  */
 class Solution {
+    /**
+     * 贪心 + 二分查找
+     */
     public int lengthOfLIS(int[] nums) {
+        int len = 1, n = nums.length;
+        if (n == 0) {
+            return 0;
+        }
+        int[] d = new int[n + 1];
+        d[len] = nums[0];
+        for (int i = 1; i < n; i++) {
+            if (nums[i] > d[len]) {
+                d[++len] = nums[i];
+            } else {
+                int l = 1, r = len, pos = 0;
+                while (l <= r) {
+                    int mid = (l + r) >> 1;
+                    if (d[mid] < nums[i]) {
+                        pos = mid;
+                        l = mid + 1;
+                    } else {
+                        r = mid - 1;
+                    }
+                }
+                d[pos + 1] = nums[i];
+            }
+        }
+        return len;
+    }
+    /**
+     * 动态规划
+     */
+    public int lengthOfLIS1(int[] nums) {
         int[] dp = new int[nums.length];
         Arrays.fill(dp, 1);
         for (int i = 0; i < nums.length; i++) {
@@ -35,11 +65,11 @@ class Solution {
         //输入：nums = [10,9,2,5,3,7,101,18]
         //输出：4
         //解释：最长递增子序列是 [2,3,7,101]，因此长度为 4 。
-        int[] nums = new int[]{10,9,2,5,3,7,101,18};
+        int[] nums = new int[]{10, 9, 2, 5, 3, 7, 101, 18};
 
         //输入：nums = [7,7,7,7,7,7,7]
         //输出：1
-        //int[] nums = new int[]{7,7,7,7,7,7,7};
+        // int[] nums = new int[]{7,7,7,7,7,7,7};
         int max = solution.lengthOfLIS(nums);
         System.out.println(max);
 
