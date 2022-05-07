@@ -130,6 +130,7 @@
 > [310. 最小高度树](https://leetcode-cn.com/problems/minimum-height-trees/)  
 > [417. 太平洋大西洋水流问题](https://leetcode-cn.com/problems/pacific-atlantic-water-flow/)    
 > [429. N 叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)    
+> [433. 最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/)  
 > [547. 省份数量](https://leetcode-cn.com/problems/number-of-provinces/)  
 > [752. 打开转盘锁](https://leetcode-cn.com/problems/open-the-lock/)  
 > [773. 滑动谜题](https://leetcode-cn.com/problems/sliding-puzzle/)
