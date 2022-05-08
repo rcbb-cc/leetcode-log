@@ -408,6 +408,7 @@
 > [292. Nim 游戏](https://leetcode-cn.com/problems/nim-game/)  
 > [357. 统计各位数字都不同的数字个数](https://leetcode-cn.com/problems/count-numbers-with-unique-digits/)   
 > [372. 超级次方](https://leetcode-cn.com/problems/super-pow/)  
+> [442. 数组中重复的数据](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/)
 > [693. 交替位二进制数](https://leetcode-cn.com/problems/binary-number-with-alternating-bits/)  
 > [868. 二进制间距](https://leetcode-cn.com/problems/binary-gap/)   
 > [1342. 将数字变成 0 的操作次数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/)

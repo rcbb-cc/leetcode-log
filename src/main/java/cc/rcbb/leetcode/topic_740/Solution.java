@@ -32,10 +32,11 @@ class Solution {
         int n = max + 1;
         int[] countArray = new int[n];
         for (int num : nums) {
+            // 统计 num 出现的次数
             countArray[num]++;
         }
-        // dp[i][0] 代表不选数值 i
-        // dp[i][1] 代表选择数值 i
+        // dp[i][0] 代表不选数值 i 时的最大价值
+        // dp[i][1] 代表选择数值 i 时的最大价值
         int[][] dp = new int[n][2];
         for (int i = 1; i < n; i++) {
             dp[i][1] = dp[i - 1][0] + i * countArray[i];
