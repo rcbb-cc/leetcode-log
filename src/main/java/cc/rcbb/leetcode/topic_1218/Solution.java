@@ -23,6 +23,6 @@ class Solution {
         Solution solution = new Solution();
         System.out.println(solution.longestSubsequence(new int[]{1, 2, 3, 4}, 1));
         System.out.println(solution.longestSubsequence(new int[]{1, 3, 5, 7}, 1));
-        System.out.println(solution.longestSubsequence(new int[]{1, 5, 7, 8, 5, 3, 4, 2, 1}, -1));
+        System.out.println(solution.longestSubsequence(new int[]{1, 5, 7, 8, 5, 3, 4, 2, 1}, -2));
     }
 }

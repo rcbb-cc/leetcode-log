@@ -5,6 +5,9 @@ package cc.rcbb.leetcode.topic_1035;
  * https://leetcode-cn.com/problems/uncrossed-lines/
  */
 class Solution {
+    /**
+     * 最长公共子序列变化题
+     */
     public int maxUncrossedLines(int[] nums1, int[] nums2) {
         int m = nums1.length;
         int n = nums2.length;
