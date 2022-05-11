@@ -106,6 +106,7 @@
 > [116. 填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)  
 > [226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)    
 > [297. 二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)  
+> [449. 序列化和反序列化二叉搜索树](https://leetcode.cn/problems/serialize-and-deserialize-bst/)    
 > [652. 寻找重复的子树](https://leetcode-cn.com/problems/find-duplicate-subtrees/)  
 > [654. 最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/)  
 
@@ -307,7 +308,7 @@
 > [382. 链表随机节点](https://leetcode-cn.com/problems/linked-list-random-node/)  
 > [386. 字典序排数](https://leetcode-cn.com/problems/lexicographical-numbers/)    
 > [388. 文件的最长绝对路径](https://leetcode-cn.com/problems/longest-absolute-file-path/)  
-> [390. 消除游戏](https://leetcode-cn.com/problems/elimination-game/)  
+> [390. 消除游戏](https://leetcode.cn/problems/elimination-game/)  
 > [393. UTF-8 编码验证](https://leetcode-cn.com/problems/utf-8-validation/)  
 > [396. 旋转函数](https://leetcode-cn.com/problems/rotate-function/)  
 > [398. 随机数索引](https://leetcode-cn.com/problems/random-pick-index/)  
