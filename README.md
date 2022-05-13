@@ -290,7 +290,8 @@
 
 ### 未分类
 
-> [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)   
+> [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)  
+> [面试题 01.05. 一次编辑](https://leetcode.cn/problems/one-away-lcci/)   
 > [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)  
 > [6. Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/)  
 > [7. 整数反转](https://leetcode-cn.com/problems/reverse-integer/)  
