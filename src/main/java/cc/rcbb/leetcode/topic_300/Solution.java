@@ -53,12 +53,12 @@ class Solution {
                 } else {
                     j = m;
                 }
-                // 把 num 插入到 tail 数组合适的位置
-                tails[i] = num;
-                // j=res 说明 tail 数组中的元素都比 num小，因此最长子序列的长度可以更新了
-                if (j == res) {
-                    res++;
-                }
+            }
+            // 把 num 插入到 tail 数组合适的位置
+            tails[i] = num;
+            // j=res 说明 tail 数组中的元素都比 num小，因此最长子序列的长度可以更新了
+            if (j == res) {
+                res++;
             }
         }
         return res;
@@ -91,12 +91,12 @@ class Solution {
         //输入：nums = [10,9,2,5,3,7,101,18]
         //输出：4
         //解释：最长递增子序列是 [2,3,7,101]，因此长度为 4 。
-        int[] nums = new int[]{10, 9, 2, 5, 3, 7, 101, 18};
+        // int[] nums = new int[]{10, 9, 2, 5, 3, 7, 101, 18};
 
         //输入：nums = [7,7,7,7,7,7,7]
         //输出：1
-        // int[] nums = new int[]{7,7,7,7,7,7,7};
-        int max = solution.lengthOfLIS(nums);
+        int[] nums = new int[]{7,7,7,7,7,7,7};
+        int max = solution.lengthOfLIS2(nums);
         System.out.println(max);
 
     }

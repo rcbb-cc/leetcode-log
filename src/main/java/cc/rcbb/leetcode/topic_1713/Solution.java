@@ -9,19 +9,21 @@ import java.util.*;
 class Solution {
     public int minOperations(int[] target, int[] arr) {
         int n = target.length;
-        int m = arr.length;
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < n; i++) {
+            // 记录 target[i] 的下标位置
             map.put(target[i], i);
         }
         List<Integer> list = new ArrayList<>();
         for (int val : arr) {
+            // 判断是否含有该数值
             if (map.containsKey(val)) {
                 int idx = map.get(val);
                 int it = binarySearch(list, idx);
                 if (it != list.size()) {
                     list.set(it, idx);
                 } else {
+                    // list 中的值都小于 idx
                     list.add(idx);
                 }
             }
