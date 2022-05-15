@@ -9,6 +9,31 @@ import java.util.Arrays;
 class Solution {
     public int maxValue(int[][] events, int k) {
         int n = events.length;
+        Arrays.sort(events, (a, b) -> a[1] - b[1]);
+        int[][] f = new int[n + 1][k + 1];
+        for (int i = 1; i <= n; i++) {
+            int[] ev = events[i - 1];
+            int s = ev[0], e = ev[1], v = ev[2];
+            int l = 1, r = i - 1;
+            while (l < r) {
+                int mid = l + r + 1 >> 1;
+                int[] prev = events[mid - 1];
+                if (prev[1] < s) {
+                    l = mid;
+                } else {
+                    r = mid - 1;
+                }
+            }
+            int last = (r > 0 && events[r - 1][1] < s) ? r : 0;
+            for (int j = 1; j <= k; j++) {
+                f[i][j] = Math.max(f[i - 1][j], f[last][j - 1] + v);
+            }
+        }
+        return f[n][k];
+    }
+
+    public int maxValue1(int[][] events, int k) {
+        int n = events.length;
         // 根据结束时间排序
         Arrays.sort(events, (a, b) -> a[1] - b[1]);
         /**
