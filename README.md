@@ -301,6 +301,7 @@
 > [21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)  
 > [29. 两数相除](https://leetcode-cn.com/problems/divide-two-integers/)  
 > [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)  
+> [53. 验证外星语词典](https://leetcode.cn/problems/verifying-an-alien-dictionary/)
 > [71. 简化路径](https://leetcode-cn.com/problems/simplify-path/)  
 > [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)  
 > [89. 格雷编码](https://leetcode-cn.com/problems/gray-code/)  
