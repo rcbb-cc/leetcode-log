@@ -5,6 +5,10 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
+/**
+ * 354. 俄罗斯套娃信封问题
+ * https://leetcode.cn/problems/russian-doll-envelopes/
+ */
 class Solution1 {
     public int maxEnvelopes(int[][] envelopes) {
         int n = envelopes.length;
