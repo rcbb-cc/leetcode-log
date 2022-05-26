@@ -34,4 +34,9 @@ class Solution {
         // 当前数也是符合条件的，如果不符合在上面的return已经返回了
         return ans + 1;
     }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        System.out.println(solution.findIntegers(5));
+    }
 }
