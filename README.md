@@ -380,6 +380,7 @@
 > [965. 单值二叉树](https://leetcode.cn/problems/univalued-binary-tree/)    
 > [969. 煎饼排序](https://leetcode-cn.com/problems/pancake-sorting/)  
 > [1001. 网格照明](https://leetcode-cn.com/problems/grid-illumination/)  
+> [1021. 删除最外层的括号](https://leetcode.cn/problems/remove-outermost-parentheses/)  
 > [1078. Bigram 分词](https://leetcode-cn.com/problems/occurrences-after-bigram/)  
 > [1154. 一年中的第几天](https://leetcode-cn.com/problems/day-of-the-year/)  
 > [1185. 一周中的第几天](https://leetcode-cn.com/problems/day-of-the-week/)  
