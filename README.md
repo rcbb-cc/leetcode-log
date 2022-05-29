@@ -325,6 +325,7 @@
 > [427. 建立四叉树](https://leetcode-cn.com/problems/construct-quad-tree/)  
 > [462. 最少移动次数使数组元素相等 II](https://leetcode.cn/problems/minimum-moves-to-equal-array-elements-ii/)    
 > [464. 我能赢吗](https://leetcode.cn/problems/can-i-win/)    
+> [468. 验证IP地址](https://leetcode.cn/problems/validate-ip-address/)    
 > [479. 最大回文数乘积](https://leetcode-cn.com/problems/largest-palindrome-product/)   
 > [504. 七进制数](https://leetcode-cn.com/problems/base-7/)  
 > [507. 完美数](https://leetcode-cn.com/problems/perfect-number/)  
