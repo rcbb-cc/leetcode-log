@@ -171,6 +171,7 @@
 > [306. 累加数](https://leetcode-cn.com/problems/additive-number/submissions/)  
 > [385. 迷你语法分析器](https://leetcode-cn.com/problems/mini-parser/)  
 > [417. 太平洋大西洋水流问题](https://leetcode-cn.com/problems/pacific-atlantic-water-flow/)  
+> [473. 火柴拼正方形](https://leetcode.cn/problems/matchsticks-to-square/)  
 > [547. 省份数量](https://leetcode-cn.com/problems/number-of-provinces/)
 > [688. 骑士在棋盘上的概率](https://leetcode-cn.com/problems/knight-probability-in-chessboard/)
 > [698. 划分为k个相等的子集](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)  
