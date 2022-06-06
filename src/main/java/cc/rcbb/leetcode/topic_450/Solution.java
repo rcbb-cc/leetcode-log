@@ -15,18 +15,24 @@ public class Solution {
             if (root.left == null && root.right == null) {
                 return null;
             }
+            // 只有右子树
             if (root.left == null) {
                 return root.right;
             }
+            // 只有左子树
             if (root.right == null) {
                 return root.left;
             }
+            // 有左右子树
             if (root.left != null && root.right != null) {
+                // 找出右子树的最左子节点
                 TreeNode p = root.right;
                 while (p.left != null) {
                     p = p.left;
                 }
+                // 将右子树最小值替换到该子树根节点
                 root.val = p.val;
+                // 然后再删除这个值
                 root.right = deleteNode(root.right, p.val);
             }
         }
