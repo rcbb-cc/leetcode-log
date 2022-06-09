@@ -329,6 +329,7 @@
 > [468. 验证IP地址](https://leetcode.cn/problems/validate-ip-address/)    
 > [478. 在圆内随机生成点](https://leetcode.cn/problems/generate-random-point-in-a-circle/)  
 > [479. 最大回文数乘积](https://leetcode-cn.com/problems/largest-palindrome-product/)   
+> [497. 非重叠矩形中的随机点](https://leetcode.cn/problems/random-point-in-non-overlapping-rectangles/)    
 > [504. 七进制数](https://leetcode-cn.com/problems/base-7/)  
 > [507. 完美数](https://leetcode-cn.com/problems/perfect-number/)  
 > [521. 最长特殊序列 Ⅰ](https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/)  
