@@ -206,6 +206,7 @@
 > [730. 统计不同回文子序列](https://leetcode.cn/problems/count-different-palindromic-subsequences/)    
 > [740. 删除并获得点数](https://leetcode-cn.com/problems/delete-and-earn/)    
 > [913. 猫和老鼠](https://leetcode-cn.com/problems/cat-and-mouse/)  
+> [926. 将字符串翻转到单调递增](https://leetcode.cn/problems/flip-string-to-monotone-increasing/)  
 > [931. 下降路径最小和](https://leetcode-cn.com/problems/minimum-falling-path-sum/)  
 > [978. 最长湍流子数组](https://leetcode-cn.com/problems/longest-turbulent-subarray/)  
 > [1218. 最长定差子序列](https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/)    
