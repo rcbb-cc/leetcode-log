@@ -337,6 +337,7 @@
 > [507. 完美数](https://leetcode-cn.com/problems/perfect-number/)  
 > [521. 最长特殊序列 Ⅰ](https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/)  
 > [526. 优美的排列](https://leetcode.cn/problems/beautiful-arrangement/)  
+> [532. 数组中的 k-diff 数对](https://leetcode.cn/problems/k-diff-pairs-in-an-array/)   
 > [537. 复数乘法](https://leetcode-cn.com/problems/complex-number-multiplication/)  
 > [539. 最小时间差](https://leetcode-cn.com/problems/minimum-time-difference/)  
 > [553. 最优除法](https://leetcode-cn.com/problems/optimal-division/)  
