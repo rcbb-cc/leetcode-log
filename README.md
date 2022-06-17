@@ -396,6 +396,7 @@
 > [1037. 有效的回旋镖](https://leetcode.cn/problems/valid-boomerang/)    
 > [1051. 高度检查器](https://leetcode.cn/problems/height-checker/)  
 > [1078. Bigram 分词](https://leetcode-cn.com/problems/occurrences-after-bigram/)  
+> [1089. 复写零](https://leetcode.cn/problems/duplicate-zeros/)    
 > [1154. 一年中的第几天](https://leetcode-cn.com/problems/day-of-the-year/)  
 > [1185. 一周中的第几天](https://leetcode-cn.com/problems/day-of-the-week/)  
 > [1189. “气球” 的最大数量](https://leetcode-cn.com/problems/maximum-number-of-balloons/)    
