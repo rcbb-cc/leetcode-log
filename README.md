@@ -359,6 +359,7 @@
 > [691. 贴纸拼词](https://leetcode.cn/problems/stickers-to-spell-word/)    
 > [699. 掉落的方块](https://leetcode.cn/problems/falling-squares/)    
 > [703. 数据流中的第 K 大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/)    
+> [715. Range 模块](https://leetcode.cn/problems/range-module/)    
 > [717. 1比特与2比特字符](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/)  
 > [719. 找出第 K 小的数对距离](https://leetcode.cn/problems/find-k-th-smallest-pair-distance/)    
 > [728. 自除数](https://leetcode-cn.com/problems/self-dividing-numbers/)    
