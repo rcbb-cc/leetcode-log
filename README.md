@@ -214,6 +214,7 @@
 > [978. 最长湍流子数组](https://leetcode-cn.com/problems/longest-turbulent-subarray/)  
 > [1218. 最长定差子序列](https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/)    
 > [1751. 最多可以参加的会议数目 II](https://leetcode.cn/problems/maximum-number-of-events-that-can-be-attended-ii/)   
+> [剑指 Offer II 091. 粉刷房子](https://leetcode.cn/problems/JEj789/)
 
 #### 最长公共子序列
 
