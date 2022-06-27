@@ -341,6 +341,7 @@
 > [504. 七进制数](https://leetcode-cn.com/problems/base-7/)  
 > [507. 完美数](https://leetcode-cn.com/problems/perfect-number/)  
 > [521. 最长特殊序列 Ⅰ](https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/)  
+> [522. 最长特殊序列 II](https://leetcode.cn/problems/longest-uncommon-subsequence-ii/)    
 > [526. 优美的排列](https://leetcode.cn/problems/beautiful-arrangement/)  
 > [532. 数组中的 k-diff 数对](https://leetcode.cn/problems/k-diff-pairs-in-an-array/)   
 > [537. 复数乘法](https://leetcode-cn.com/problems/complex-number-multiplication/)  
