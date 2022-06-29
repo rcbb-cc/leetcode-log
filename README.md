@@ -293,6 +293,7 @@
 > [432. 全 O(1) 的数据结构](https://leetcode-cn.com/problems/all-oone-data-structure/)  
 > [208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)  
 > [380. O(1) 时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/)  
+> [535. TinyURL 的加密与解密](https://leetcode.cn/problems/encode-and-decode-tinyurl/)  
 > [1606. 找到处理最多请求的服务器](https://leetcode-cn.com/problems/find-servers-that-handled-most-number-of-requests/)  
 > [2034. 股票价格波动](https://leetcode-cn.com/problems/stock-price-fluctuation/)
 > [2043. 简易银行系统](https://leetcode-cn.com/problems/simple-bank-system/)  
