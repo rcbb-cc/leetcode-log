@@ -171,6 +171,7 @@
 > [78. 子集](https://leetcode-cn.com/problems/subsets/)  
 > [131. 分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/)  
 > [217. 组合总和 III](https://leetcode-cn.com/problems/combination-sum-iii/)  
+> [241. 为运算表达式设计优先级](https://leetcode.cn/problems/different-ways-to-add-parentheses/)    
 > [306. 累加数](https://leetcode-cn.com/problems/additive-number/submissions/)  
 > [385. 迷你语法分析器](https://leetcode-cn.com/problems/mini-parser/)  
 > [417. 太平洋大西洋水流问题](https://leetcode-cn.com/problems/pacific-atlantic-water-flow/)  
