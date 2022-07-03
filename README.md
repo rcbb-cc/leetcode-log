@@ -486,4 +486,10 @@
 
 # 剑指Offer
 
-> [剑指 Offer II 029. 排序的循环链表](https://leetcode.cn/problems/4ueAj6/)    
+> [剑指 Offer II 029. 排序的循环链表](https://leetcode.cn/problems/4ueAj6/)
+
+
+
+# 下一个更大的元素
+
+> [556. 下一个更大元素 III](https://leetcode.cn/problems/next-greater-element-iii/)    
