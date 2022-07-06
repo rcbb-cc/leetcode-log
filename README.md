@@ -372,6 +372,7 @@
 > [717. 1比特与2比特字符](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/)  
 > [719. 找出第 K 小的数对距离](https://leetcode.cn/problems/find-k-th-smallest-pair-distance/)    
 > [728. 自除数](https://leetcode-cn.com/problems/self-dividing-numbers/)    
+> [736. Lisp 语法解析](https://leetcode.cn/problems/parse-lisp-expression/)    
 > [747. 至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/)  
 > [762. 二进制表示中质数个计算置位](https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/)  
 > [780. 到达终点](https://leetcode-cn.com/problems/reaching-points/)  
