@@ -496,3 +496,10 @@
 # 下一个更大的元素
 
 > [556. 下一个更大元素 III](https://leetcode.cn/problems/next-greater-element-iii/)    
+
+
+# 字典树
+
+> [208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)  
+> [472. 连接词](https://leetcode-cn.com/problems/concatenated-words/)  
+> [648. 单词替换](https://leetcode.cn/problems/replace-words/)    
