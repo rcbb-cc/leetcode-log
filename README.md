@@ -414,6 +414,7 @@
 > [1185. 一周中的第几天](https://leetcode-cn.com/problems/day-of-the-week/)  
 > [1189. “气球” 的最大数量](https://leetcode-cn.com/problems/maximum-number-of-balloons/)    
 > [1200. 最小绝对差](https://leetcode.cn/problems/minimum-absolute-difference/)    
+> [1217. 玩筹码](https://leetcode.cn/problems/minimum-cost-to-move-chips-to-the-same-position/)    
 > [1220. 统计元音字母序列的数目](https://leetcode-cn.com/problems/count-vowels-permutation/)  
 > [1219. 黄金矿工](https://leetcode-cn.com/problems/path-with-maximum-gold/)  
 > [1305. 两棵二叉搜索树中的所有元素](https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees/)  
