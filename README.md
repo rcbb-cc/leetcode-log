@@ -420,6 +420,7 @@
 > [1217. 玩筹码](https://leetcode.cn/problems/minimum-cost-to-move-chips-to-the-same-position/)    
 > [1220. 统计元音字母序列的数目](https://leetcode-cn.com/problems/count-vowels-permutation/)  
 > [1219. 黄金矿工](https://leetcode-cn.com/problems/path-with-maximum-gold/)  
+> [1252. 奇数值单元格的数目](https://leetcode.cn/problems/cells-with-odd-values-in-a-matrix/)    
 > [1305. 两棵二叉搜索树中的所有元素](https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees/)  
 > [1332. 删除回文子序列](https://leetcode-cn.com/problems/remove-palindromic-subsequences/)
 > [1380. 矩阵中的幸运数](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/)    
