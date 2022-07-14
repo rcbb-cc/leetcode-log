@@ -377,6 +377,7 @@
 > [728. 自除数](https://leetcode-cn.com/problems/self-dividing-numbers/)    
 > [736. Lisp 语法解析](https://leetcode.cn/problems/parse-lisp-expression/)    
 > [741. 摘樱桃](https://leetcode.cn/problems/cherry-pickup/)    
+> [745. 前缀和后缀搜索](https://leetcode.cn/problems/prefix-and-suffix-search/)  
 > [747. 至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/)  
 > [762. 二进制表示中质数个计算置位](https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/)  
 > [780. 到达终点](https://leetcode-cn.com/problems/reaching-points/)  
