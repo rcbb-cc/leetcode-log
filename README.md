@@ -497,7 +497,8 @@
 
 # 剑指Offer
 
-> [剑指 Offer II 029. 排序的循环链表](https://leetcode.cn/problems/4ueAj6/)
+> [剑指 Offer II 029. 排序的循环链表](https://leetcode.cn/problems/4ueAj6/)   
+> [剑指 Offer II 041. 滑动窗口的平均值](https://leetcode.cn/problems/qIsx9U/)    
 
 
 
