@@ -505,8 +505,7 @@
 
 > [剑指 Offer II 029. 排序的循环链表](https://leetcode.cn/problems/4ueAj6/)   
 > [剑指 Offer II 041. 滑动窗口的平均值](https://leetcode.cn/problems/qIsx9U/)    
-
-
+> [剑指 Offer II 115. 重建序列](https://leetcode.cn/problems/ur2n8P/)    
 
 # 下一个更大的元素
 
