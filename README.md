@@ -403,6 +403,7 @@
 > [890. 查找和替换模式](https://leetcode.cn/problems/find-and-replace-pattern/)     
 > [902. 最大为 N 的数字组合](https://leetcode.cn/problems/numbers-at-most-n-given-digit-set/)    
 > [908. 最小差值 I](https://leetcode-cn.com/problems/smallest-range-i/)  
+> [919. 完全二叉树插入器](https://leetcode.cn/problems/complete-binary-tree-inserter/)    
 > [929. 独特的电子邮件地址](https://leetcode.cn/problems/unique-email-addresses/)  
 > [933. 最近的请求次数](https://leetcode-cn.com/problems/number-of-recent-calls/)    
 > [937. 重新排列日志文件](https://leetcode-cn.com/problems/reorder-data-in-log-files/)   
