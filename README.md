@@ -363,6 +363,7 @@
 > [589. N 叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/)   
 > [590. N 叉树的后序遍历](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/)  
 > [591. 标签验证器](https://leetcode-cn.com/problems/tag-validator/)  
+> [592. 分数加减运算](https://leetcode.cn/problems/fraction-addition-and-subtraction/)  
 > [599. 两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/)  
 > [600. 不含连续1的非负整数](https://leetcode.cn/problems/non-negative-integers-without-consecutive-ones/)   
 > [606. 根据二叉树创建字符串](https://leetcode-cn.com/problems/construct-string-from-binary-tree/)  
