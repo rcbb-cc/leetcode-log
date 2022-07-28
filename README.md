@@ -434,6 +434,7 @@
 > [1252. 奇数值单元格的数目](https://leetcode.cn/problems/cells-with-odd-values-in-a-matrix/)    
 > [1260. 二维网格迁移](https://leetcode.cn/problems/shift-2d-grid/)    
 > [1305. 两棵二叉搜索树中的所有元素](https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees/)  
+> [1331. 数组序号转换](https://leetcode.cn/problems/rank-transform-of-an-array/)    
 > [1332. 删除回文子序列](https://leetcode-cn.com/problems/remove-palindromic-subsequences/)
 > [1380. 矩阵中的幸运数](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/)    
 > [1414. 和为 K 的最少斐波那契数字数目](https://leetcode-cn.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)  
