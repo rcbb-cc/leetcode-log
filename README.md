@@ -93,6 +93,7 @@
 > [503. 下一个更大元素 II](https://leetcode-cn.com/problems/next-greater-element-ii/)  
 > [735. 行星碰撞](https://leetcode.cn/problems/asteroid-collision/)    
 > [739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/)  
+> [636. 函数的独占时间](https://leetcode.cn/problems/exclusive-time-of-functions/)    
 
 ### 单调队列
 
