@@ -371,6 +371,7 @@
 > [599. 两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/)  
 > [600. 不含连续1的非负整数](https://leetcode.cn/problems/non-negative-integers-without-consecutive-ones/)   
 > [606. 根据二叉树创建字符串](https://leetcode-cn.com/problems/construct-string-from-binary-tree/)  
+> [640. 求解方程](https://leetcode.cn/problems/solve-the-equation/)   
 > [653. 两数之和 IV - 输入 BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/)    
 > [661. 图片平滑器](https://leetcode-cn.com/problems/image-smoother/)   
 > [668. 乘法表中第k小的数](https://leetcode.cn/problems/kth-smallest-number-in-multiplication-table/)   
