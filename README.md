@@ -439,6 +439,7 @@
 > [1219. 黄金矿工](https://leetcode-cn.com/problems/path-with-maximum-gold/)  
 > [1252. 奇数值单元格的数目](https://leetcode.cn/problems/cells-with-odd-values-in-a-matrix/)    
 > [1260. 二维网格迁移](https://leetcode.cn/problems/shift-2d-grid/)    
+> [1282. 用户分组](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/)  
 > [1305. 两棵二叉搜索树中的所有元素](https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees/)  
 > [1331. 数组序号转换](https://leetcode.cn/problems/rank-transform-of-an-array/)    
 > [1332. 删除回文子序列](https://leetcode-cn.com/problems/remove-palindromic-subsequences/)

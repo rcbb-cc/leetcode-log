@@ -65,6 +65,16 @@ public class RcbbPrinter {
         }
     }
 
+    public static void printIntegerList(List<List<Integer>> result) {
+        for (int i = 0; i < result.size(); i++) {
+            List<Integer> list = result.get(i);
+            for (int j = 0; j < list.size(); j++) {
+                System.out.print(list.get(j) + " ");
+            }
+            System.out.println();
+        }
+    }
+
 
     public static void print(ListNode head) {
         while (head != null) {
