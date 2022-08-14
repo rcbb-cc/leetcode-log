@@ -449,6 +449,7 @@
 > [1413. 逐步求和得到正数的最小值](https://leetcode.cn/problems/minimum-value-to-get-positive-step-by-step-sum/)    
 > [1414. 和为 K 的最少斐波那契数字数目](https://leetcode-cn.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)  
 > [1417. 重新格式化字符串](https://leetcode.cn/problems/reformat-the-string/)    
+> [1422. 分割字符串的最大得分](https://leetcode.cn/problems/maximum-score-after-splitting-a-string/)    
 > [1447. 最简分数](https://leetcode-cn.com/problems/simplified-fractions/)  
 > [1518. 换酒问题](https://leetcode-cn.com/problems/water-bottles/)  
 > [1576. 替换所有的问号](https://leetcode-cn.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)  
