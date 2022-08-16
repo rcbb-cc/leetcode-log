@@ -456,6 +456,7 @@
 > [1576. 替换所有的问号](https://leetcode-cn.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)  
 > [1614. 括号的最大嵌套深度](https://leetcode-cn.com/problems/maximum-nesting-depth-of-the-parentheses/)  
 > [1629. 按键持续时间最长的键](https://leetcode-cn.com/problems/slowest-key/)  
+> [1656. 设计有序流](https://leetcode.cn/problems/design-an-ordered-stream/)  
 > [1672. 最富有客户的资产总量](https://leetcode-cn.com/problems/richest-customer-wealth/)   
 > [1688. 比赛中的配对次数](https://leetcode-cn.com/problems/count-of-matches-in-tournament/)  
 > [1706. 球会落何处](https://leetcode-cn.com/problems/where-will-the-ball-fall/)    
