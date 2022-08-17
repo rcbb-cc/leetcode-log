@@ -148,6 +148,7 @@
 > [752. 打开转盘锁](https://leetcode-cn.com/problems/open-the-lock/)  
 > [773. 滑动谜题](https://leetcode-cn.com/problems/sliding-puzzle/)
 > [838. 推多米诺](https://leetcode-cn.com/problems/push-dominoes/)  
+> [1302. 层数最深叶子节点的和](https://leetcode.cn/problems/deepest-leaves-sum/)    
 > [1609. 奇偶树](https://leetcode-cn.com/problems/even-odd-tree/)  
 > [2039. 网络空闲的时刻](https://leetcode-cn.com/problems/the-time-when-the-network-becomes-idle/)  
 > [2045. 到达目的地的第二短时间](https://leetcode-cn.com/problems/second-minimum-time-to-reach-destination/)  
