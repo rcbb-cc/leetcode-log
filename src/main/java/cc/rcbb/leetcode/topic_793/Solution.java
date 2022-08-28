@@ -6,45 +6,28 @@ package cc.rcbb.leetcode.topic_793;
  */
 class Solution {
     public int preimageSizeFZF(int k) {
-        return (int) (rightBound(k) - leftBound(k) + 1);
+        return (int) (help(k + 1) - help(k));
     }
 
-    private long leftBound(int target) {
-        long lo = 0;
-        long hi = Long.MAX_VALUE;
-        while (lo < hi) {
-            long mid = lo + (hi - lo) / 2;
-            if (trailingZeroes(mid) < target) {
-                lo = mid + 1;
-            } else if (trailingZeroes(mid) > target) {
-                hi = mid;
-            } else if (trailingZeroes(mid) == target) {
-                hi = mid;
+    public long help(int k) {
+        long r = 5L * k;
+        long l = 0;
+        while (l <= r) {
+            long mid = (l + r) / 2;
+            if (zeta(mid) < k) {
+                l = mid + 1;
+            } else {
+                r = mid - 1;
             }
         }
-        return lo;
+        return r + 1;
     }
 
-    private long rightBound(int target) {
-        long lo = 0;
-        long hi = Long.MAX_VALUE;
-        while (lo < hi) {
-            long mid = lo + (hi - lo) / 2;
-            if (trailingZeroes(mid) < target) {
-                lo = mid + 1;
-            } else if (trailingZeroes(mid) > target) {
-                hi = mid;
-            } else if (trailingZeroes(mid) == target) {
-                lo = mid + 1;
-            }
-        }
-        return lo - 1;
-    }
-
-    private long trailingZeroes(long n) {
+    public long zeta(long x) {
         long res = 0;
-        for (long d = n; d / 5 > 0; d = d / 5) {
-            res += d / 5;
+        while (x != 0) {
+            res += x / 5;
+            x /= 5;
         }
         return res;
     }
