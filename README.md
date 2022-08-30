@@ -116,6 +116,7 @@
 > [652. 寻找重复的子树](https://leetcode-cn.com/problems/find-duplicate-subtrees/)  
 > [654. 最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/)  
 > [814. 二叉树剪枝](https://leetcode.cn/problems/binary-tree-pruning/)    
+> [998. 最大二叉树 II](https://leetcode.cn/problems/maximum-binary-tree-ii/)    
 
 ### 搜索二叉树
 
