@@ -95,6 +95,7 @@
 > [636. 函数的独占时间](https://leetcode.cn/problems/exclusive-time-of-functions/)    
 > [739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/)  
 > [768. 最多能完成排序的块 II](https://leetcode.cn/problems/max-chunks-to-make-sorted-ii/)  
+> [946. 验证栈序列](https://leetcode.cn/problems/validate-stack-sequences/)    
 
 ### 单调队列
 
