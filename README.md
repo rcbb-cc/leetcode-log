@@ -190,6 +190,7 @@
 > [547. 省份数量](https://leetcode-cn.com/problems/number-of-provinces/)   
 > [623. 在二叉树中增加一行](https://leetcode.cn/problems/add-one-row-to-tree/)  
 > [655. 输出二叉树](https://leetcode.cn/problems/print-binary-tree/)  
+> [687. 最长同值路径](https://leetcode.cn/problems/longest-univalue-path/)     
 > [688. 骑士在棋盘上的概率](https://leetcode-cn.com/problems/knight-probability-in-chessboard/)   
 > [698. 划分为k个相等的子集](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)  
 > [1020. 飞地的数量](https://leetcode-cn.com/problems/number-of-enclaves/)  
