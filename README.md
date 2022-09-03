@@ -273,13 +273,14 @@
 
 ### 贪心
 
+> [646. 最长数对链](https://leetcode.cn/problems/maximum-length-of-pair-chain/)  
 > [674. 最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)  
 > [860. 柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/)   
 > [942. 增减字符串匹配](https://leetcode.cn/problems/di-string-match/)    
 > [976. 三角形的最大周长](https://leetcode-cn.com/problems/largest-perimeter-triangle/)  
 > [1936. 新增的最少台阶数](https://leetcode-cn.com/problems/add-minimum-number-of-rungs/)  
 > [1403. 非递增顺序的最小子序列](https://leetcode.cn/problems/minimum-subsequence-in-non-increasing-order/)    
-> [1405. 最长快乐字符串](https://leetcode-cn.com/problems/longest-happy-string/)   
+> [1405. 最长快乐字符串](https://leetcode-cn.com/problems/longest-happy-string/)  
 
 ### 跳跃游戏
 
