@@ -415,6 +415,7 @@
 > [821. 字符的最短距离](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)    
 > [824. 山羊拉丁文](https://leetcode-cn.com/problems/goat-latin/)  
 > [825. 适龄的朋友](https://leetcode-cn.com/problems/friends-of-appropriate-ages/)  
+> [828. 统计子串中的唯一字符](https://leetcode.cn/problems/count-unique-characters-of-all-substrings-of-a-given-string/)    
 > [847. 访问所有节点的最短路径](https://leetcode.cn/problems/shortest-path-visiting-all-nodes/)    
 > [870. 优势洗牌](https://leetcode-cn.com/problems/advantage-shuffle/)  
 > [883. 三维形体投影面积](https://leetcode-cn.com/problems/projection-area-of-3d-shapes/)    
