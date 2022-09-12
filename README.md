@@ -477,6 +477,7 @@
 > [1582. 二进制矩阵中的特殊位置](https://leetcode.cn/problems/special-positions-in-a-binary-matrix/)  
 > [1592. 重新排列单词间的空格](https://leetcode.cn/problems/rearrange-spaces-between-words/)
 > [1598. 文件夹操作日志搜集器](https://leetcode.cn/problems/crawler-log-folder/)  
+> [1608. 特殊数组的特征值](https://leetcode.cn/problems/special-array-with-x-elements-greater-than-or-equal-x/)  
 > [1614. 括号的最大嵌套深度](https://leetcode-cn.com/problems/maximum-nesting-depth-of-the-parentheses/)  
 > [1629. 按键持续时间最长的键](https://leetcode-cn.com/problems/slowest-key/)  
 > [1656. 设计有序流](https://leetcode.cn/problems/design-an-ordered-stream/)  
