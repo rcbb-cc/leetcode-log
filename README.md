@@ -480,6 +480,7 @@
 > [1598. 文件夹操作日志搜集器](https://leetcode.cn/problems/crawler-log-folder/)  
 > [1608. 特殊数组的特征值](https://leetcode.cn/problems/special-array-with-x-elements-greater-than-or-equal-x/)  
 > [1614. 括号的最大嵌套深度](https://leetcode-cn.com/problems/maximum-nesting-depth-of-the-parentheses/)  
+> [1619. 删除某些元素后的数组均值](https://leetcode.cn/problems/mean-of-array-after-removing-some-elements/)  
 > [1629. 按键持续时间最长的键](https://leetcode-cn.com/problems/slowest-key/)  
 > [1656. 设计有序流](https://leetcode.cn/problems/design-an-ordered-stream/)  
 > [1672. 最富有客户的资产总量](https://leetcode-cn.com/problems/richest-customer-wealth/)   
