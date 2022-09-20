@@ -5,6 +5,12 @@ package cc.rcbb.leetcode.topic_698;
  * https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/
  */
 class Solution1 {
+    /**
+     * 会超时
+     * @param nums
+     * @param k
+     * @return
+     */
     public boolean canPartitionKSubsets(int[] nums, int k) {
         // 当k数量大于数字个数时，不可能成功
         if (k > nums.length) {

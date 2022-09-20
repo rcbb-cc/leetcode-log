@@ -1,5 +1,7 @@
 package cc.rcbb.leetcode.topic_698;
 
+import java.util.Arrays;
+
 /**
  * 698. 划分为k个相等的子集
  * https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/
@@ -14,45 +16,43 @@ class Solution {
         for (int v : nums) {
             sum += v;
         }
-        // 总和对k取余不为零，不可能成功
+        // 总数对k取余不为零
         if (sum % k != 0) {
             return false;
         }
-        // 每个桶中的理论和
         int target = sum / k;
-        // 为了标记该数是否有被使用
-        boolean[] used = new boolean[nums.length];
-        // 穷举
-        return backtrack(k, 0, nums, 0, used, target);
+        // 剪枝1
+        Arrays.sort(nums);
+        int l = 0, r = nums.length - 1;
+        while (l <= r) {
+            int temp = nums[l];
+            nums[l] = nums[r];
+            nums[r] = temp;
+            l++;
+            r--;
+        }
+        return backtrack(nums, 0, new int[k], k, target);
     }
 
-    boolean backtrack(int k, int bucket, int[] nums, int start, boolean[] used, int target) {
-        // 当所有桶都用完了，而且nums一定也全用完了
-        if (k == 0) {
+    public boolean backtrack(int[] nums, int index, int[] bucket, int k, int target) {
+        if (index == nums.length) {
             return true;
         }
-        // 当前桶装满了
-        if (bucket == target) {
-            // 让下一个桶从 nums[0] 开始选数字
-            return backtrack(k - 1, 0, nums, 0, used, target);
-        }
-        // 从 start 开始
-        for (int i = start; i < nums.length; i++) {
-            // 这个数字已经在其他桶中了
-            if (used[i]) {
+        for (int i = 0; i < k; i++) {
+            // 剪枝2
+            if (i > 0 && bucket[i] == bucket[i - 1]) {
                 continue;
             }
-            // 做选择，将nums[i]装入桶中
-            bucket += nums[i];
-            used[i] = true;
-            // 穷举下一个数字是否装入桶
-            if (backtrack(k, bucket, nums, i + 1, used, target)) {
+            if (bucket[i] + nums[index] > target) {
+                continue;
+            }
+            bucket[i] += nums[index];
+            if (backtrack(nums, index + 1, bucket, k, target)) {
                 return true;
             }
-            // 撤销选择
-            bucket -= nums[i];
-            used[i] = false;
+            bucket[i] -= nums[index];
         }
+        // 没有一个可行的结果
         return false;
     }
 }
