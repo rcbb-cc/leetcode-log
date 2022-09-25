@@ -569,3 +569,8 @@
 > [208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)  
 > [472. 连接词](https://leetcode-cn.com/problems/concatenated-words/)  
 > [648. 单词替换](https://leetcode.cn/problems/replace-words/)    
+
+
+# 模拟
+
+> [788. 旋转数字](https://leetcode.cn/problems/rotated-digits/)  
