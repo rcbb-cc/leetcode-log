@@ -233,6 +233,7 @@
 > [1218. 最长定差子序列](https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/)    
 > [1751. 最多可以参加的会议数目 II](https://leetcode.cn/problems/maximum-number-of-events-that-can-be-attended-ii/)   
 > [剑指 Offer II 091. 粉刷房子](https://leetcode.cn/problems/JEj789/)
+> [面试题 17.09. 第 k 个数](https://leetcode.cn/problems/get-kth-magic-number-lcci/)  
 
 #### 最长公共子序列
 
@@ -574,3 +575,4 @@
 # 模拟
 
 > [788. 旋转数字](https://leetcode.cn/problems/rotated-digits/)  
+> [面试题 01.02. 判定是否互为字符重排](https://leetcode.cn/problems/check-permutation-lcci/)    
