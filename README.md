@@ -578,3 +578,4 @@
 > [面试题 01.02. 判定是否互为字符重排](https://leetcode.cn/problems/check-permutation-lcci/)
 > [面试题 01.08. 零矩阵](https://leetcode.cn/problems/zero-matrix-lcci/)   
 > [面试题 01.09. 字符串轮转](https://leetcode.cn/problems/string-rotation-lcci/)    
+> [1694. 重新格式化电话号码](https://leetcode.cn/problems/reformat-phone-number/)    
