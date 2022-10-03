@@ -580,4 +580,5 @@
 > [面试题 01.08. 零矩阵](https://leetcode.cn/problems/zero-matrix-lcci/)   
 > [面试题 01.09. 字符串轮转](https://leetcode.cn/problems/string-rotation-lcci/)    
 > [777. 在LR字符串中交换相邻字符](https://leetcode.cn/problems/swap-adjacent-in-lr-string/)
-> [1694. 重新格式化电话号码](https://leetcode.cn/problems/reformat-phone-number/)    
+> [1694. 重新格式化电话号码](https://leetcode.cn/problems/reformat-phone-number/)
+> [1784. 检查二进制字符串字段](https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)    
