@@ -581,6 +581,7 @@
 > [面试题 01.08. 零矩阵](https://leetcode.cn/problems/zero-matrix-lcci/)   
 > [面试题 01.09. 字符串轮转](https://leetcode.cn/problems/string-rotation-lcci/)    
 > [777. 在LR字符串中交换相邻字符](https://leetcode.cn/problems/swap-adjacent-in-lr-string/)
-> [811. 子域名访问计数](https://leetcode.cn/problems/subdomain-visit-count/)  
+> [811. 子域名访问计数](https://leetcode.cn/problems/subdomain-visit-count/)
+> [927. 三等分](https://leetcode.cn/problems/three-equal-parts/)    
 > [1694. 重新格式化电话号码](https://leetcode.cn/problems/reformat-phone-number/)
 > [1784. 检查二进制字符串字段](https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)
