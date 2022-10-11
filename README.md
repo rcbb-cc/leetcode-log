@@ -505,7 +505,6 @@
 > [1728. 猫和老鼠 II](https://leetcode.cn/problems/cat-and-mouse-ii/)    
 > [1748. 唯一元素的和](https://leetcode-cn.com/problems/sum-of-unique-elements/)    
 > [1763. 最长的美好子字符串](https://leetcode-cn.com/problems/longest-nice-substring/)  
-> [1790. 仅执行一次字符串交换能否使两个字符串相等](https://leetcode-cn.com/problems/check-if-one-string-swap-can-make-strings-equal/)  
 > [1791. 找出星型图的中心节点](https://leetcode-cn.com/problems/find-center-of-star-graph/)
 > [1823. 找出游戏的获胜者](https://leetcode-cn.com/problems/find-the-winner-of-the-circular-game/)    
 > [1887. 使数组元素相等的减少操作次数](https://leetcode-cn.com/problems/reduction-operations-to-make-the-array-elements-equal/)  
@@ -588,4 +587,5 @@
 > [927. 三等分](https://leetcode.cn/problems/three-equal-parts/)    
 > [1694. 重新格式化电话号码](https://leetcode.cn/problems/reformat-phone-number/)
 > [1784. 检查二进制字符串字段](https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)
+> [1790. 仅执行一次字符串交换能否使两个字符串相等](https://leetcode-cn.com/problems/check-if-one-string-swap-can-make-strings-equal/)
 > [1800. 最大升序子数组和](https://leetcode.cn/problems/maximum-ascending-subarray-sum/)  
