@@ -80,7 +80,8 @@
 > [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)    
 > [142.环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)  
 > [160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)  
-> [876. 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/)
+> [817. 链表组件](https://leetcode.cn/problems/linked-list-components/)  
+> [876. 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/)  
 
 
 ### 队列与栈的互转
@@ -584,6 +585,7 @@
 > [面试题 01.09. 字符串轮转](https://leetcode.cn/problems/string-rotation-lcci/)    
 > [777. 在LR字符串中交换相邻字符](https://leetcode.cn/problems/swap-adjacent-in-lr-string/)
 > [811. 子域名访问计数](https://leetcode.cn/problems/subdomain-visit-count/)
+> [817. 链表组件](https://leetcode.cn/problems/linked-list-components/)
 > [927. 三等分](https://leetcode.cn/problems/three-equal-parts/)    
 > [1694. 重新格式化电话号码](https://leetcode.cn/problems/reformat-phone-number/)
 > [1784. 检查二进制字符串字段](https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)
