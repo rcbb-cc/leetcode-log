@@ -71,7 +71,8 @@
 > [438. 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)  
 > [643. 子数组最大平均数 I](https://leetcode-cn.com/problems/maximum-average-subarray-i/)  
 > [713. 乘积小于 K 的子数组](https://leetcode-cn.com/problems/subarray-product-less-than-k/)    
-> [777. 在LR字符串中交换相邻字符](https://leetcode.cn/problems/swap-adjacent-in-lr-string/)    
+> [777. 在LR字符串中交换相邻字符](https://leetcode.cn/problems/swap-adjacent-in-lr-string/)
+> [904. 水果成篮](https://leetcode.cn/problems/fruit-into-baskets/)    
 > [1838. 最高频元素的频数](https://leetcode-cn.com/problems/frequency-of-the-most-frequent-element/)  
 > [2024. 考试的最大困扰度](https://leetcode-cn.com/problems/maximize-the-confusion-of-an-exam/)    
 
