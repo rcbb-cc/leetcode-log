@@ -3,6 +3,8 @@ package cc.rcbb.leetcode.topic_902;
 /**
  * 902. 最大为 N 的数字组合
  * https://leetcode.cn/problems/numbers-at-most-n-given-digit-set/
+ * <p>
+ * DFS
  */
 class Solution {
     int count = 0;
