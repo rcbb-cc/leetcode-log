@@ -588,6 +588,7 @@
 > [面试题 01.09. 字符串轮转](https://leetcode.cn/problems/string-rotation-lcci/)    
 > [769. 最多能完成排序的块](https://leetcode.cn/problems/max-chunks-to-make-sorted/)    
 > [777. 在LR字符串中交换相邻字符](https://leetcode.cn/problems/swap-adjacent-in-lr-string/)
+> [779. 第K个语法符号](https://leetcode.cn/problems/k-th-symbol-in-grammar/submissions/)  
 > [811. 子域名访问计数](https://leetcode.cn/problems/subdomain-visit-count/)
 > [817. 链表组件](https://leetcode.cn/problems/linked-list-components/)
 > [927. 三等分](https://leetcode.cn/problems/three-equal-parts/)    
