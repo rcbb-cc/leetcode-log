@@ -99,6 +99,7 @@
 > [739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/)  
 > [768. 最多能完成排序的块 II](https://leetcode.cn/problems/max-chunks-to-make-sorted-ii/)  
 > [856. 括号的分数](https://leetcode.cn/problems/score-of-parentheses/)  
+> [901. 股票价格跨度](https://leetcode.cn/problems/online-stock-span/)  
 > [921. 使括号有效的最少添加](https://leetcode.cn/problems/minimum-add-to-make-parentheses-valid/)   
 > [946. 验证栈序列](https://leetcode.cn/problems/validate-stack-sequences/)    
 
