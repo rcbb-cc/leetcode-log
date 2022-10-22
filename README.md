@@ -245,6 +245,7 @@
 > [剑指 Offer II 091. 粉刷房子](https://leetcode.cn/problems/JEj789/)
 > [面试题 17.09. 第 k 个数](https://leetcode.cn/problems/get-kth-magic-number-lcci/)  
 > [1800. 最大升序子数组和](https://leetcode.cn/problems/maximum-ascending-subarray-sum/)
+> [1235. 规划兼职工作](https://leetcode.cn/problems/maximum-profit-in-job-scheduling/)【动态规划、二分查找】  
 
 #### 最长公共子序列
 
