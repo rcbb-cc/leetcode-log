@@ -593,6 +593,7 @@
 > [779. 第K个语法符号](https://leetcode.cn/problems/k-th-symbol-in-grammar/submissions/)  
 > [811. 子域名访问计数](https://leetcode.cn/problems/subdomain-visit-count/)
 > [817. 链表组件](https://leetcode.cn/problems/linked-list-components/)
+> [915. 分割数组](https://leetcode.cn/problems/partition-array-into-disjoint-intervals/)【模拟】  
 > [927. 三等分](https://leetcode.cn/problems/three-equal-parts/)    
 > [1441. 用栈操作构建数组](https://leetcode.cn/problems/build-an-array-with-stack-operations/)    
 > [1694. 重新格式化电话号码](https://leetcode.cn/problems/reformat-phone-number/)
