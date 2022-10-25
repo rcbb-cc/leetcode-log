@@ -159,6 +159,7 @@
 > [752. 打开转盘锁](https://leetcode-cn.com/problems/open-the-lock/)  
 > [773. 滑动谜题](https://leetcode-cn.com/problems/sliding-puzzle/)
 > [838. 推多米诺](https://leetcode-cn.com/problems/push-dominoes/)  
+> [934. 最短的桥](https://leetcode.cn/problems/shortest-bridge/)【DFS、BFS】
 > [1302. 层数最深叶子节点的和](https://leetcode.cn/problems/deepest-leaves-sum/)    
 > [1609. 奇偶树](https://leetcode-cn.com/problems/even-odd-tree/)  
 > [2039. 网络空闲的时刻](https://leetcode-cn.com/problems/the-time-when-the-network-becomes-idle/)  
@@ -202,6 +203,7 @@
 > [698. 划分为k个相等的子集](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)
 > [886. 可能的二分法](https://leetcode.cn/problems/possible-bipartition/)    
 > [902. 最大为 N 的数字组合](https://leetcode.cn/problems/numbers-at-most-n-given-digit-set/)
+> [934. 最短的桥](https://leetcode.cn/problems/shortest-bridge/)【DFS、BFS】  
 > [1020. 飞地的数量](https://leetcode-cn.com/problems/number-of-enclaves/)  
 > [1036. 逃离大迷宫](https://leetcode-cn.com/problems/escape-a-large-maze/)   
 > [2044. 统计按位或能得到最大值的子集数目](https://leetcode-cn.com/problems/count-number-of-maximum-bitwise-or-subsets/)  
