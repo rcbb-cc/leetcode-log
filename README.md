@@ -33,6 +33,7 @@
 > [303. 区域和检索 - 数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/)  
 > [304. 二维区域和检索 - 矩阵不可变](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)   
 > [560. 和为 K 的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/)  
+> [862. 和至少为 K 的最短子数组](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k/)【前缀和、双向队列】  
 > [1652. 拆炸弹](https://leetcode.cn/problems/defuse-the-bomb/)    
 
 ### 差分数组
