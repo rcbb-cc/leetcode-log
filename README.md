@@ -605,3 +605,4 @@
 > [1700. 无法吃午餐的学生数量](https://leetcode.cn/problems/number-of-students-unable-to-eat-lunch/)  
 > [1768. 交替合并字符串](https://leetcode.cn/problems/merge-strings-alternately/)  
 > [1800. 最大升序子数组和](https://leetcode.cn/problems/maximum-ascending-subarray-sum/)
+> [1822. 数组元素积的符号](https://leetcode.cn/problems/sign-of-the-product-of-an-array/)【模拟】  
