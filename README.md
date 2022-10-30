@@ -159,6 +159,7 @@
 > [675. 为高尔夫比赛砍树](https://leetcode.cn/problems/cut-off-trees-for-golf-event/)  
 > [752. 打开转盘锁](https://leetcode-cn.com/problems/open-the-lock/)  
 > [773. 滑动谜题](https://leetcode-cn.com/problems/sliding-puzzle/)
+> [784. 字母大小写全排列](https://leetcode.cn/problems/letter-case-permutation/)【BFS、回溯】  
 > [838. 推多米诺](https://leetcode-cn.com/problems/push-dominoes/)  
 > [934. 最短的桥](https://leetcode.cn/problems/shortest-bridge/)【DFS、BFS】
 > [1302. 层数最深叶子节点的和](https://leetcode.cn/problems/deepest-leaves-sum/)    
@@ -202,6 +203,7 @@
 > [687. 最长同值路径](https://leetcode.cn/problems/longest-univalue-path/)     
 > [688. 骑士在棋盘上的概率](https://leetcode-cn.com/problems/knight-probability-in-chessboard/)   
 > [698. 划分为k个相等的子集](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)
+> [784. 字母大小写全排列](https://leetcode.cn/problems/letter-case-permutation/)【BFS、回溯】
 > [886. 可能的二分法](https://leetcode.cn/problems/possible-bipartition/)    
 > [902. 最大为 N 的数字组合](https://leetcode.cn/problems/numbers-at-most-n-given-digit-set/)
 > [934. 最短的桥](https://leetcode.cn/problems/shortest-bridge/)【DFS、BFS】  
