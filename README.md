@@ -589,6 +589,7 @@
 
 # 模拟
 
+> [481. 神奇字符串](https://leetcode.cn/problems/magical-string/)【模拟】    
 > [788. 旋转数字](https://leetcode.cn/problems/rotated-digits/)  
 > [面试题 01.02. 判定是否互为字符重排](https://leetcode.cn/problems/check-permutation-lcci/)
 > [面试题 01.08. 零矩阵](https://leetcode.cn/problems/zero-matrix-lcci/)   
