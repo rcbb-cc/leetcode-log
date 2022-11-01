@@ -602,6 +602,7 @@
 > [915. 分割数组](https://leetcode.cn/problems/partition-array-into-disjoint-intervals/)【模拟】  
 > [927. 三等分](https://leetcode.cn/problems/three-equal-parts/)    
 > [1441. 用栈操作构建数组](https://leetcode.cn/problems/build-an-array-with-stack-operations/)    
+> [1662. 检查两个字符串数组是否相等](https://leetcode.cn/problems/check-if-two-string-arrays-are-equivalent/)【模拟】    
 > [1694. 重新格式化电话号码](https://leetcode.cn/problems/reformat-phone-number/)
 > [1784. 检查二进制字符串字段](https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)
 > [1790. 仅执行一次字符串交换能否使两个字符串相等](https://leetcode-cn.com/problems/check-if-one-string-swap-can-make-strings-equal/)
