@@ -600,8 +600,9 @@
 > [811. 子域名访问计数](https://leetcode.cn/problems/subdomain-visit-count/)
 > [817. 链表组件](https://leetcode.cn/problems/linked-list-components/)
 > [915. 分割数组](https://leetcode.cn/problems/partition-array-into-disjoint-intervals/)【模拟】  
-> [927. 三等分](https://leetcode.cn/problems/three-equal-parts/)    
+> [927. 三等分](https://leetcode.cn/problems/three-equal-parts/)
 > [1441. 用栈操作构建数组](https://leetcode.cn/problems/build-an-array-with-stack-operations/)    
+> [1620. 网络信号最好的坐标](https://leetcode.cn/problems/coordinate-with-maximum-network-quality/)【模拟】
 > [1662. 检查两个字符串数组是否相等](https://leetcode.cn/problems/check-if-two-string-arrays-are-equivalent/)【模拟】    
 > [1694. 重新格式化电话号码](https://leetcode.cn/problems/reformat-phone-number/)
 > [1784. 检查二进制字符串字段](https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)
