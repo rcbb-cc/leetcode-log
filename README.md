@@ -593,7 +593,8 @@
 > [788. 旋转数字](https://leetcode.cn/problems/rotated-digits/)  
 > [面试题 01.02. 判定是否互为字符重排](https://leetcode.cn/problems/check-permutation-lcci/)
 > [面试题 01.08. 零矩阵](https://leetcode.cn/problems/zero-matrix-lcci/)   
-> [面试题 01.09. 字符串轮转](https://leetcode.cn/problems/string-rotation-lcci/)    
+> [面试题 01.09. 字符串轮转](https://leetcode.cn/problems/string-rotation-lcci/)
+> [754. 到达终点数字](https://leetcode.cn/problems/reach-a-number/)【模拟、数学】  
 > [769. 最多能完成排序的块](https://leetcode.cn/problems/max-chunks-to-make-sorted/)    
 > [777. 在LR字符串中交换相邻字符](https://leetcode.cn/problems/swap-adjacent-in-lr-string/)
 > [779. 第K个语法符号](https://leetcode.cn/problems/k-th-symbol-in-grammar/submissions/)  
