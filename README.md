@@ -605,7 +605,8 @@
 > [1441. 用栈操作构建数组](https://leetcode.cn/problems/build-an-array-with-stack-operations/)    
 > [1620. 网络信号最好的坐标](https://leetcode.cn/problems/coordinate-with-maximum-network-quality/)【模拟】
 > [1662. 检查两个字符串数组是否相等](https://leetcode.cn/problems/check-if-two-string-arrays-are-equivalent/)【模拟】
-> [1668. 最大重复子字符串](https://leetcode.cn/problems/maximum-repeating-substring/)    
+> [1668. 最大重复子字符串](https://leetcode.cn/problems/maximum-repeating-substring/)
+> [1678. 设计 Goal 解析器](https://leetcode.cn/problems/goal-parser-interpretation/)【模拟】
 > [1694. 重新格式化电话号码](https://leetcode.cn/problems/reformat-phone-number/)
 > [1784. 检查二进制字符串字段](https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)
 > [1790. 仅执行一次字符串交换能否使两个字符串相等](https://leetcode-cn.com/problems/check-if-one-string-swap-can-make-strings-equal/)
