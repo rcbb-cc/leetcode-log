@@ -599,6 +599,7 @@
 > [777. 在LR字符串中交换相邻字符](https://leetcode.cn/problems/swap-adjacent-in-lr-string/)
 > [779. 第K个语法符号](https://leetcode.cn/problems/k-th-symbol-in-grammar/submissions/)  
 > [811. 子域名访问计数](https://leetcode.cn/problems/subdomain-visit-count/)
+> [816. 模糊坐标](https://leetcode.cn/problems/ambiguous-coordinates/)【模拟】   
 > [817. 链表组件](https://leetcode.cn/problems/linked-list-components/)
 > [915. 分割数组](https://leetcode.cn/problems/partition-array-into-disjoint-intervals/)【模拟】  
 > [927. 三等分](https://leetcode.cn/problems/three-equal-parts/)
