@@ -236,7 +236,8 @@
 > [467. 环绕字符串中唯一的子字符串](https://leetcode.cn/problems/unique-substrings-in-wraparound-string/)    
 > [509. 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)   
 > [730. 统计不同回文子序列](https://leetcode.cn/problems/count-different-palindromic-subsequences/)    
-> [740. 删除并获得点数](https://leetcode-cn.com/problems/delete-and-earn/)    
+> [740. 删除并获得点数](https://leetcode-cn.com/problems/delete-and-earn/)
+> [764. 最大加号标志](https://leetcode.cn/problems/largest-plus-sign/)【动态规划】  
 > [801. 使序列递增的最小交换次数](https://leetcode.cn/problems/minimum-swaps-to-make-sequences-increasing/)  
 > [871. 最低加油次数](https://leetcode.cn/problems/minimum-number-of-refueling-stops/)  
 > [873. 最长的斐波那契子序列的长度](https://leetcode.cn/problems/length-of-longest-fibonacci-subsequence/)
