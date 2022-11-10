@@ -161,6 +161,7 @@
 > [773. 滑动谜题](https://leetcode-cn.com/problems/sliding-puzzle/)
 > [784. 字母大小写全排列](https://leetcode.cn/problems/letter-case-permutation/)【BFS、回溯】  
 > [838. 推多米诺](https://leetcode-cn.com/problems/push-dominoes/)  
+> [864. 获取所有钥匙的最短路径](https://leetcode.cn/problems/shortest-path-to-get-all-keys/)【BFS、状态压缩】  
 > [934. 最短的桥](https://leetcode.cn/problems/shortest-bridge/)【DFS、BFS】
 > [1302. 层数最深叶子节点的和](https://leetcode.cn/problems/deepest-leaves-sum/)    
 > [1609. 奇偶树](https://leetcode-cn.com/problems/even-odd-tree/)  
