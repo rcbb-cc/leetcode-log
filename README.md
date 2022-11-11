@@ -612,6 +612,7 @@
 > [1678. 设计 Goal 解析器](https://leetcode.cn/problems/goal-parser-interpretation/)【模拟】
 > [1684. 统计一致字符串的数目](https://leetcode.cn/problems/count-the-number-of-consistent-strings/)【模拟】  
 > [1694. 重新格式化电话号码](https://leetcode.cn/problems/reformat-phone-number/)
+> [1704. 判断字符串的两半是否相似](https://leetcode.cn/problems/determine-if-string-halves-are-alike/)【模拟】   
 > [1784. 检查二进制字符串字段](https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)
 > [1790. 仅执行一次字符串交换能否使两个字符串相等](https://leetcode-cn.com/problems/check-if-one-string-swap-can-make-strings-equal/)
 > [1700. 无法吃午餐的学生数量](https://leetcode.cn/problems/number-of-students-unable-to-eat-lunch/)  
