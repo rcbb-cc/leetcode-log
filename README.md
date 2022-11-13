@@ -600,7 +600,8 @@
 > [754. 到达终点数字](https://leetcode.cn/problems/reach-a-number/)【模拟、数学】  
 > [769. 最多能完成排序的块](https://leetcode.cn/problems/max-chunks-to-make-sorted/)    
 > [777. 在LR字符串中交换相邻字符](https://leetcode.cn/problems/swap-adjacent-in-lr-string/)
-> [779. 第K个语法符号](https://leetcode.cn/problems/k-th-symbol-in-grammar/submissions/)  
+> [779. 第K个语法符号](https://leetcode.cn/problems/k-th-symbol-in-grammar/submissions/)
+> [791. 自定义字符串排序](https://leetcode.cn/problems/custom-sort-string/)【模拟】
 > [811. 子域名访问计数](https://leetcode.cn/problems/subdomain-visit-count/)
 > [816. 模糊坐标](https://leetcode.cn/problems/ambiguous-coordinates/)【模拟】   
 > [817. 链表组件](https://leetcode.cn/problems/linked-list-components/)
