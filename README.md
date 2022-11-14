@@ -240,7 +240,8 @@
 > [740. 删除并获得点数](https://leetcode-cn.com/problems/delete-and-earn/)
 > [764. 最大加号标志](https://leetcode.cn/problems/largest-plus-sign/)【动态规划】
 > [790. 多米诺和托米诺平铺](https://leetcode.cn/problems/domino-and-tromino-tiling/)【动态规划】  
-> [801. 使序列递增的最小交换次数](https://leetcode.cn/problems/minimum-swaps-to-make-sequences-increasing/)  
+> [801. 使序列递增的最小交换次数](https://leetcode.cn/problems/minimum-swaps-to-make-sequences-increasing/)
+> [805. 数组的均值分割](https://leetcode.cn/problems/split-array-with-same-average/)【动态规划、折半搜索】  
 > [871. 最低加油次数](https://leetcode.cn/problems/minimum-number-of-refueling-stops/)  
 > [873. 最长的斐波那契子序列的长度](https://leetcode.cn/problems/length-of-longest-fibonacci-subsequence/)
 > [913. 猫和老鼠](https://leetcode-cn.com/problems/cat-and-mouse/)  
