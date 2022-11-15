@@ -513,7 +513,7 @@
 > [1656. 设计有序流](https://leetcode.cn/problems/design-an-ordered-stream/)  
 > [1672. 最富有客户的资产总量](https://leetcode-cn.com/problems/richest-customer-wealth/)   
 > [1688. 比赛中的配对次数](https://leetcode-cn.com/problems/count-of-matches-in-tournament/)  
-> [1706. 球会落何处](https://leetcode-cn.com/problems/where-will-the-ball-fall/)    
+> [1706. 球会落何处](https://leetcode-cn.com/problems/where-will-the-ball-fall/)
 > [1713. 得到子序列的最少操作次数](https://leetcode-cn.com/problems/minimum-operations-to-make-a-subsequence/)    
 > [1716. 计算力扣银行的钱](https://leetcode-cn.com/problems/calculate-money-in-leetcode-bank/)  
 > [1725. 可以形成最大正方形的矩形数目](https://leetcode-cn.com/problems/number-of-rectangles-that-can-form-the-largest-square/)  
@@ -618,7 +618,8 @@
 > [1704. 判断字符串的两半是否相似](https://leetcode.cn/problems/determine-if-string-halves-are-alike/)【模拟】   
 > [1784. 检查二进制字符串字段](https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)
 > [1790. 仅执行一次字符串交换能否使两个字符串相等](https://leetcode-cn.com/problems/check-if-one-string-swap-can-make-strings-equal/)
-> [1700. 无法吃午餐的学生数量](https://leetcode.cn/problems/number-of-students-unable-to-eat-lunch/)  
+> [1700. 无法吃午餐的学生数量](https://leetcode.cn/problems/number-of-students-unable-to-eat-lunch/)
+> [1710. 卡车上的最大单元数](https://leetcode.cn/problems/maximum-units-on-a-truck/)【模拟、贪心】  
 > [1768. 交替合并字符串](https://leetcode.cn/problems/merge-strings-alternately/)  
 > [1800. 最大升序子数组和](https://leetcode.cn/problems/maximum-ascending-subarray-sum/)
 > [1822. 数组元素积的符号](https://leetcode.cn/problems/sign-of-the-product-of-an-array/)【模拟】  
