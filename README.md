@@ -608,6 +608,7 @@
 > [811. 子域名访问计数](https://leetcode.cn/problems/subdomain-visit-count/)
 > [816. 模糊坐标](https://leetcode.cn/problems/ambiguous-coordinates/)【模拟】   
 > [817. 链表组件](https://leetcode.cn/problems/linked-list-components/)
+> [891. 子序列宽度之和](https://leetcode.cn/problems/sum-of-subsequence-widths/)【模拟、数学】  
 > [915. 分割数组](https://leetcode.cn/problems/partition-array-into-disjoint-intervals/)【模拟】  
 > [927. 三等分](https://leetcode.cn/problems/three-equal-parts/)
 > [1441. 用栈操作构建数组](https://leetcode.cn/problems/build-an-array-with-stack-operations/)    
