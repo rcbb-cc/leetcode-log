@@ -622,7 +622,8 @@
 > [1784. 检查二进制字符串字段](https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)
 > [1790. 仅执行一次字符串交换能否使两个字符串相等](https://leetcode-cn.com/problems/check-if-one-string-swap-can-make-strings-equal/)
 > [1700. 无法吃午餐的学生数量](https://leetcode.cn/problems/number-of-students-unable-to-eat-lunch/)
-> [1710. 卡车上的最大单元数](https://leetcode.cn/problems/maximum-units-on-a-truck/)【模拟、贪心】  
+> [1710. 卡车上的最大单元数](https://leetcode.cn/problems/maximum-units-on-a-truck/)【模拟、贪心】
+> [1732. 找到最高海拔](https://leetcode.cn/problems/find-the-highest-altitude/)【模拟】   
 > [1768. 交替合并字符串](https://leetcode.cn/problems/merge-strings-alternately/)  
 > [1800. 最大升序子数组和](https://leetcode.cn/problems/maximum-ascending-subarray-sum/)
 > [1822. 数组元素积的符号](https://leetcode.cn/problems/sign-of-the-product-of-an-array/)【模拟】  
