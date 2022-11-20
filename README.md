@@ -436,7 +436,6 @@
 > [782. 变为棋盘](https://leetcode.cn/problems/transform-to-chessboard/)    
 > [796. 旋转字符串](https://leetcode-cn.com/problems/rotate-string/)    
 > [798. 得分最高的最小轮调](https://leetcode-cn.com/problems/smallest-rotation-with-highest-score/)  
-> [799. 香槟塔](https://leetcode-cn.com/problems/champagne-tower/)  
 > [804. 唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/)   
 > [806. 写字符串需要的行数](https://leetcode-cn.com/problems/number-of-lines-to-write-string/)  
 > [812. 最大三角形面积](https://leetcode.cn/problems/largest-triangle-area/)  
@@ -605,6 +604,7 @@
 > [777. 在LR字符串中交换相邻字符](https://leetcode.cn/problems/swap-adjacent-in-lr-string/)
 > [779. 第K个语法符号](https://leetcode.cn/problems/k-th-symbol-in-grammar/submissions/)
 > [791. 自定义字符串排序](https://leetcode.cn/problems/custom-sort-string/)【模拟】
+> [799. 香槟塔](https://leetcode-cn.com/problems/champagne-tower/)【模拟】
 > [811. 子域名访问计数](https://leetcode.cn/problems/subdomain-visit-count/)
 > [816. 模糊坐标](https://leetcode.cn/problems/ambiguous-coordinates/)【模拟】   
 > [817. 链表组件](https://leetcode.cn/problems/linked-list-components/)
