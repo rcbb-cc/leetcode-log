@@ -62,6 +62,7 @@
 > [744. 寻找比目标字母大的最小字母](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/)
 > [792. 匹配子序列的单词数](https://leetcode.cn/problems/number-of-matching-subsequences/)【二分查找】    
 > [875. 爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas/)  
+> [878. 第 N 个神奇数字](https://leetcode.cn/problems/nth-magical-number/)【容斥原理、二分查找】  
 > [1011. 在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)  
 
 ### 滑动窗口
