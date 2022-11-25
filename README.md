@@ -22,6 +22,7 @@
 > [324. 摆动排序 II](https://leetcode.cn/problems/wiggle-sort-ii/)    
 > [436. 寻找右区间](https://leetcode.cn/problems/find-right-interval/)
 > [475. 供暖器](https://leetcode-cn.com/problems/heaters/)  
+> [809. 情感丰富的文字](https://leetcode.cn/problems/expressive-words/)【双指针】
 > [846. 一手顺子](https://leetcode-cn.com/problems/hand-of-straights/)  
 > [905. 按奇偶排序数组](https://leetcode-cn.com/problems/sort-array-by-parity/)  
 > [917. 仅仅反转字母](https://leetcode-cn.com/problems/reverse-only-letters/)   
