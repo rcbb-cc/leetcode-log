@@ -344,6 +344,7 @@
 > [641. 设计循环双端队列](https://leetcode.cn/problems/design-circular-deque/)   
 > [676. 实现一个魔法字典](https://leetcode.cn/problems/implement-magic-dictionary/)    
 > [707. 设计链表](https://leetcode.cn/problems/design-linked-list/)  
+> [895. 最大频率栈](https://leetcode.cn/problems/maximum-frequency-stack/)
 > [1206. 设计跳表](https://leetcode.cn/problems/design-skiplist/)    
 > [1606. 找到处理最多请求的服务器](https://leetcode-cn.com/problems/find-servers-that-handled-most-number-of-requests/)  
 > [2034. 股票价格波动](https://leetcode-cn.com/problems/stock-price-fluctuation/)
