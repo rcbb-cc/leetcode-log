@@ -634,6 +634,7 @@
 > [1758. 生成交替二进制字符串的最少操作数](https://leetcode.cn/problems/minimum-changes-to-make-alternating-binary-string/)【模拟】  
 > [1768. 交替合并字符串](https://leetcode.cn/problems/merge-strings-alternately/)
 > [1769. 移动所有球到每个盒子所需的最小操作数](https://leetcode.cn/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)【模拟】    
-> [1779. 找到最近的有相同 X 或 Y 坐标的点](https://leetcode.cn/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)【模拟】  
+> [1779. 找到最近的有相同 X 或 Y 坐标的点](https://leetcode.cn/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)【模拟】
+> [1796. 字符串中第二大的数字](https://leetcode.cn/problems/second-largest-digit-in-a-string/)【模拟】
 > [1800. 最大升序子数组和](https://leetcode.cn/problems/maximum-ascending-subarray-sum/)
 > [1822. 数组元素积的符号](https://leetcode.cn/problems/sign-of-the-product-of-an-array/)【模拟】  
