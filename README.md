@@ -213,6 +213,7 @@
 > [934. 最短的桥](https://leetcode.cn/problems/shortest-bridge/)【DFS、BFS】  
 > [1020. 飞地的数量](https://leetcode-cn.com/problems/number-of-enclaves/)  
 > [1036. 逃离大迷宫](https://leetcode-cn.com/problems/escape-a-large-maze/)   
+> [1774. 最接近目标价格的甜点成本](https://leetcode.cn/problems/closest-dessert-cost/)【回溯】
 > [2044. 统计按位或能得到最大值的子集数目](https://leetcode-cn.com/problems/count-number-of-maximum-bitwise-or-subsets/)  
 
 #### 岛屿问题
