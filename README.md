@@ -26,6 +26,7 @@
 > [846. 一手顺子](https://leetcode-cn.com/problems/hand-of-straights/)  
 > [905. 按奇偶排序数组](https://leetcode-cn.com/problems/sort-array-by-parity/)  
 > [917. 仅仅反转字母](https://leetcode-cn.com/problems/reverse-only-letters/)   
+> [1805. 字符串中不同整数的数目](https://leetcode.cn/problems/number-of-different-integers-in-a-string/)【双指针】  
 
 ### 前缀和
 
