@@ -313,6 +313,7 @@
 > [1936. 新增的最少台阶数](https://leetcode-cn.com/problems/add-minimum-number-of-rungs/)  
 > [1403. 非递增顺序的最小子序列](https://leetcode.cn/problems/minimum-subsequence-in-non-increasing-order/)    
 > [1405. 最长快乐字符串](https://leetcode-cn.com/problems/longest-happy-string/)  
+> [1775. 通过最少操作次数使数组的和相等](https://leetcode.cn/problems/equal-sum-arrays-with-minimum-number-of-operations/)
 
 ### 跳跃游戏
 
