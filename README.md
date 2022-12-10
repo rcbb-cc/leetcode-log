@@ -257,7 +257,8 @@
 > [940. 不同的子序列 II](https://leetcode.cn/problems/distinct-subsequences-ii/)  
 > [978. 最长湍流子数组](https://leetcode-cn.com/problems/longest-turbulent-subarray/)  
 > [1218. 最长定差子序列](https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/)
-> [1687. 从仓库到码头运输箱子](https://leetcode.cn/problems/delivering-boxes-from-storage-to-ports/)【动态规划、单调队列】   
+> [1687. 从仓库到码头运输箱子](https://leetcode.cn/problems/delivering-boxes-from-storage-to-ports/)【动态规划、单调队列】
+> [1691. 堆叠长方体的最大高度](https://leetcode.cn/problems/maximum-height-by-stacking-cuboids/)【动态规划】
 > [1751. 最多可以参加的会议数目 II](https://leetcode.cn/problems/maximum-number-of-events-that-can-be-attended-ii/)   
 > [剑指 Offer II 091. 粉刷房子](https://leetcode.cn/problems/JEj789/)
 > [面试题 17.09. 第 k 个数](https://leetcode.cn/problems/get-kth-magic-number-lcci/)  
