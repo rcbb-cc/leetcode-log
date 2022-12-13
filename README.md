@@ -647,3 +647,4 @@
 > [1812. 判断国际象棋棋盘中一个格子的颜色](https://leetcode.cn/problems/determine-color-of-a-chessboard-square/)【模拟、数学】
 > [1822. 数组元素积的符号](https://leetcode.cn/problems/sign-of-the-product-of-an-array/)【模拟】
 > [1827. 最少操作使数组递增](https://leetcode.cn/problems/minimum-operations-to-make-the-array-increasing/)【模拟】
+> [1832. 判断句子是否为全字母句](https://leetcode.cn/problems/check-if-the-sentence-is-pangram/)【模拟】
