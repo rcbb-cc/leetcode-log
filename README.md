@@ -648,3 +648,4 @@
 > [1822. 数组元素积的符号](https://leetcode.cn/problems/sign-of-the-product-of-an-array/)【模拟】
 > [1827. 最少操作使数组递增](https://leetcode.cn/problems/minimum-operations-to-make-the-array-increasing/)【模拟】
 > [1832. 判断句子是否为全字母句](https://leetcode.cn/problems/check-if-the-sentence-is-pangram/)【模拟】
+> [1945. 字符串转化后的各位数字之和](https://leetcode.cn/problems/sum-of-digits-of-string-after-convert/)【模拟】
