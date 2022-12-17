@@ -529,7 +529,8 @@
 > [1725. 可以形成最大正方形的矩形数目](https://leetcode-cn.com/problems/number-of-rectangles-that-can-form-the-largest-square/)  
 > [1728. 猫和老鼠 II](https://leetcode.cn/problems/cat-and-mouse-ii/)    
 > [1748. 唯一元素的和](https://leetcode-cn.com/problems/sum-of-unique-elements/)    
-> [1763. 最长的美好子字符串](https://leetcode-cn.com/problems/longest-nice-substring/)  
+> [1763. 最长的美好子字符串](https://leetcode-cn.com/problems/longest-nice-substring/)
+> [1764. 通过连接另一个数组的子数组得到一个数组](https://leetcode.cn/problems/form-array-by-concatenating-subarrays-of-another-array/)【贪心、双指针】
 > [1791. 找出星型图的中心节点](https://leetcode-cn.com/problems/find-center-of-star-graph/)
 > [1823. 找出游戏的获胜者](https://leetcode-cn.com/problems/find-the-winner-of-the-circular-game/)    
 > [1887. 使数组元素相等的减少操作次数](https://leetcode-cn.com/problems/reduction-operations-to-make-the-array-elements-equal/)  
