@@ -522,7 +522,8 @@
 > [1640. 能否连接形成数组](https://leetcode.cn/problems/check-array-formation-through-concatenation/)    
 > [1656. 设计有序流](https://leetcode.cn/problems/design-an-ordered-stream/)  
 > [1672. 最富有客户的资产总量](https://leetcode-cn.com/problems/richest-customer-wealth/)   
-> [1688. 比赛中的配对次数](https://leetcode-cn.com/problems/count-of-matches-in-tournament/)  
+> [1688. 比赛中的配对次数](https://leetcode-cn.com/problems/count-of-matches-in-tournament/)
+> [1703. 得到连续 K 个 1 的最少相邻交换次数](https://leetcode.cn/problems/minimum-adjacent-swaps-for-k-consecutive-ones/)【贪心、前缀和】
 > [1706. 球会落何处](https://leetcode-cn.com/problems/where-will-the-ball-fall/)
 > [1713. 得到子序列的最少操作次数](https://leetcode-cn.com/problems/minimum-operations-to-make-a-subsequence/)    
 > [1716. 计算力扣银行的钱](https://leetcode-cn.com/problems/calculate-money-in-leetcode-bank/)  
