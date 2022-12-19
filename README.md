@@ -168,7 +168,8 @@
 > [864. 获取所有钥匙的最短路径](https://leetcode.cn/problems/shortest-path-to-get-all-keys/)【BFS、状态压缩】  
 > [934. 最短的桥](https://leetcode.cn/problems/shortest-bridge/)【DFS、BFS】
 > [1302. 层数最深叶子节点的和](https://leetcode.cn/problems/deepest-leaves-sum/)    
-> [1609. 奇偶树](https://leetcode-cn.com/problems/even-odd-tree/)  
+> [1609. 奇偶树](https://leetcode-cn.com/problems/even-odd-tree/)
+> [1971. 寻找图中是否存在路径](https://leetcode.cn/problems/find-if-path-exists-in-graph/)【BFS、DFS】
 > [2039. 网络空闲的时刻](https://leetcode-cn.com/problems/the-time-when-the-network-becomes-idle/)  
 > [2045. 到达目的地的第二短时间](https://leetcode-cn.com/problems/second-minimum-time-to-reach-destination/)  
 
