@@ -66,6 +66,7 @@
 > [875. 爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas/)  
 > [878. 第 N 个神奇数字](https://leetcode.cn/problems/nth-magical-number/)【容斥原理、二分查找】  
 > [1011. 在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)  
+> [1760. 袋子里最少数目的球](https://leetcode.cn/problems/minimum-limit-of-balls-in-a-bag/)【二分查找】
 
 ### 滑动窗口
 
