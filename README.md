@@ -317,6 +317,7 @@
 > [1403. 非递增顺序的最小子序列](https://leetcode.cn/problems/minimum-subsequence-in-non-increasing-order/)    
 > [1405. 最长快乐字符串](https://leetcode-cn.com/problems/longest-happy-string/)  
 > [1775. 通过最少操作次数使数组的和相等](https://leetcode.cn/problems/equal-sum-arrays-with-minimum-number-of-operations/)
+> [1754. 构造字典序最大的合并字符串](https://leetcode.cn/problems/largest-merge-of-two-strings/)【贪心】
 
 ### 跳跃游戏
 
